@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Subscribe from "./subscribe"
 import Header from "./header"
 import BottomNav from "./bottomNav"
+import BasicFeatures from "./basicFeatures";
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -33,8 +34,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <BasicFeatures />
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
+
         <footer>
           <hr />
           <p style={{ textAlign: "center", fontSize: 13 }}>

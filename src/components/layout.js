@@ -8,8 +8,9 @@
 import React,{useState} from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Subscribe from "./subscribe";
 import Header from "./header"
+import BottomNav from './bottomNav'
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,20 +26,19 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={`Education since 1996`} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
+          margin: `0 auto`
         }}
       >
         <main>{children}</main>
+        <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events"  />
+      <BottomNav />
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p style={{  textAlign: 'center', fontSize: 15 }}>
+         Copyright © 2010 Kashmir Education Eoundation. All rights reserved.
+          </p>
         </footer>
       </div>
     </>

@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         style={{
           background: `#4698D0`,
           width: 140,
-          height: 70,
+          height: 57,
           position: "absolute",
           right: 0,
           top: -5,
@@ -43,9 +43,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: "aliceblue",
             fontSize: 14,
-            textAlign: "center",
-            paddingTop: 26,
-            paddingBottom: 17,
+            padding: 20
           }}
         >
           DONATE NOW

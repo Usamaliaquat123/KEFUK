@@ -7,6 +7,7 @@ const Subscribe = ({ subscribeText }) => {
   return (
     <div
       style={{
+        backgroundPosition: 'fixed',
         display: `flex`,
         alignItems: `center`,
         background: "#EB5D5F",

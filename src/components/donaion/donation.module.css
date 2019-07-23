@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../Fonts/Montserrat/Montserrat-Bold.ttf");}
+
+
+
+
+
+
+
+.cardContainer{
+    background: rgba(235, 93, 95, 0.8);
+    height: auto;
+    width: 400px;
+    padding: 40px;
+    color: aliceblue;
+    margin-left: 12%
+}
+.paymentCardItem {
+    background: #ffffff;
+    padding: 25px 0px;
+    width: 100%;
+    border: 0.1px solid #5C5C5E;
+}
+.paymentCardItemDText{
+    font-size: 10px;
+    color: #5C5C5E 
+}
+.paymentCardItemMoney{
+    font-size: 25px;
+    color: #5C5C5E;
+    font-weight: bold
+}
+.enterCustomDonationText > p{
+    color: #ffffff;
+    text-decoration-line: underline;
+    font-size: 11px;
+    margin-top: 2%
+}
+.selectdonationFrequency > p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.donationFrequencyButtonOneTime {
+    color: #404040;
+    padding: 20px 40px;
+    float: right;
+    width: 50%;
+    text-align: center;
+    background-color: #fff
+}
+.donationFrequencyButtonMonthly{
+    
+    text-align: center;
+    padding: 20px 40px;
+    width: 50%;
+    background-color: #4698D0
+}
+.donationOneTimeText{
+    font-size: 14px;
+}
+.donationMonthlyText{
+    font-size: 14px;
+    font-family: 'Harabara Bold';
+}
+.donateNowAndCancel{
+    margin-top: 23%;
+}
+.donationOneTimeText{
+    
+    font-family: 'Harabara Bold';
+}
+.donateNowButton{
+    background-color: #03B9FE;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    float: right;
+    border-radius: 50px;
+}
+
+.cancelBbutton{
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+

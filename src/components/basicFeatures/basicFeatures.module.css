@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../Fonts/Montserrat/Montserrat-Bold.ttf");}
+
+.containerOverlay{
+    display: flex;
+    margin-top: 100;
+    background: #ECF4FA;
+    align-items: center;
+    height: auto
+}
+
+.ke-over{
+    padding: 60
+}
+
+.cardHeading{
+    font-size: 17px;
+    opacity: .7;
+    font-family: 'Harabara Bold';
+    font-weight: bold
+}
+.containerButton{
+    font-family: 'Harabara Bold';
+    text-align: center;
+    border-radius: 30px;
+    font-size: 11px;
+    width: 120px;
+    color: #fff;
+    background-color: #03B9FE;
+    padding: 10px;
+    padding-left: 20px;
+}
+.containerImage{
+    margin-top: -50px;
+    margin-right: -50px
+}
+.containerDdesc{
+    opacity: .7;
+    font-size: 11px
+}
+.cardCcontainer{
+    width: 250px;
+    padding: 23px;
+    height: auto;
+    background: #ffff
+}
+.card-container-kf{
+    width: 250;
+    padding: 25;
+    height: auto;
+    background-color: #fff
+}
+.cardimagecontainer{
+    margin-top: -50;
+    margin-right: -50
+}

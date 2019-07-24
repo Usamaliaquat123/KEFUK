@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import 'typeface-emilys-candy';
 import 'typeface-merriweather';
 import Subscribe from "./subscribe"
-import Header from "./header"
+import Header from "./header/Header"
 import BottomNav from "./bottomNav"
 import BasicFeatures from "./basicFeatures/basicFeatures";
 import "./layout.css"
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={`Education since 1996`} />
+      <Header siteSubTitle={`Education since 1996`} />
       {/* <hr /> */}
       <NavigatorView />
       <div

@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../Fonts/Montserrat/Montserrat-Bold.ttf");}
+
+
+.headContainer{
+    /* padding: 5px 0px; */
+    background: white;
+    margin: 0 auto;
+}
+
+.subHeadingStyles{
+    color: #EB5D5F;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.headerSubHeading{
+    font-size: 12px;
+    text-align: center;
+    /* padding-top: 3%; */
+    margin-left: 20%;
+}
+
+.donatebtn {
+    background : #4698D0;
+    width: 140px;
+    margin-left: 80%;
+    height: 57px;
+}
+.donatebtn > p {
+    font-family: 'Harabara Bold';
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px
+}

@@ -49,7 +49,10 @@ a{
 	display: none;
 }
 p.menu{
-    display: inline-block;
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 5px;	
+	font-family: 'Harabara Bold'
 }
 .menu_icon div {
   background-color: black;
@@ -60,19 +63,21 @@ p.menu{
 }
 .menu_icon{
 	float: right;
-	margin:0;
+	margin:12px 5px;
 }
 
 
 @media screen and (max-width: 620px){
-	nav ul{
-		max-height: 0px;
+	
+	.defaultClose{
+		max-height: 0;
 	}
 	nav ul li{
 		box-sizing: border-box;
         width: 100%;
         padding: 15px;
 	}
+
 	.showing{
 		max-height: 20em; 
 	}

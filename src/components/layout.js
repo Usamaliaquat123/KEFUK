@@ -15,20 +15,23 @@ import Header from "./header"
 import BottomNav from "./bottomNav"
 import BasicFeatures from "./basicFeatures/basicFeatures";
 import "./layout.css"
+import Typed from 'typed.js';
 import Donation from "./donaion/donation";
+import NavigatorView from "./NavigatorView/navigatorView";
 const Layout = ({ children }) => {
 
 
   return (
     <>
       <Header siteTitle={`Education since 1996`} />
-      <hr />
+      {/* <hr /> */}
+      <NavigatorView />
       <div
         style={{
           margin: `0 auto`,
         }}
       >
-
+        
         <main>{children}</main>
         <Donation />
         <BasicFeatures />

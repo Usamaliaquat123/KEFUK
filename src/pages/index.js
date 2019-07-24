@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Link to="/Donate/Donate">Donate Now</Link>
+    {/* <Link to="/Donate/Donate">Donate Now</Link>s */}
   </Layout>
 )
 

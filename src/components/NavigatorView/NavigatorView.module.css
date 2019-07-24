@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../Fonts/Montserrat/Montserrat-Bold.ttf");}
+
+
+/* nav{
+    position: fixed
+} */
+
+nav ul{
+
+	background-color: #fff;
+	color: black;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+    overflow:  hidden;
+    /* position: fixed; */
+	transition: max-height 0.4s;
+}
+nav ul li{
+    font-size: 10px;
+    font-family: 'Harabara Bold';
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+nav ul li:hover{
+    /* background-color: #ffffff */
+    opacity: .5;
+    text-decoration: none;
+    color: black;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/* After collapse */
+
+.handle {
+	width: 100%;
+	background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+	color: black;
+	display: none;
+}
+p.menu{
+    display: inline-block;
+}
+.menu_icon div {
+  background-color: black;
+  border-radius: 2px;
+  width: 25px;
+  height: 3px;
+  margin: 4px;
+}
+.menu_icon{
+	float: right;
+	margin:0;
+}
+
+
+@media screen and (max-width: 620px){
+	nav ul{
+		max-height: 0px;
+	}
+	nav ul li{
+		box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+	}
+	.showing{
+		max-height: 20em; 
+	}
+	.handle{
+		display: block;
+	}
+}

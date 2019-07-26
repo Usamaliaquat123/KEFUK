@@ -8,19 +8,18 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import 'typeface-emilys-candy';
-import 'typeface-merriweather';
+import "typeface-emilys-candy"
+import "typeface-merriweather"
 import Subscribe from "./subscribe"
 import Header from "./header/Header"
 import BottomNav from "./bottomNav"
-import BasicFeatures from "./basicFeatures/basicFeatures";
+import BasicFeatures from "./basicFeatures/basicFeatures"
 import "./layout.css"
-import Typed from 'typed.js';
-import Donation from "./donaion/donation";
-import NavigatorView from "./NavigatorView/navigatorView";
+import Typed from "typed.js"
+import Donation from "./donaion/donation"
+import NavigatorView from "./NavigatorView/navigatorView"
+import HomeSlide from "./Home/HomeSlide/HomeSlide"
 const Layout = ({ children }) => {
-
-
   return (
     <>
       <Header siteSubTitle={`Education since 1996`} />
@@ -31,10 +30,10 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        
+        <HomeSlide />
+
         <main>{children}</main>
-        <Donation />
-        <BasicFeatures />
+
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

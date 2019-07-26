@@ -20,19 +20,39 @@
     font-size: 12px;
     text-align: center;
     /* padding-top: 3%; */
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 
 .donatebtn {
-    background : #4698D0;
+    background : #EB5D5F;
     width: 140px;
-    margin-left: 80%;
-    height: 57px;
+    /* margin-left: 80%; */
+    position: absolute;
+    right: 0;
+    height: 100%;
 }
 .donatebtn > p {
     font-family: 'Harabara Bold';
     color: aliceblue;
     font-size: 12px;
     text-align: center;
-    padding: 20px
+    padding: 10% 0;
+}
+
+
+/* @media (min-width: 5px) and (max-width: 1024px) {
+
+    .donatebtn{
+        height: 
+    }
+    
+  }
+   */
+
+@media screen and (max-width: 577px){
+  .headContainer{
+      display: none;
+
+  }  
+    
 }

@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../../Fonts/Montserrat/Montserrat-Bold.ttf");}
+    
+
+.mainContainerHeadingText{
+    padding-top: 10%;
+    margin-left: 5%;
+}
+.mainContainerHeadingText  > p {
+    font-family: 'Harabara Bold';
+    font-size: 22px;
+}
+.backgroundText{
+    background: white;
+    padding: 5px;
+}

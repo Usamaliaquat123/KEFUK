@@ -36,7 +36,6 @@ function SEO({ description, lang, meta, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       script={`https://js.stripe.com/v3`}
-     
       meta={[
         {
           name: `description`,
@@ -71,8 +70,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    >
-    </Helmet>
+    ></Helmet>
   )
 }
 

@@ -19,6 +19,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-typed": "^1.1.2",
     "typed.js": "^2.0.10",
     "typeface-emilys-candy": "^0.0.72",
     "typeface-merriweather": "^0.0.72"

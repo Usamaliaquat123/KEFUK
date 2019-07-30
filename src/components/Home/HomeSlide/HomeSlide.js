@@ -16,6 +16,7 @@ const HomeSlide = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        minHeight: `500`
       }}
       className={HomeSlideStyle.backgroundHeight}
     >

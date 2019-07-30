@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../../Fonts/Montserrat/Montserrat-Bold.ttf");}
+    
+
+
+    .logImg{
+        margin-top: 2%;
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+
+    .DescriptionSlide{
+        margin: 0 30%;
+    }
+    .DescriptionSlide p {
+        font-family: 'Harabara Bold';
+        font-size: 15px;
+    }
+
+    .featureAllign{
+        padding: 0 30%;
+    }
+    .featureText{
+        text-align: center;
+        font-family: 'Harabara Bold';
+        font-size: 14px;
+
+    }

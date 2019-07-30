@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Harabara Bold";
-    src: url("./../../Fonts/Montserrat/Montserrat-Bold.ttf");}
+    src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
     
 
 .mainContainerHeadingText{
@@ -16,3 +16,56 @@
     background: white;
     padding: 5px;
 }
+
+.actNoeBtn {
+    background : #EB5D5F;
+    width: 140px;
+    /* margin-left: 80%; */
+    position: absolute;
+    /* right: 0; */
+    height: 7%;
+}
+.actNoeBtn > p {
+    font-family: 'Harabara Bold';
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    padding: 10% 0;
+}
+.socialMediaTab{
+    margin-top: 200px;
+    margin-left: -2%;
+    background-color: #404864;
+    padding: 10px 0px;
+    width: 20%;
+    float: left;
+}
+.textBottomTab{
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Harabara Bold'
+}
+
+
+  
+
+@media screen and (max-width: 577px){
+    .backgroundHeight{
+        min-height: 200px;
+    }
+    .mainContainerHeadingText{
+        padding-top: 20%;
+        margin-left: 5%;
+    }
+    .socialMediaTab{
+        display: none;
+    }
+  }
+
+

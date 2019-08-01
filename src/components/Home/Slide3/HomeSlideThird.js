@@ -22,7 +22,7 @@ const HomeSlideThird = () => {
                 </div>   
                 <div className={HomeSlideThirdStyle.slideDescription}>
                     <div className='row'>
-                    <div className='col-md-7'><p className={HomeSlideThirdStyle.descriptionText}>Kashimir Education Foundation set up a Teachers Training Institute in 2001. by the name of Joan Atkinson College of Teacher Education for female graduates, particularly from rural areas to enable them to become high quality English medium primary school teachers.</p></div>    
+                    <div className='col-md-7'><p className={HomeSlideThirdStyle.descriptionText}>Kasimir Education Foundation UK was established in conjunction with KEF Pakistan in 1996 out of an altruistic response to fight poverty in equality amongest the most vulnerable and marginalized rural communities in Azad Kashmir and Pakistan. Three schools have been constructed in various rural areas where currently 900 students are enrolled. </p></div>    
                     </div>
                 </div>
             </div> 

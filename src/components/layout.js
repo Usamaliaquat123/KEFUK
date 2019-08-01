@@ -21,6 +21,7 @@ import NavigatorView from "./NavigatorView/navigatorView"
 import HomeSlide from "./Home/HomeSlide/HomeSlide"
 import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond";
 import HomeSlideThird from "./Home/Slide3/HomeSlideThird";
+import HomeSlideFour from "./Home/Slide4/HomeSlideFour";
 const Layout = ({ children }) => {
   return (
     <>
@@ -35,6 +36,7 @@ const Layout = ({ children }) => {
         <HomeSlide />
         <HomeSlideSecond />
         <HomeSlideThird />
+        <HomeSlideFour />
         <main>{children}</main>
 
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />

@@ -20,11 +20,12 @@ import Donation from "./donaion/donation"
 import NavigatorView from "./NavigatorView/navigatorView"
 import HomeSlide from "./Home/HomeSlide/HomeSlide"
 import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond";
+import HomeSlideThird from "./Home/Slide3/HomeSlideThird";
 const Layout = ({ children }) => {
   return (
     <>
       <Header siteSubTitle={`Education since 1996`} />
-      <hr />
+      {/* <hr /> */}
       <NavigatorView />
       <div
         style={{
@@ -33,6 +34,7 @@ const Layout = ({ children }) => {
       >
         <HomeSlide />
         <HomeSlideSecond />
+        <HomeSlideThird />
         <main>{children}</main>
 
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />

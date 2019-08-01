@@ -7,8 +7,7 @@
 
     .logImg{
         margin-top: 2%;
-        margin-left: 38%;
-        margin-right: 38%;
+        padding: 0 36%;
     }
 
     .DescriptionSlide{
@@ -28,3 +27,40 @@
         font-size: 14px;
 
     }
+    .donationPolicyText{
+        text-align: center;
+        font-family: 'Harabara Bold';
+        font-size: 14px;
+        margin-top: -10%;
+    }
+    .teachersTrainedText{
+        text-align: center;
+        font-family: 'Harabara Bold';
+        font-size: 14px;
+        margin-top: -2%;
+    }
+    .containerFeatures{
+        padding: 5% 20%;
+    }
+    .logoImg{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (max-width: 919px){
+
+        .DescriptionSlide{
+            margin: 0 10%
+      
+        }  
+        .logImg{
+        margin-top: 2%;
+        padding: 0 36%;
+        }
+          
+        .logImg{
+            margin-top: 2%;
+            vertical-align: middle
+        }
+    
+      }

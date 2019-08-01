@@ -4,7 +4,7 @@ import React from "react"
 import logoImg from './../Images/logo.png'
 import headerStyle from "./header.module.css"
 const Header = ({ siteTitle, siteSubTitle }) => (
-  <header className={headerStyle.headContainer}>
+  <div className={headerStyle.headContainer}>
     <div className="container-fluid">
       <div className="row">
       <div className="col-sm-2">
@@ -26,7 +26,7 @@ const Header = ({ siteTitle, siteSubTitle }) => (
         </div>
       </div>
     </div>
-  </header>
+  </div>
 )
 
 Header.propTypes = {

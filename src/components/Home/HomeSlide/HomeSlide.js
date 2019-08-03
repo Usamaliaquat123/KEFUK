@@ -16,7 +16,7 @@ const HomeSlide = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: `500`
+        minHeight: `500`,
       }}
       className={HomeSlideStyle.backgroundHeight}
     >
@@ -35,18 +35,16 @@ const HomeSlide = () => {
             <br />
             <span className={HomeSlideStyle.backgroundText}>- OSCAR WILDE</span>
           </p>
-        <div className={HomeSlideStyle.actNoeBtn}>
-          <p>ACT NOW</p>
+          <div className={HomeSlideStyle.actNoeBtn}>
+            <p>ACT NOW</p>
+          </div>
         </div>
-        </div>
-       
+
         <div className={HomeSlideStyle.socialMediaTab}>
           {/* Buttons icons */}
         </div>
-            <div className={HomeSlideStyle.textBottomTab}>
-            WE ARE THE FUTURE
-            </div>
-      </div> 
+        <div className={HomeSlideStyle.textBottomTab}>WE ARE THE FUTURE</div>
+      </div>
     </div>
   )
 }

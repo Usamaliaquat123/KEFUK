@@ -19,9 +19,11 @@ import Typed from "typed.js"
 import Donation from "./donaion/donation"
 import NavigatorView from "./NavigatorView/navigatorView"
 import HomeSlide from "./Home/HomeSlide/HomeSlide"
-import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond";
-import HomeSlideThird from "./Home/Slide3/HomeSlideThird";
-import HomeSlideFour from "./Home/Slide4/HomeSlideFour";
+import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond"
+import HomeSlideThird from "./Home/Slide3/HomeSlideThird"
+import HomeSlideFour from "./Home/Slide4/HomeSlideFour"
+import HomeSlideFive from "./Home/Slide5/HomeSlideFfive"
+import ChildrenSlideOne from "./ChildrenPage/Slide1/ChildrenSlideOne";
 const Layout = ({ children }) => {
   return (
     <>
@@ -33,12 +35,7 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        <HomeSlide />
-        <HomeSlideSecond />
-        <HomeSlideThird />
-        <HomeSlideFour />
-        <main>{children}</main>
-
+        <ChildrenSlideOne />
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

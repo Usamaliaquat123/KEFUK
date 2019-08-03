@@ -1,7 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import sampleImg from "./../../images/don.jpg"
+import bachi from "./../Images/features/bachi.png"
+import tharkiMedal from "./../Images/features/tharki_medal.png"
+import tharkiTeacher from "./../Images/features/tharki_teacher.png"
 import basicFeature from "./basicFeatures.module.css"
 const BasicFeatures = () => {
   return (
@@ -14,7 +16,7 @@ const BasicFeatures = () => {
           <div className="col-sm-12 col-md-4">
             <div className={basicFeature.cardCcontainer}>
               <div className={basicFeature.containerImage}>
-                <img src={sampleImg} width="260" height="160"></img>
+                <img src={bachi} width="260" height="160"></img>
               </div>
               <p className={basicFeature.cardHeading}>Support a Child</p>
               <p className={basicFeature.containerDdesc}>
@@ -29,7 +31,7 @@ const BasicFeatures = () => {
           <div className="col-sm-12 col-md-4">
             <div className={basicFeature.cardCcontainer}>
               <div className={basicFeature.containerImage}>
-                <img src={sampleImg} width="260" height="160"></img>
+                <img src={tharkiTeacher} width="260" height="160"></img>
               </div>
               <p className={basicFeature.cardHeading}>Teacher Training</p>
               <p className={basicFeature.containerDdesc}>
@@ -44,7 +46,7 @@ const BasicFeatures = () => {
           <div className="col-sm-12 col-md-4">
             <div className={basicFeature.cardCcontainer}>
               <div className={basicFeature.containerImage}>
-                <img src={sampleImg} width="260" height="160"></img>
+                <img src={tharkiMedal} width="260" height="160"></img>
               </div>
               <p className={basicFeature.cardHeading}>
                 Volunteer and Fundraising

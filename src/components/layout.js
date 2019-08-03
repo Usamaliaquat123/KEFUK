@@ -23,7 +23,12 @@ import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond"
 import HomeSlideThird from "./Home/Slide3/HomeSlideThird"
 import HomeSlideFour from "./Home/Slide4/HomeSlideFour"
 import HomeSlideFive from "./Home/Slide5/HomeSlideFfive"
-import ChildrenSlideOne from "./ChildrenPage/Slide1/ChildrenSlideOne";
+import ChildrenSlideOne from "./ChildrenPage/Slide1/ChildrenSlideOne"
+import ChildrenSlideTwo from "./ChildrenPage/Slide2/ChildrenSlideTwo"
+import ChildrenSlideThree from "./ChildrenPage/Slide3/ChildrenSlideThree"
+import TeachersSlideTwo from "./TeachersPage/Slide2/TeachersSlideTwo";
+import TeachersSlideThree from "./TeachersPage/Slide3/TeachersSlideThree";
+import TeachersSlideOne from "./TeachersPage/Slide1/TeachersSlideOne";
 const Layout = ({ children }) => {
   return (
     <>
@@ -34,8 +39,11 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
         }}
-      >
-        <ChildrenSlideOne />
+      > 
+        <TeachersSlideOne />
+        <TeachersSlideTwo />
+        <TeachersSlideThree />
+        <BasicFeatures />
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

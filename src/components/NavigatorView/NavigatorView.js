@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React, { useState, ReactDOM } from "react"
 import navigationView from "./navigatorView.module.css"
 
-export default class navigatorView extends React.Component {
+export default class NavigatorView extends React.Component {
   constructor(props) {
     super(props)
 

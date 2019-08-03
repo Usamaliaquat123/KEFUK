@@ -1,42 +1,50 @@
+
 @font-face {
-    font-family: "lato Regular";
-    src: url("./../../Fonts/Lato2OFL/Lato-Regular.ttf");}
+    font-family: "Lato";
+    src: url("./../../Fonts/Lato2OFL/Lato-Black.ttf");}
+
+    
+    @font-face {
+        font-family: "Lato light";
+        src: url("./../../Fonts/Lato2OFL/Lato-Light.ttf");}
     
 
-.containerSlide{
-    width: 100%;
-    height: 286px;
-}
-.containerText{
-    padding: 5% 10%;
 
-}
-.conbtainer{
-    padding: 0 5%; 
-}
-.workbtn{
-    background: #03B9FE;
-    color: #ffffff;
-    margin-left: 30%;
-    width: 132px;
+
+    .containerSLideOne{
+        background: #4698D0;
+        width: 100%;
+        height: 300px;
+        padding: 4% 0;
+    }
+    .textsContainer{
+        text-align: center;
+    }
+.btnStyle{
+    background: #EB5D5F;
+    width: 150px;
     padding: 10px 15px;
-    font-size: 11px;
-    font-family: 'lato Regular';
-    text-align: center;
-}
-.containerTextTiles{
-    background: #03B9FE;
-    width: 100%;
-    height: 4%;
-    padding: 10px 15px;
+    font-size: 14px;
+    margin: auto;
     color: #ffffff;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    box-shadow: #171515;
-    font-size: 12px;
-    font-family: 'lato Regular'
+    font-weight: bold;
+}
+.HeadingSTyle{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Lato'
+}
+.Description{
+    font-size: 20px;
+    font-family: 'Lato light';
+    color: #ffffff
 }
 
+
+
+
+/* Slide 2 */
 
 
 
@@ -95,3 +103,5 @@
     font-size: 14px;
     font-family: 'lato Regular'
 }
+
+

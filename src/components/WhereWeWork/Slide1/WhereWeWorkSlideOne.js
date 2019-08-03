@@ -6,35 +6,34 @@ import ghar from "./../../Images/WhereWedo/ghar.png"
 import WhereWeWorkSlideOneStyle from "./WhereWeWorkSlideOne.module.css"
 import Typed from "react-typed"
 const WhereWeWorkSlideOne = () => {
-  const { pvpc, setpvpc } = useState(true)
-  const { bvpc, setbvpc } = useState(false)
-  const { svpc, setsvpc } = useState(false)
-  const { jacte, setjacte } = useState(false)
+  const { backgroundColorpvpc, setbackgroundColorpvpc } = useState('#03B9FE')
+  const { backgroundColorbvpc, setbackgroundColorbvpc } = useState('#fff')
+  const { backgroundColorsvpc, setbackgroundColorsvpc } = useState('#fff')
+  const { backgroundColorjacte, setbackgroundColorjacte } = useState('false')
 
-  const setDefaultChanger = async val => {
-    if (val == pvpc) {
-      setpvpc(true)
-      setbvpc(false)
-      setsvpc(false)
-      setjacte(false)
-    } else if (val == bvpc) {
-      setbvpc(true)
-      setsvpc(false)
-      setjacte(false)
-      setpvpc(false)
-    } else if (val == svpc) {
-      setsvpc(true)
-      setjacte(false)
-      setbvpc(false)
-      setpvpc(false)
-    } else if (val == jacte) {
-      setjacte(true)
-      setpvpc(false)
-      setbvpc(false)
-      setsvpc(false)
-    }
+
+
+  const aboutpvpc = async () => { 
+    // setbackgroundColorpvpc('#03B9FE')
+    // setbackgroundColorbvpc('#fff')
+    // setbackgroundColorjacte('#fff')
+    // setbackgroundColorsvpc('#fff')
+   }
+  const aboutbvpc = async () => {
+    // setbackgroundColorbvpc('#03B9FE')
+    // setbackgroundColorpvpc('#fff')
+    // setbackgroundColorsvpc('#fff')
+    // setbackgroundColorjacte('#fff')
   }
-
+  const aboutsvpc = async () => {
+    // setbackgroundColorsvpc('#03B9FE')
+    // setbackgroundColorpvpc('#fff')
+    // setbackgroundColorjacte('#fff')
+    // setbackgroundColorbvpc('#fff')
+  }
+  const aboutjacte = async () => {
+ 
+  }
   return (
     <>
       <div className={WhereWeWorkSlideOneStyle.containerSlide}>
@@ -46,16 +45,49 @@ const WhereWeWorkSlideOne = () => {
                   WHERE WE WORK
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div className={WhereWeWorkSlideOneStyle.containerTextTiles}>
+                  <div onClick={() => aboutpvpc()} 
+                   style={{ background: `${backgroundColorpvpc}`, 
+                   width: `100%`, 
+                   height: `4%`, 
+                   padding: `10px 15px`,
+                   color: '#fff',
+                   marginLeft: '20%',
+                   marginBottom: '3%',
+                   fontSize: '12px',
+                   fontFamily:'lato Regular'}}>
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.containerTextTiles}>
+                  <div onClick={() => aboutbvpc()} style={{ background: `${backgroundColorbvpc}`, 
+                   width: `100%`, 
+                   height: `4%`, 
+                   padding: `10px 15px`,
+                   color: '#fff',
+                   marginLeft: '20%',
+                   marginBottom: '3%',
+                   fontSize: '12px',
+                   fontFamily:'lato Regular'}}>
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.containerTextTiles}>
+                  <div onClick={() => aboutsvpc()} style={{ background: `${backgroundColorsvpc}`, 
+                   width: `100%`, 
+                   height: `4%`, 
+                   padding: `10px 15px`,
+                   color: '#fff',
+                   marginLeft: '20%',
+                   marginBottom: '3%',
+                   fontSize: '12px',
+                   fontFamily:'lato Regular'}}>
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.containerTextTiles}>
+                  <div onClick={() => aboutjacte()} style={{ background: `${backgroundColorjacte}`, 
+                   width: `100%`, 
+                   height: `4%`, 
+                   padding: `10px 15px`,
+                   color: '#fff',
+                   marginLeft: '20%',
+                   marginBottom: '3%',
+                   fontSize: '12px',
+                   fontFamily:'lato Regular'}}>
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
@@ -65,11 +97,48 @@ const WhereWeWorkSlideOne = () => {
                   // class='img-fluid'
                   width={500}
                   // height={400}
-                  //   className={WhereWeWorkSlideOneStyle.bachiImg}
+                  //   className={WhereWeWorkSlideThreeStyle.bachiImg}
                   src={bachiBachaRun}
                 ></img>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+{/* Slide 2 */}
+      <div className={WhereWeWorkSlideOneStyle.containerStyle}>
+        <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
+          <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
+            "When a nation come devoid of arts and learning, it invites poverty.
+            And when poverty comes it brings in it's wake thousands of crimes"
+            <br />
+            <br />
+            <br />- Sir Syed Ahmed Khan
+          </p>
+          <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
+            <img src={ghar} class="img-fluid" width={500} height={140}></img>
+          </div>
+        </div>
+        <div className={WhereWeWorkSlideOneStyle.slideRightContainer}>
+          <div className={WhereWeWorkSlideOneStyle.textContainer}>
+            <p className={WhereWeWorkSlideOneStyle.headingSlideText}>
+              Pearl Valley Public School
+            </p>
+            <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
+              Pearl Valley Public School and College was the pilot project of
+              Kashmir Education Foundation. It is located at Rawalkot, Azad
+              Kashmir for which over 3 acres were donated by the Trustees. The
+              school started functioning on August 14, 1996 and currently has
+              classes up to 12th grade.
+              <br /> <br />
+              In line with KEF's policy, new intake is limited to class Prep
+              only. It is non residential day school were children from
+              underpriviledged areas of Rawalkot and surrounding Villages
+              (covering an area of 200 square kilometers with a population of
+              over 100,000 people) are admitted on merit basis, with girls
+              comprising 50% of the total number.
+            </p>
           </div>
         </div>
       </div>

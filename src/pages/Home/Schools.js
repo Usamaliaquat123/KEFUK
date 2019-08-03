@@ -1,15 +1,14 @@
-
 import React, { useState } from "react"
 import "typeface-emilys-candy"
 import "typeface-merriweather"
-import Header from "../../components/header/Header";
-import NavigatorView from "../../components/NavigatorView/navigatorView";
-import ChildrenSlideOne from "../../components/ChildrenPage/Slide1/ChildrenSlideOne";
-import ChildrenSlideTwo from "../../components/ChildrenPage/Slide2/ChildrenSlideTwo";
-import ChildrenSlideThree from "../../components/ChildrenPage/Slide3/ChildrenSlideThree";
-import BasicFeatures from "../../components/basicFeatures/basicFeatures";
-import Subscribe from "../../components/subscribe";
-import BottomNav from "../../components/bottomNav";
+import Header from "../../components/header/Header"
+import NavigatorView from "../../components/NavigatorView/navigatorView"
+import ChildrenSlideOne from "../../components/ChildrenPage/Slide1/ChildrenSlideOne"
+import ChildrenSlideTwo from "../../components/ChildrenPage/Slide2/ChildrenSlideTwo"
+import ChildrenSlideThree from "../../components/ChildrenPage/Slide3/ChildrenSlideThree"
+import BasicFeatures from "../../components/basicFeatures/basicFeatures"
+import Subscribe from "../../components/subscribe"
+import BottomNav from "../../components/bottomNav"
 
 const Schools = () => {
   return (
@@ -39,7 +38,5 @@ const Schools = () => {
     </>
   )
 }
-
-
 
 export default Schools

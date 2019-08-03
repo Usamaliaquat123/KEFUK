@@ -18,17 +18,11 @@ import "./layout.css"
 import Typed from "typed.js"
 import Donation from "./donaion/donation"
 import NavigatorView from "./NavigatorView/navigatorView"
-import HomeSlide from "./Home/HomeSlide/HomeSlide"
-import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond"
-import HomeSlideThird from "./Home/Slide3/HomeSlideThird"
-import HomeSlideFour from "./Home/Slide4/HomeSlideFour"
-import HomeSlideFive from "./Home/Slide5/HomeSlideFfive"
-import ChildrenSlideOne from "./ChildrenPage/Slide1/ChildrenSlideOne"
-import ChildrenSlideTwo from "./ChildrenPage/Slide2/ChildrenSlideTwo"
-import ChildrenSlideThree from "./ChildrenPage/Slide3/ChildrenSlideThree"
-import TeachersSlideTwo from "./TeachersPage/Slide2/TeachersSlideTwo";
-import TeachersSlideThree from "./TeachersPage/Slide3/TeachersSlideThree";
-import TeachersSlideOne from "./TeachersPage/Slide1/TeachersSlideOne";
+import NewsEventsSlideOne from "./News&events/Slide1/NewsEventsSlideOne"
+import NewsEventsSlideTwo from "./News&events/Slide2/NewsEventsSlideTwo"
+import NewsEventsSlideThree from "./News&events/Slide3/NewsEventsSlideThree"
+import WhereWeWorkSlideOne from "./WhereWeWork/Slide1/WhereWeWorkSlideOne"
+import WhereWeWorkSlideTwo from "./WhereWeWork/Slide2/WhereWeWorkSlideTwo"
 const Layout = ({ children }) => {
   return (
     <>
@@ -39,11 +33,13 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
         }}
-      > 
-        <TeachersSlideOne />
-        <TeachersSlideTwo />
-        <TeachersSlideThree />
-        <BasicFeatures />
+      >
+        <WhereWeWorkSlideOne />
+        <WhereWeWorkSlideTwo />
+        {/*         
+        <NewsEventsSlideOne />
+        <NewsEventsSlideTwo />
+        <NewsEventsSlideThree /> */}
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

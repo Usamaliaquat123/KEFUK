@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: "lato Medium";
+    src: url("./../../Fonts/Lato2OFL/Lato-Light.ttf");}
+    
+
+
+    @font-face {
+        font-family: "lato Bold";
+        src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
+        
+
+  
+
+@media screen and (max-width: 577px){
+    /* mobile code */
+  }
+
+
+.containerStyle{
+    background: #4698D0;
+    width: 100%;
+    height: 550px;
+}
+.containerContent{
+    padding: 7% 0;
+}
+.containerContentLeft{
+    background: #ECF5FA;
+    padding: 50px 50px;
+    position: absolute;
+    height: auto;
+    right: 0;
+    width: 60%;
+}
+.containerHeading{
+    font-size: 14px;
+    font-family: 'lato Bold'
+}
+.containerDesc{
+    font-size: 14px;
+    font-family: 'lato Medium'
+}
+.containerLink{
+    font-size: 12px;
+}
+.tharkis{
+    
+}

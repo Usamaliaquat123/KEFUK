@@ -8,10 +8,7 @@ const TeachersSlideOne = () => {
   return (
     <div className={TeachersSlideOneStyle.containerSLideOne}>
       <div className={TeachersSlideOneStyle.ImageContainer}>
-        <img
-          className={TeachersSlideOneStyle.bachiImg}
-          src={bachi}
-        ></img>
+        <img className={TeachersSlideOneStyle.bachiImg} src={bachi}></img>
       </div>
       <div className={TeachersSlideOneStyle.containerTextSTyle}>
         <div className={TeachersSlideOneStyle.btnWhatweDO}>WHAT WE DO</div>
@@ -19,13 +16,25 @@ const TeachersSlideOne = () => {
           Joan Atkinson College of Teacher Education for women
         </p>
         <p className={TeachersSlideOneStyle.descText}>
-          Joan Atkinson, the pioneer Principal of KEF's flagship school and the first Director of College of Teacher Education, returned voluntarily to steer the school during its formative period. With the passage of time, the faculty has been replaced by local teachers trained in the Joan Atkinson College of Teacher Education
+          Joan Atkinson, the pioneer Principal of KEF's flagship school and the
+          first Director of College of Teacher Education, returned voluntarily
+          to steer the school during its formative period. With the passage of
+          time, the faculty has been replaced by local teachers trained in the
+          Joan Atkinson College of Teacher Education
         </p>
         <p className={TeachersSlideOneStyle.descText}>
-          An additional objective which was developed since 2001, out of sheer necessity was to setup a culture specific College of Teacher Education (CTE) for female graduates from rural areas. Presently our CTO programmes are focused on enabling these trainees to become providers of the highest standards of education and the best quality of teacher and learning children are entitled to.
+          An additional objective which was developed since 2001, out of sheer
+          necessity was to setup a culture specific College of Teacher Education
+          (CTE) for female graduates from rural areas. Presently our CTO
+          programmes are focused on enabling these trainees to become providers
+          of the highest standards of education and the best quality of teacher
+          and learning children are entitled to.
         </p>
         <p className={TeachersSlideOneStyle.descText}>
-          We aim to utilize the established schools and Teacher Training Institutes as resource centers for replicating quality schools throughout the country. KEF also works to upgrade the skills of teachers from other schools in the respective areas. 
+          We aim to utilize the established schools and Teacher Training
+          Institutes as resource centers for replicating quality schools
+          throughout the country. KEF also works to upgrade the skills of
+          teachers from other schools in the respective areas.
         </p>
       </div>
     </div>

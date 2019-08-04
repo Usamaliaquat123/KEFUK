@@ -28,18 +28,20 @@
 .circleLayer{
     position: absolute;
     background: #fff;
-    width: 43%;
-    height: 560px;
 
     border-radius: 50%;
     /* top: 5%; */
     right: 0;
     margin-top: -30%;
+
+
+    width: 520px;
+    height: 520px;
 }
 .imageLayer{
     position: absolute;
     margin-left: 40px;
-    margin-top: 21px;
+    margin-top: 66px;
 }
 .buttonWhatWeDo{
     padding: 10px 10px;
@@ -83,12 +85,6 @@
 }
 
 /* ,If device width is  */
-@media screen and (max-width: 500px){
- 
-    .DescriptionSlide > p {
-        text-align: center;
-    }
-    .logImg{
-        padding: 0 17%;
-    }
-  }
+@media screen and (max-width: 1339px){
+        
+ }

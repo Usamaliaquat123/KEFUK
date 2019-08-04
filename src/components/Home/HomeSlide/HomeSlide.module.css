@@ -60,10 +60,19 @@
     width: 20%;
     margin-left: 40%;
     margin-right: 40%;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     text-align: center;
+    padding-bottom: 20px;
     font-size: 15px;
     font-family: 'Harabara Bold'
+}
+.yellowIndicator{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 4px;
+    background: #FFDD00;
+
 }
 
 
@@ -107,7 +116,19 @@
         visibility: hidden;
     }
     .textBottomTab{
-        width: 0%;
+        width: 40%;
+        margin-left: 27%;
+    }
+  }
+  /* Id device width is 500 */
+  @media screen and (max-width: 500px){
+    /* .socialMediaTab{
+        display: none;
+        visibility: hidden;
+    } */
+    .textBottomTab{
+        width: 50%;
+        margin-left: 27%;
     }
   }
 

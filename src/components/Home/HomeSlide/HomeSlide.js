@@ -84,7 +84,9 @@ const HomeSlide = () => {
             height={30}
           ></img>
         </div>
-        <div className={HomeSlideStyle.textBottomTab}>WE ARE THE FUTURE</div>
+        <div className={HomeSlideStyle.textBottomTab}>
+          <div className={HomeSlideStyle.yellowIndicator}></div>
+          WE ARE THE FUTURE</div>
       </div>
     </div>
   )

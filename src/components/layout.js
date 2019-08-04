@@ -24,6 +24,11 @@ import NewsEventsSlideThree from "./News&events/Slide3/NewsEventsSlideThree"
 import WhereWeWorkSlideOne from "./WhereWeWork/Slide1/WhereWeWorkSlideOne"
 import WhereWeWorkSlideTwo from "./WhereWeWork/Slide2/WhereWeWorkSlideTwo"
 import WhereWeWorkSlideThree from "./WhereWeWork/Slide3/WhereWeWorkSlideThree"
+import HomeSlide from "./Home/HomeSlide/HomeSlide"
+import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond"
+import HomeSlideThird from "./Home/Slide3/HomeSlideThird"
+import HomeSlideFour from "./Home/Slide4/HomeSlideFour"
+import HomeSlideFive from "./Home/Slide5/HomeSlideFive"
 const Layout = ({ children }) => {
   return (
     <>
@@ -35,14 +40,13 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        <WhereWeWorkSlideOne />
-        <WhereWeWorkSlideTwo />
-        <WhereWeWorkSlideThree />
-        {/*         
-        <NewsEventsSlideOne />
-        <NewsEventsSlideTwo />
-        <NewsEventsSlideThree /> */}
-        <BasicFeatures />
+        <HomeSlide />
+        <HomeSlideSecond />
+        <HomeSlideThird />
+        <HomeSlideFour />
+        <HomeSlideFive />
+        {/* <main>{children}</main> */}
+        <Donation />
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

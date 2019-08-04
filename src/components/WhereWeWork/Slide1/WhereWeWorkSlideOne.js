@@ -43,29 +43,24 @@ const WhereWeWorkSlideOne = () => {
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
                   <div
                     onClick={() => aboutpvpc()}
-
                     className={WhereWeWorkSlideOneStyle.containerDescSl}
-                    
                   >
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutbvpc()}
-                   
                     className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutsvpc()}
-                   
                     className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutjacte()}
-                
                     className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
@@ -73,7 +68,6 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
-
                 <img
                   // class='img-fluid'
                   // width={500}

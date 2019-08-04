@@ -4,6 +4,11 @@ import React, { useState } from "react"
 import backgroundImage from "./../../Images/Home/HomeSlide1.jpg"
 import HomeSlideStyle from "./HomeSlide.module.css"
 import Typed from "react-typed"
+import facebook from "./../../Images/Home/Icons/facebook.png"
+import twitter from "./../../Images/Home/Icons/twitter.png"
+import instagram from "./../../Images/Home/Icons/instagram.png"
+import wifi from "./../../Images/Home/Icons/wifi.png"
+import youtube from "./../../Images/Home/Icons/youtube.png"
 const HomeSlide = () => {
   return (
     <div
@@ -14,6 +19,7 @@ const HomeSlide = () => {
         height: `100%`,
         backgroundSize: "cover",
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         minHeight: `500`,
@@ -41,7 +47,42 @@ const HomeSlide = () => {
         </div>
 
         <div className={HomeSlideStyle.socialMediaTab}>
-          {/* Buttons icons */}
+          <div className={HomeSlideStyle.followUsText}>FOLLOW US</div>
+          <img
+            className={HomeSlideStyle.socialIcons}
+            src={facebook}
+            class="img-fluid"
+            width={30}
+            height={30}
+          ></img>
+          <img
+            className={HomeSlideStyle.socialIcons}
+            src={youtube}
+            class="img-fluid"
+            width={30}
+            height={30}
+          ></img>
+          <img
+            className={HomeSlideStyle.socialIcons}
+            src={instagram}
+            class="img-fluid"
+            width={30}
+            height={30}
+          ></img>
+          <img
+            className={HomeSlideStyle.socialIcons}
+            src={wifi}
+            class="img-fluid"
+            width={30}
+            height={30}
+          ></img>
+          <img
+            className={HomeSlideStyle.socialIcons}
+            src={twitter}
+            class="img-fluid"
+            width={30}
+            height={30}
+          ></img>
         </div>
         <div className={HomeSlideStyle.textBottomTab}>WE ARE THE FUTURE</div>
       </div>

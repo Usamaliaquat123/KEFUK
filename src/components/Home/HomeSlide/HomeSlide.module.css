@@ -32,12 +32,26 @@
     text-align: center;
     padding: 10% 0;
 }
+.socialIcons{
+    margin: 0 3px;
+    float: left;
+}
+.followUsText{
+    font-size: 10px;
+    float: left;
+    color: aliceblue;
+    margin: 5px;    
+    margin-left: 6%;
+    margin-right: 5%;
+}
 .socialMediaTab{
     margin-top: 200px;
     margin-left: -2%;
     background-color: #404864;
-    padding: 10px 0px;
-    width: 20%;
+    padding: 2px 0px;
+    border-radius: 20px;
+    width: 22%;
+    height: 37px;
     float: left;
 }
 .textBottomTab{
@@ -68,4 +82,32 @@
     }
   }
 
+/* If device width in 1092px */
+  @media screen and (max-width: 1209px){
+    .socialMediaTab{
+        width: 30%;
+    }
+  }
+/* If device width in 941px */
+  @media screen and (max-width: 1209px){
+    .socialMediaTab{
+        width: 40%;
+    }
+  }
+/* If device width in 900px */
+  @media screen and (max-width: 900px){
+    .socialMediaTab{
+        margin-top: 221px;
+    }
+  }
+/* If device width in 695px */
+  @media screen and (max-width: 695px){
+    .socialMediaTab{
+        display: none;
+        visibility: hidden;
+    }
+    .textBottomTab{
+        width: 0%;
+    }
+  }
 

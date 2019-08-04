@@ -43,65 +43,30 @@ const WhereWeWorkSlideOne = () => {
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
                   <div
                     onClick={() => aboutpvpc()}
-                    style={{
-                      background: `#03B9FE`,
-                      width: `100%`,
-                      height: `4%`,
-                      padding: `10px 15px`,
-                      color: "#fff",
-                      marginLeft: "25%",
-                      marginBottom: "3%",
-                      fontSize: "12px",
-                      fontFamily: "lato Regular",
-                    }}
+
+                    className={WhereWeWorkSlideOneStyle.containerDescSl}
+                    
                   >
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutbvpc()}
-                    style={{
-                      background: `#03B9FE`,
-                      width: `100%`,
-                      height: `4%`,
-                      padding: `10px 15px`,
-                      color: "#fff",
-                      marginLeft: "25%",
-                      marginBottom: "3%",
-                      fontSize: "12px",
-                      fontFamily: "lato Regular",
-                    }}
+                   
+                    className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutsvpc()}
-                    style={{
-                      background: `#03B9FE`,
-                      width: `100%`,
-                      height: `4%`,
-                      padding: `10px 15px`,
-                      color: "#fff",
-                      marginLeft: "25%",
-                      marginBottom: "3%",
-                      fontSize: "12px",
-                      fontFamily: "lato Regular",
-                    }}
+                   
+                    className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
                   <div
                     onClick={() => aboutjacte()}
-                    style={{
-                      background: `#03B9FE `,
-                      width: `100%`,
-                      height: `4%`,
-                      padding: `10px 15px`,
-                      color: "#fff",
-                      marginLeft: "25%",
-                      marginBottom: "3%",
-                      fontSize: "12px",
-                      fontFamily: "lato Regular",
-                    }}
+                
+                    className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
@@ -113,7 +78,7 @@ const WhereWeWorkSlideOne = () => {
                   // class='img-fluid'
                   // width={500}
                   height={300}
-                  // className={WhereWeWorkSlideOneStyle.bachiImg}
+                  className={WhereWeWorkSlideOneStyle.bachiImg}
                   src={bachiBachaRun}
                 ></img>
               </div>

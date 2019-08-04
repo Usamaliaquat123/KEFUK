@@ -5,18 +5,6 @@
 
 
 
-    /* @media screen and (max-width: 577px){
-        .backgroundHeight{
-            min-height: 200px;
-        }
-        .mainContainerHeadingText{
-            padding-top: 20%;
-            margin-left: 5%;
-        }
-        .socialMediaTab{
-            display: none;
-        }
-      } */
 
 
 .containerSlide{
@@ -89,7 +77,7 @@
     font-family: 'lato Regular';
 }
 .bachiImg{
-    width: 200px;
+    /* width: 200px; */
 }
 
 .slideRightContainer{
@@ -114,3 +102,66 @@
     font-size: 14px;
     font-family: 'lato Regular'
 }
+
+.containerDescSl{
+    
+    background: #03B9FE;
+    width: 100%;
+    height: 4%;
+    padding: 10px 15px;
+    color: #fff;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-size: 12px;
+    font-family: "lato Regular";
+}
+
+
+@media screen and (max-width: 768px){
+    .workbtn{
+        margin: auto;
+        width: 100%;
+        margin: 0 10%;
+        background: #EB5D5F;
+    }
+    .containerDescSl{
+        text-align: center;
+        margin: 8px 11%;
+    }
+    .bachiImg{
+        margin: -3% 10%;
+        border-radius: 25px;
+    }
+    .containerSlide{
+        height: auto;
+    }
+    /* Slide 2 */
+    .slideTextLeft{
+        margin-top: 10%;
+        border-radius: 25px;
+        /* margin: 10% 10%; */
+    }
+    .slideDescLeft{
+           
+    padding: 10% 10%;
+    text-align: center;
+    
+    }
+    .slideTextLeft > .slideDescLeft > p{
+    }
+    .containerStyle{
+        height: auto;
+    }
+    .slideRightContainer{
+        background: #ECEDF0;
+        /* position: absolute; */
+        /* margin-left: -30px; */
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        height: 539px;
+        border-radius: 25px;
+        /* right: 0;    */
+    }
+  }

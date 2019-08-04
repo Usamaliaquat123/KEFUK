@@ -36,7 +36,7 @@ const WhereWeWorkSlideOne = () => {
         <div className={WhereWeWorkSlideOneStyle.conbtainer}>
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-5">
+              <div className="col-md-6">
                 <div className={WhereWeWorkSlideOneStyle.workbtn}>
                   WHERE WE WORK
                 </div>
@@ -107,7 +107,8 @@ const WhereWeWorkSlideOne = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-6">
+
                 <img
                   // class='img-fluid'
                   // width={500}

@@ -23,7 +23,7 @@ import NewsEventsSlideTwo from "./News&events/Slide2/NewsEventsSlideTwo"
 import NewsEventsSlideThree from "./News&events/Slide3/NewsEventsSlideThree"
 import WhereWeWorkSlideOne from "./WhereWeWork/Slide1/WhereWeWorkSlideOne"
 import WhereWeWorkSlideTwo from "./WhereWeWork/Slide2/WhereWeWorkSlideTwo"
-import WhereWeWorkSlideThree from "./WhereWeWork/Slide3/WhereWeWorkSlideThree";
+import WhereWeWorkSlideThree from "./WhereWeWork/Slide3/WhereWeWorkSlideThree"
 const Layout = ({ children }) => {
   return (
     <>

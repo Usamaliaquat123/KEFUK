@@ -86,7 +86,8 @@ const HomeSlide = () => {
         </div>
         <div className={HomeSlideStyle.textBottomTab}>
           <div className={HomeSlideStyle.yellowIndicator}></div>
-          WE ARE THE FUTURE</div>
+          WE ARE THE FUTURE
+        </div>
       </div>
     </div>
   )

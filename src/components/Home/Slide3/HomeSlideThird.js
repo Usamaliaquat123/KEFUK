@@ -43,15 +43,15 @@ const HomeSlideThird = () => {
           </div>
         </div>
         <div className={HomeSlideThirdStyle.circleLayer}>
-          asds
-          {/* <div className={HomeSlideThirdStyle.imageLayer}>
+          
+          <div className={HomeSlideThirdStyle.imageLayer}>
             <img
               src={bachiWatching}
               class="img-fluid"
               width={480}
               height={480}
             ></img>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className={HomeSlideThirdStyle.buttonLastBlack}>Read more</div>

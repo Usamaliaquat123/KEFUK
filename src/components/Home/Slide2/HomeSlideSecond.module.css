@@ -55,7 +55,7 @@
         }  
         .logImg{
         margin-top: 2%;
-        padding: 0 36%;
+        padding: 0 28%;
         }
           
         .logImg{
@@ -64,3 +64,20 @@
         }
     
       }
+
+
+
+
+   
+
+  /* Id device width is 500 */
+  @media screen and (max-width: 500px){
+ 
+    .DescriptionSlide > p {
+        text-align: center;
+    }
+    .logImg{
+        padding: 0 17%;
+    }
+  }
+

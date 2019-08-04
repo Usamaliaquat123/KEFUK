@@ -35,7 +35,7 @@ const HomeSlideThird = () => {
                     vulnerable and marginalized rural communities in Azad
                     Kashmir and Pakistan. Three schools have been constructed in
                     various rural areas where currently 900 students are
-                    enrolled.{" "}
+                    enrolled.
                   </p>
                 </div>
               </div>
@@ -43,14 +43,15 @@ const HomeSlideThird = () => {
           </div>
         </div>
         <div className={HomeSlideThirdStyle.circleLayer}>
-          <div className={HomeSlideThirdStyle.imageLayer}>
+          asds
+          {/* <div className={HomeSlideThirdStyle.imageLayer}>
             <img
               src={bachiWatching}
               class="img-fluid"
               width={480}
               height={480}
             ></img>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={HomeSlideThirdStyle.buttonLastBlack}>Read more</div>

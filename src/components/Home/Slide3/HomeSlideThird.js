@@ -43,7 +43,6 @@ const HomeSlideThird = () => {
           </div>
         </div>
         <div className={HomeSlideThirdStyle.circleLayer}>
-          
           <div className={HomeSlideThirdStyle.imageLayer}>
             <img
               src={bachiWatching}

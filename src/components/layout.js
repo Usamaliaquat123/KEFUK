@@ -32,6 +32,7 @@ import HomeSlideFive from "./Home/Slide5/HomeSlideFive"
 import TeachersSlideOne from "./TeachersPage/Slide1/TeachersSlideOne"
 import TeachersSlideThree from "./TeachersPage/Slide3/TeachersSlideThree"
 import TeachersSlideTwo from "./TeachersPage/Slide2/TeachersSlideTwo"
+
 const Layout = ({ children }) => {
   return (
     <>

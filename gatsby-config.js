@@ -5,15 +5,15 @@ module.exports = {
     title: `Gatsby Default Starter`,
     menuLinks:[
       {
-        name: 'home',
+        name: 'Home',
         link: '/'
       },
       {
-        name: 'teacher',
+        name: 'Teacher',
         link:'/teacher'
       },
       {
-        name: 'children',
+        name: 'Children',
         link: '/children'
       }
     ],

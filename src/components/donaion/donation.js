@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import sampleImg from "./../../images/don.jpg"
+// import sampleImg from "./../../images/don.jpg"
 import backgroundImage from "./../Images/donation.png"
 import donation from "./donation.module.css"
 const Donation = () => {

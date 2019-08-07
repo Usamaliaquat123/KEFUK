@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import backgroundImage from "./../../Images/Home/HomeSlide1.jpg"
+import backgroundImage from "../../Images/Home/HomeSlide1.jpg"
 import HomeSlideStyle from "./HomeSlide.module.css"
 import Typed from "react-typed"
 import facebook from "./../../Images/Home/Icons/facebook.png"

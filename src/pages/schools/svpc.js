@@ -7,7 +7,7 @@ import Donation from "../../components/donaion/donation"
 import Subscribe from "../../components/subscribe"
 import BottomNav from "../../components/bottomNav"
 import WhereWeWorkSlideOne from "../../components/WhereWeWork/Slide1/WhereWeWorkSlideOne";
-// import WhereWeWorkSlideTwo from "../../components/WhereWeWork/Slide1/WhereWeWorkSlideTwo";
+// import WhereWeWorkSlideTwo from "../../c omponents/WhereWeWork/Slide1/WhereWeWorkSlideTwo";
 import WhereWeWorkSlideThree from "../../components/WhereWeWork/Slide3/WhereWeWorkSlideThree";
 // import HomeSlideSecond from "../components/Home/Slide2/HomeSlideSecond"
 // import HomeSlide from "../components/Home/HomeSlide/HomeSlide"

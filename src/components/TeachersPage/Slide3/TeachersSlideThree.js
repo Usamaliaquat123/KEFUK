@@ -10,7 +10,7 @@ const TeachersSlideThree = () => {
       <div className={TeachersSlideThreeStyle.textsContainer}>
         <p className={TeachersSlideThreeStyle.HeadingSTyle}>GET INVOLVED</p>
         <p className={TeachersSlideThreeStyle.Description}>
-          Sponser a child at any KEF's schools.
+          Support a teacher at John Atkinson College of Teacher Education
         </p>
         <div className={TeachersSlideThreeStyle.btnStyle}>DONATE NOW</div>
       </div>

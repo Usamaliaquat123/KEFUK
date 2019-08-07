@@ -1,16 +1,16 @@
 import React, { useState } from "react"
 import "typeface-emilys-candy"
 import "typeface-merriweather"
-import Header from "../../components/header/Header"
-import NavigatorView from "../../components/NavigatorView/navigatorView"
-import BasicFeatures from "../../components/basicFeatures/basicFeatures"
-import Subscribe from "../../components/subscribe"
-import BottomNav from "../../components/bottomNav"
-import TeachersSlideOne from "../../components/TeachersPage/Slide1/TeachersSlideOne"
-import TeachersSlideTwo from "../../components/TeachersPage/Slide2/TeachersSlideTwo"
-import TeachersSlideThree from "../../components/TeachersPage/Slide3/TeachersSlideThree"
+import Header from "../components/header/Header"
+import NavigatorView from "../components/NavigatorView/navigatorView"
+import ChildrenSlideOne from "../components/ChildrenPage/Slide1/ChildrenSlideOne"
+import ChildrenSlideTwo from "../components/ChildrenPage/Slide2/ChildrenSlideTwo"
+import ChildrenSlideThree from "../components/ChildrenPage/Slide3/ChildrenSlideThree"
+import BasicFeatures from "../components/basicFeatures/basicFeatures"
+import Subscribe from "../components/subscribe"
+import BottomNav from "../components/bottomNav"
 
-const Teachers = () => {
+const Schools = () => {
   return (
     <>
       <Header siteSubTitle={`Education since 1996`} />
@@ -21,9 +21,9 @@ const Teachers = () => {
           margin: `0 auto`,
         }}
       >
-        <TeachersSlideOne />
-        <TeachersSlideTwo />
-        <TeachersSlideThree />
+        <ChildrenSlideOne />
+        <ChildrenSlideTwo />
+        <ChildrenSlideThree />
         <BasicFeatures />
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
@@ -39,4 +39,4 @@ const Teachers = () => {
   )
 }
 
-export default Teachers
+export default Schools

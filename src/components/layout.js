@@ -44,11 +44,15 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        <TeachersSlideOne />
-        <TeachersSlideTwo />
-        <TeachersSlideThree />
+        
+        <HomeSlide />
+        <HomeSlideSecond />
+        <HomeSlideThird />
+        <HomeSlideFour />
+        <HomeSlideFive />
+        <BasicFeatures />
         {/* <main>{children}</main> */}
-        <Donation />
+        {/* <Donation /> */}
         <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
         <BottomNav />
 

@@ -41,3 +41,24 @@
     font-size: 20px;
     font-family: 'Lato'
 }
+
+
+
+@media screen and (max-width: 760px){
+    .desc{
+        font-size: 22px;
+    }
+    .HeadingCount{
+        text-align: center;
+    }
+    .descContainer{
+        padding: 3%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .containerContent{
+
+        padding: 7% 15%;
+    }
+    
+ }

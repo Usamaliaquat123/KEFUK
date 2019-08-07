@@ -27,11 +27,21 @@ export default class NavigatorView extends React.Component {
                 : navigationView.defaultClose
             }
           >
-            <a href="#">
+            <a href="#" className={navigationView.dropdown}>
               <li>WHAT WE DO</li>
+              <div className={navigationView.dropdownContent}>
+                <a href="/Schools">SCHOOLS</a>
+                <a href="/Teachers">TEACHER TRAINING</a>
+              </div>
             </a>
-            <a href="#">
+            <a href="#" className={navigationView.dropdownSchools}>
               <li>WHERE WE WORK</li>
+              <div className={navigationView.dropdownContentSchools  }>
+                <a href="#">PEARL VALLEY PUBLIC SCHOOL</a>
+                <a href="#">BANJOSA VALLEY PUBLIC SCHOOL</a>
+                <a href="#">SOAN VALLEY PUBLIC SCHOOL</a>
+                <a href="#">JOAN ATKINSON COLLEGE OF TEACHER EDUCATION</a>
+              </div>
             </a>
             <a href="#">
               <li>GET INVLOVED</li>

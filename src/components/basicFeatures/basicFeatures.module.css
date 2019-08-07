@@ -41,6 +41,7 @@
     font-size: 11px
 }
 .cardCcontainer{
+    margin: 5%;
     width: 250px;
     padding: 23px;
     height: auto;
@@ -56,3 +57,52 @@
     margin-top: -50;
     margin-right: -50
 }
+.containerStyle{
+    padding: 120px;
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+/* iF WIDTH  */
+@media screen and (max-width: 1200px){
+
+        .cardCcontainer{
+            margin: 0 10%;
+        }
+        .containerStyle{
+            padding: 80px 40px;
+        }
+        .container{
+            max-width: 100%;
+        }   
+ }
+ @media screen and (max-width: 992px){
+
+    /* .cardCcontainer{
+        margin: 0 10%;
+    } */
+    .containerStyle{
+        padding: 80px 40px;
+    }
+    .container{
+        max-width: 100%;
+    }   
+}
+ @media screen and (max-width: 956px){
+
+    /* .cardCcontainer{
+        margin: 0 10%;
+    } */
+    .containerStyle{
+        padding: 80px 7px;
+    }
+    .container{
+        max-width: 100%;
+    }   
+}
+ @media screen and (max-width: 967px){
+
+     .cardCcontainer{
+        margin: 5% 26%;
+     }
+}   

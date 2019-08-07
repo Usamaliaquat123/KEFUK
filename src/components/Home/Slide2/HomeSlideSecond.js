@@ -38,7 +38,7 @@ const HomeSlideSecond = () => {
             </div>
             <div className="col-sm-12 col-md-4">
               <div className={HomeSlideSecondStyle.featureAllign}>
-                <img
+                <img    
                   src={eductionLesson}
                   class="img-fluid"
                   width={140}

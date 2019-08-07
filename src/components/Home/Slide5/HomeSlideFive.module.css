@@ -23,3 +23,18 @@
 .slideFiveDescription{
     font-size: 12px;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .headingSlide > p{
+        /* margin-top: 11%; */
+        text-align: center;
+    }
+    .slideFiveDescription{
+        text-align: center;
+    }
+    .slideFiveContainer{
+        padding: 7% 19%;
+    }
+ }

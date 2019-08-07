@@ -44,7 +44,6 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        
         <HomeSlide />
         <HomeSlideSecond />
         <HomeSlideThird />

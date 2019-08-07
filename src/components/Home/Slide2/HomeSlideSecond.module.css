@@ -47,22 +47,35 @@
         margin-right: auto;
     }
 
+
+
+
+
+    /* Container SLide 3 Responsive Image */
+    
+    .containerSecondImage{
+
+    }
     @media screen and (max-width: 919px){
 
         .DescriptionSlide{
             margin: 0 10%
-      
         }  
         .logImg{
-        margin-top: 2%;
-        padding: 0 28%;
+            margin-top: 2%;
+            padding: 0 28%;
         }
-          
+        
         .logImg{
             margin-top: 2%;
             vertical-align: middle
         }
-    
+        .buttonLastBlack{
+            margin-top: 17%;
+        }
+        
+        /* Container SLide 3 Responsive Image */
+
       }
 
 

@@ -22,7 +22,7 @@
     /* position: absolute; */
     background: #8ED1FF;
     /* margin-top: 100px; */
-    height: 300px;
+    height: auto;
 }
 
 .circleLayer{
@@ -87,7 +87,7 @@
 /* ,If device width is  */
 @media screen and (max-width: 1339px){
 
-    .imageLayer{
-        
+    .buttonLastBlack{
+        margin-top: 11%;
     }
  }

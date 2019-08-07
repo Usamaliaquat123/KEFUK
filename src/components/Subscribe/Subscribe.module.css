@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
+    
+
+  /* Id device width is 500 */
+  @media screen and (max-width: 500px){
+    /* .socialMediaTab{
+        display: none;
+        visibility: hidden;
+    } */
+    .textBottomTab{
+        width: 50%;
+        margin-left: 27%;
+    }
+  }
+

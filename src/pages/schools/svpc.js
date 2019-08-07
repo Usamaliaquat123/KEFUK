@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Header from "../../components/header/Header"
 import NavigatorView from "../../components/NavigatorView/navigatorView"
 import Donation from "../../components/donaion/donation"
-import Subscribe from "../../components/subscribe"
+import Subscribe from "../../components/Subscribe/subscribe"
 import BottomNav from "../../components/bottomNav"
 import WhereWeWorkSlideOne from "../../components/WhereWeWork/Slide1/WhereWeWorkSlideOne"
 // import WhereWeWorkSlideTwo from "../../c omponents/WhereWeWork/Slide1/WhereWeWorkSlideTwo";

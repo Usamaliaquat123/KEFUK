@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "typeface-emilys-candy"
 import "typeface-merriweather"
-import Subscribe from "./subscribe"
+import Subscribe from "./Subscribe/Subscribe";
 import Header from "./header/Header"
 import BottomNav from "./bottomNav"
 import BasicFeatures from "./basicFeatures/basicFeatures"

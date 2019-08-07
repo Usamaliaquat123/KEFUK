@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState, ReactDOM } from "react"
-import navigationView from "./navigatorView.module.css"
+import navigationView from "./NavigatorView.module.css"
 
 export default class NavigatorView extends React.Component {
   constructor(props) {

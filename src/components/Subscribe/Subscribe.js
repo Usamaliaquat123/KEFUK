@@ -1,69 +1,46 @@
-  import { Link } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Img from "gatsby-image"
 import "bootstrap/dist/css/bootstrap.css"
+import SubscribeStyle from "./Subscribe.module.css"
 const Subscribe = ({ subscribeText }) => {
   return (
-    <div
-      style={{
-        backgroundPosition: "fixed",
-        display: `flex`,
-        alignItems: `center`,
-        background: "#EB5D5F",
-        height: 200,
-      }}
-    >
+    <div className={SubscribeStyle.containerSTyle}>
       <div style={{ maxWidth: 1000, margin: "auto" }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-sm col-md col-6">
-              <p
-                style={{
-                  fontSize: 18,
-                  color: "aliceblue",
-                  textAlign: "center",
-                }}
-              >
-                {subscribeText}
-              </p>
-            </div>
-            <div className="col-sm col-md col-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6 col-md-6">
+            <p
+            className={SubscribeStyle.containerText}
+            >
+              {subscribeText}
+            </p>
+          </div>
+          <div className="col-sm-6 col-md-6">
+            <div className='row'>
+              <div className='col-sm-12 col-md-6'>
+              <input
+                className={SubscribeStyle.containerEmailInput}
+              
+                placeholder={"Enter your email address"}
+              ></input>
+              </div>
+              <div className='col-sm-12 col-md-6'>
               <div style={{ marginTop: 13 }}>
-                <input
-                  style={{
-                    marginRight: 40,
-                    float: `left`,
-                    border: `none`,
-                    width: 300,
-                    borderRadius: 35,
-                    padding: 10,
-                    paddingLeft: 20,
-                    letterSpacing: 0.5,
-                    fontSize: 12,
-                  }}
-                  placeholder={"Enter your email address"}
-                ></input>
-                <div
-                  style={{
-                    marginLeft: 20,
-                    width: `auto`,
-                    display: `flex`,
-                    alignItems: `center`,
-                    padding: 10,
-                    paddingLeft: 35,
-                    background: `#03B9FE`,
-                    borderRadius: 30,
-                    fontSize: 14,
-                    color: `aliceblue`,
-                  }}
-                >
-                  Subscribe
-                </div>
+              
+              <div
+                className={SubscribeStyle.subscribeBtn}
+              >
+                Subscribe
               </div>
             </div>
+              </div>
+            </div>
+            
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

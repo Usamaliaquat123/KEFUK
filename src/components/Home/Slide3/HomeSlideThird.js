@@ -37,7 +37,9 @@ const HomeSlideThird = () => {
                     various rural areas where currently 900 students are
                     enrolled.
                   </p>
-        <div className={HomeSlideThirdStyle.buttonLastBlack}>Read more</div>
+                  <div className={HomeSlideThirdStyle.buttonLastBlack}>
+                    Read more
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,9 +55,7 @@ const HomeSlideThird = () => {
             ></img>
           </div>
         </div> */}
-        <div className={HomeSlideThirdStyle.containerSecondImage}>
-
-        </div>
+        <div className={HomeSlideThirdStyle.containerSecondImage}></div>
       </div>
     </div>
   )

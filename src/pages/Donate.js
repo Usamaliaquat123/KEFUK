@@ -5,7 +5,7 @@ import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/navigatorView"
 import Donation from "../components/donaion/donation"
 import BasicFeatures from "../components/basicFeatures/basicFeatures"
-import Subscribe from "../components/subscribe"
+import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/bottomNav"
 
 export class Donate extends Component {

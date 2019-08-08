@@ -1,18 +1,64 @@
 
 @font-face {
-    font-family: "Harabara Bold";
-    src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
-    
+  font-family: "Harabara Bold";
+  src: url("./../Fonts/Lato2OFL/Lato-Heavy.ttf");}
+  
+  .containerSTyle{
+    background-position: fixed;
+    padding: 10%;
+    /* display: flex; */
+    /* align-items: center; */
+    background: #EB5D5F;
+    height: auto
+  }
+.containerText{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.containerEmailInput {
+  /* margin-right: 40px; */
+  /* float: left; */
+  border: none;
+  width: 300px;
+  border-radius: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  letter-spacing: 0.5;
+  font-size: 12px;
+}
 
-  /* Id device width is 500 */
-  @media screen and (max-width: 500px){
-    /* .socialMediaTab{
+/* Subscribe btns */
+.subscribeBtn{
+  /* margin-left: 20px; */
+  width: auto;
+  /* display: flex; */
+  align-items: center;
+  padding: 10px;
+  padding-left: 35px;
+  background: #03B9FE;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white
+}
+  /* Id 
+  
+  device width is 500 */
+  @media screen and (max-width: 768px){
+    /* .socialMedia Tab{
         display: none;
         visibility: hidden;
-    } */
+    } */  
     .textBottomTab{
         width: 50%;
         margin-left: 27%;
     }
+    .containerSTyle{
+      background-position: fixed;
+      display: flex;
+      align-items: center;
+      background: #EB5D5F;
+      height: auto
+    }
   }
-
+  

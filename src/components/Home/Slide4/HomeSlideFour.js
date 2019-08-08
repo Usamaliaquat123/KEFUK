@@ -35,7 +35,9 @@ const HomeSlideFour = () => {
                     rural areas to enable them to become high quality English
                     medium primary school teachers.
                   </p>
-        <div className={HomeSlideFourStyle.buttonLastBlack}>Read more</div>
+                  <div className={HomeSlideFourStyle.buttonLastBlack}>
+                    Read more
+                  </div>
                 </div>
               </div>
             </div>
@@ -51,9 +53,7 @@ const HomeSlideFour = () => {
             ></img>
           </div>
         </div> */}
-        <div className={HomeSlideFourStyle.containerImageCircle}>
-
-        </div>
+        <div className={HomeSlideFourStyle.containerImageCircle}></div>
       </div>
     </div>
   )

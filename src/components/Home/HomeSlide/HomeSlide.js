@@ -1,13 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
--import HomeSlideStyle from "./HomeSlide.module.css"
+import HomeSlideStyle from "./HomeSlide.module.css"
 import Typed from "react-typed"
-import facebook from "./../../Images/Home/Icons/facebook.png"
-import twitter from "./../../Images/Home/Icons/twitter.png"
-import instagram from "./../../Images/Home/Icons/instagram.png"
-import wifi from "./../../Images/Home/Icons/wifi.png"
-import youtube from "./../../Images/Home/Icons/youtube.png"
+import facebook from "./../../../images/Home/Icons/facebook.png"
+import twitter from "./../../../images/Home/Icons/twitter.png"
+import instagram from "./../../../images/Home/Icons/instagram.png"
+import wifi from "./../../../images/Home/Icons/wifi.png"
+import youtube from "./../../../images/Home/Icons/youtube.png"
 const HomeSlide = () => {
   return (
     <div

@@ -1,13 +1,13 @@
 
 @font-face {
     font-family: "lato Medium";
-    src: url("./../../Fonts/Lato2OFL/Lato-Light.ttf");}
+    src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");}
     
 
 
     @font-face {
         font-family: "lato Bold";
-        src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
+        src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
         
 
   

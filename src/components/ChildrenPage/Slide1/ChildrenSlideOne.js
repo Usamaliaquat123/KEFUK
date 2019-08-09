@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import bachi from "./../../Images/Home/ChildrenTab/bachi.png"
+import bachi from "./../../../images/Home/ChildrenTab/bachi.png"
 import ChildrenSlideOneStyle from "./ChildrenSlideOne.module.css"
 import Typed from "react-typed"
 const ChildrenSlideOne = () => {

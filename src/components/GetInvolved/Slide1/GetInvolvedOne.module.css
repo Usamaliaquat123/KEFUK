@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: "lato Regular";
-    src: url("./../../Fonts/Lato2OFL/Lato-Regular.ttf");}
+    src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
 
     
 @font-face {
     font-family: "lato High";
-    src: url("./../../Fonts/Lato2OFL/Lato-Heavy.ttf");}
+    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
     
 .containerBody{
     width: 100%;

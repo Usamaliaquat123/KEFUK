@@ -1,16 +1,16 @@
 
 @font-face {
     font-family: "Lato";
-    src: url("./../../Fonts/Lato2OFL/Lato-Black.ttf");}
+    src: url("./../../../fonts/Lato2OFL/Lato-Black.ttf");}
 
     
     @font-face {
         font-family: "Lato light";
-        src: url("./../../Fonts/Lato2OFL/Lato-Light.ttf");}
+        src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");}
     
         @font-face {
             font-family: "Lato Medium";
-            src: url("./../../Fonts/Lato2OFL/Lato-Medium.ttf");}
+            src: url("./../../../fonts/Lato2OFL/Lato-Medium.ttf");}
         
     
 

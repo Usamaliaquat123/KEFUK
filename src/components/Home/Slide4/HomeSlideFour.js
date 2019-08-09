@@ -1,11 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import logoImg from "./../../Images/logo.png"
-import homeLesson from "./../../Images/Home/homeLesson.png"
-import teacherLesson from "./../../Images/Home/teacherLesson.png"
-import eductionLesson from "./../../Images/Home/eductionLesson.png"
-import tafreeTeacher from "./../../Images/Home/tafreeTeacher.png"
 import HomeSlideFourStyle from "./HomeSlideFour.module.css"
 import Typed from "react-typed"
 const HomeSlideFour = () => {

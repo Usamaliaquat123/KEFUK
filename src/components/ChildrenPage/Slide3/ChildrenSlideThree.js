@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import backgroundImage from "./../../Images/Home/HomeSlide1.jpg"
+// import backgroundImage from "./../../Images/Home/HomeSlide1.jpg"
 import ChildrenSlideThreeStyle from "./ChildrenSlideThree.module.css"
 import Typed from "react-typed"
 const ChildrenSlideThree = () => {

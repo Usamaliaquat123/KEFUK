@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import bachi from "./../Images/features/bachi.png"
-import tharkiMedal from "./../Images/features/tharki_medal.png"
-import tharkiTeacher from "./../Images/features/tharki_teacher.png"
+import bachi from "./../../images/features/bachi.png"
+import tharkiMedal from "./../../images/features/tharki_medal.png"
+import tharkiTeacher from "./../../images/features/tharki_teacher.png"
 import basicFeature from "./basicFeatures.module.css"
 const BasicFeatures = () => {
   return (

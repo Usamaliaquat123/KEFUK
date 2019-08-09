@@ -1,4 +1,4 @@
-a<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6246bba-241c-46ad-b72a-e4fe756e2406/deploy-status)](https://app.netlify.com/sites/vigilant-shockley-df4e94/deploys)
 

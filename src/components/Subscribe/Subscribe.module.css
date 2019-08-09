@@ -18,9 +18,10 @@
 }
 .containerEmailInput {
   /* margin-right: 40px; */
-  /* float: left; */
+  float: left;
+  /* position: absolute; */
   border: none;
-  width: 300px;
+  width: 70%;
   border-radius: 35px;
   padding: 10px;
   padding-left: 20px;
@@ -30,12 +31,14 @@
 
 /* Subscribe btns */
 .subscribeBtn{
+  float: right;
   /* margin-left: 20px; */
-  width: auto;
+  width: 30%;
+  text-align: center;
   /* display: flex; */
   align-items: center;
   padding: 10px;
-  padding-left: 35px;
+  /* padding-left: 35px; */
   background: #03B9FE;
   border-radius: 30px;
   font-size: 14px;
@@ -61,4 +64,46 @@
       height: auto
     }
   }
+  /* If max- width 1093 */
+  @media screen and (max-width: 1093px){
+    .containerSTyle{
+      padding: 8%;
+    }
+  }
+  /* If max- width 1093 */
+  @media screen and (max-width: 1042px  ){
+    .containerSTyle{
+      padding: 6%;
+    }
+  }
+  /* If max- width 1093 */
+  @media screen and (max-width: 768px  ){
+    .containerEmailInput{
+      border: none;
+    width: 100%;
+    border-radius: 35px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-bottom: 3%;
+    }
+    .containerSTyle{
+      padding: 6% 3%;
+    }
+    .subscribeBtn{
+      width: 42%;
+      text-align: center;
+      /* display: flex; */
+      align-items: center;
+      padding: 10px;
+      /* padding-left: 35px; */
+      background: #03B9FE;
+      border-radius: 30px;
+      font-size: 14px;
+      color: white;
+      margin: 0% 25%;
+    }
+  }
+
+
   

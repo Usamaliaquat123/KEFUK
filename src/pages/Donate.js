@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
-import Donation from "../components/donaion/Donation"
+import Donation from "../components/donaion/donation"
 import BasicFeatures from "../components/basicFeatures/basicFeatures"
 
 import Subscribe from "../components/Subscribe/Subscribe"

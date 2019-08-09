@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
 import Donation from "../components/donaion/Donation"
-import BasicFeatures from "../components/basicFeatures/BasicFeatures"
+import BasicFeatures from "../components/basicFeatures/basicFeatures"
+
 import Subscribe from "../components/Subscribe/Subscribe"
-import BottomNav from "../components/BottomNav"
+import BottomNav from "../components/bottomNav"
 
 export class Donate extends Component {
   static propTypes = {}

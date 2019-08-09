@@ -5,7 +5,7 @@ import React, { useState } from "react"
 // import homeLesson from "./../../Images/Home/homeLesson.png"
 // import teacherLesson from "./../../Images/Home/teacherLesson.png"
 // import eductionLesson from "./../../Images/Home/eductionLesson.png"
-import bachiWatching from "./../../../images/Home/bachiWatching.png"
+// import bachiWatching from "./../../../images/Home/bachiWatching.png"
 import HomeSlideThirdStyle from "./HomeSlideThird.module.css"
 import Typed from "react-typed"
 const HomeSlideThird = () => {

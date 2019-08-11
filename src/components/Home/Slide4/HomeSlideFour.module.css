@@ -15,7 +15,6 @@
     height: auto;
     width: 100%;
     padding-top: 3%;
-    padding-bottom: 13%;
 }
 .secondLayerContainer{
     width: 80%;
@@ -27,9 +26,9 @@
 
 
 .imageLayer{
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 21px;
+    /* position: absolute; */
+    /* margin-left: 55%; */
+    margin-top: -11%;
 }
 .buttonWhatWeDo{
     padding: 10px 10px;
@@ -73,3 +72,10 @@
     margin-top: 3%;
 
 }
+
+/* @media screen and (max-width: 1339px){
+
+    .buttonLastBlack{
+        margin-top: 11%;
+    }
+ } */

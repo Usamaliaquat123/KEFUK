@@ -10,38 +10,25 @@
         
 
 .containerSlide{
-    background: #72C6FF;
+    background: #FF7277;
     min-height: 100%;
     height: auto;
     width: 100%;
     padding-top: 3%;
-    padding-bottom: 10%;
 }
 .secondLayerContainer{
     width: 80%;
     /* position: absolute; */
-    background: #8ED1FF;
+    background: #FF8E92;
     /* margin-top: 100px; */
     height: auto;
 }
 
-.circleLayer{
-    position: absolute;
-    background: #fff;
 
-    border-radius: 50%;
-    /* top: 5%; */
-    right: 0;
-    margin-top: -30%;
-
-
-    width: 520px;
-    height: 520px;
-}
 .imageLayer{
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 66px;
+    /* position: absolute; */
+    /* margin-left: 55%; */
+    margin-top: -11%;
 }
 .buttonWhatWeDo{
     padding: 10px 10px;
@@ -57,14 +44,16 @@
     text-align: center;
 }
 .containerTextInner{
-    padding: 3% 7%; 
+    padding: 3% 7%;
 }
 .headingText{
     font-family: 'Harabara Bold';
     color: #414865;
     font-size: 25px; 
 }
+.slideDescription{
 
+}
 .descriptionText{
     font-family: 'Harabara Medium';
     color: #414865;
@@ -84,10 +73,9 @@
 
 }
 
-/* ,If device width is  */
-@media screen and (max-width: 1339px){
+/* @media screen and (max-width: 1339px){
 
     .buttonLastBlack{
         margin-top: 11%;
     }
- }
+ } */

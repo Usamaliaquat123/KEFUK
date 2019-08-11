@@ -5,7 +5,7 @@ import React, { useState } from "react"
 // import homeLesson from "./../../Images/Home/homeLesson.png"
 // import teacherLesson from "./../../Images/Home/teacherLesson.png"
 // import eductionLesson from "./../../Images/Home/eductionLesson.png"
-// import bachiWatching from "./../../../images/Home/bachiWatching.png"
+import bachiWatching from "./../../../images/Home/bachiWatching.png"
 import HomeSlideThirdStyle from "./HomeSlideThird.module.css"
 import Typed from "react-typed"
 const HomeSlideThird = () => {
@@ -14,20 +14,16 @@ const HomeSlideThird = () => {
       <div className={HomeSlideThirdStyle.buttonWhatWeDo}>
         <p>WHAT WE DO</p>
       </div>
-      <div className={HomeSlideThirdStyle.secondLayerContainer}>
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-md-6'>
+          <div className={HomeSlideThirdStyle.secondLayerContainer}>
         <div className={HomeSlideThirdStyle.containerTextInner}>
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-7">
                 <p className={HomeSlideThirdStyle.headingText}>
                   Promoting 21st Century Quality Education in Kashmir & Pakistan
                   for future generations.
                 </p>
-              </div>
-            </div>
             <div className={HomeSlideThirdStyle.slideDescription}>
-              <div className="row">
-                <div className="col-md-7">
                   <p className={HomeSlideThirdStyle.descriptionText}>
                     Kasimir Education Foundation UK was established in
                     conjunction with KEF Pakistan in 1996 out of an altruistic
@@ -40,12 +36,12 @@ const HomeSlideThird = () => {
                   <div className={HomeSlideThirdStyle.buttonLastBlack}>
                     Read more
                   </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-        {/* <div className={HomeSlideThirdStyle.circleLayer}>
+       </div> 
+          </div>
+          <div className='col-md-6'>
+                    <div className={HomeSlideThirdStyle.circleLayer}>
           <div className={HomeSlideThirdStyle.imageLayer}>
             <img
               src={bachiWatching}
@@ -54,10 +50,14 @@ const HomeSlideThird = () => {
               height={480}
             ></img>
           </div>
-        </div> */}
+        </div>
+          </div>
+        </div>
+      </div>
+     
+
         <div className={HomeSlideThirdStyle.containerSecondImage}></div>
       </div>
-    </div>
   )
 }
 

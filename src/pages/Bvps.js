@@ -6,16 +6,16 @@ import NavigatorView from "../components/NavigatorView/NavigatorView"
 import Donation from "../components/donaion/donation"
 import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/bottomNav"
-import WhereWeWorkSlideOne from "../components/WhereWeWork/Slide1/WhereWeWorkSlideOne"
+import WhereWeWorkSlideOne from "../components/WhereWeWork/bvps/Slide1/WhereWeWorkSlideOne"
 // import WhereWeWorkSlideTwo from "../../c omponents/WhereWeWork/Slide1/WhereWeWorkSlideTwo";
-import WhereWeWorkSlideThree from "../components/WhereWeWork/Slide3/WhereWeWorkSlideThree"
+import WhereWeWorkSlideThree from "../components/WhereWeWork/bvps/Slide3/WhereWeWorkSlideThree"
 // import HomeSlideSecond from "../components/Home/Slide2/HomeSlideSecond"
 // import HomeSlide from "../components/Home/HomeSlide/HomeSlide"
 // import HomeSlideThird from "../components/Home/Slide3/HomeSlideThird"
 // import HomeSlideFour from "../components/Home/Slide4/HomeSlideFour"
 // import HomeSlideFive from "../components/Home/Slide5/HomeSlideFive"
 
-export class Svpc extends Component {
+export class Bvps extends Component {
   static propTypes = {}
 
   render() {
@@ -50,4 +50,4 @@ export class Svpc extends Component {
   }
 }
 
-export default Svpc
+export default Bvps

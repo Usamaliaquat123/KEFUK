@@ -1,6 +1,6 @@
 @font-face {
     font-family: "lato Regular";
-    src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
+    src: url("./../../../../fonts/Lato2OFL/Lato-Regular.ttf");}
     
 
 
@@ -47,12 +47,12 @@
 
 @font-face {
     font-family: "lato Regular";
-    src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
+    src: url("./../../../../fonts/Lato2OFL/Lato-Regular.ttf");}
 
     
 @font-face {
     font-family: "lato High";
-    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
+    src: url("./../../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
     
 .containerStyle{
     width: 100%;

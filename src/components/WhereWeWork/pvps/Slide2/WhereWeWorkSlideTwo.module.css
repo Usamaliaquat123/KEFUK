@@ -1,54 +1,5 @@
 
 @font-face {
-    font-family: "Lato";
-    src: url("./../../../fonts/Lato2OFL/Lato-Black.ttf");}
-
-    
-    @font-face {
-        font-family: "Lato light";
-        src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");}
-    
-
-
-
-    .containerSLideOne{
-        background: #4698D0;
-        width: 100%;
-        height: 300px;
-        padding: 4% 0;
-    }
-    .textsContainer{
-        text-align: center;
-    }
-.btnStyle{
-    background: #EB5D5F;
-    width: 150px;
-    padding: 10px 15px;
-    font-size: 14px;
-    margin: auto;
-    color: #ffffff;
-    font-weight: bold;
-}
-.HeadingSTyle{
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: 'Lato'
-}
-.Description{
-    font-size: 20px;
-    font-family: 'Lato light';
-    color: #ffffff
-}
-
-
-
-
-/* Slide 2 */
-
-
-
-@font-face {
     font-family: "lato Regular";
     src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
 
@@ -103,5 +54,3 @@
     font-size: 14px;
     font-family: 'lato Regular'
 }
-
-

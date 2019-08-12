@@ -60,12 +60,10 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
                 <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
-                  "When a nation come devoid of arts and learning, it invites
-                  poverty. And when poverty comes it brings in it's wake
-                  thousands of crimes"
+                  "No nation can raise to the height of glory unless your women has side by side with you "
                   <br />
                   <br />
-                  <br />- Sir Syed Ahmed Khan
+                  <br />- Muhammad Ali Jinnah
                 </p>
                 <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
                   <img
@@ -81,21 +79,16 @@ const WhereWeWorkSlideOne = () => {
               <div className={WhereWeWorkSlideOneStyle.slideRightContainer}>
                 <div className={WhereWeWorkSlideOneStyle.textContainer}>
                   <p className={WhereWeWorkSlideOneStyle.headingSlideText}>
-                    Pearl Valley Public School
+                    Joan Atkinson College of Teacher Education
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    Pearl Valley Public School and College was the pilot project
-                    of Kashmir Education Foundation. It is located at Rawalkot,
-                    Azad Kashmir for which over 3 acres were donated by the
-                    Trustees. The school started functioning on August 14, 1996
-                    and currently has classes up to 12th grade.
+                    Quality education that KEF is committed to cannot be deliverd without teachers who are personally
+                    motivated, who have a wide range of pedagogical skills to develop child centered learning enviroments with a focus 
+                    on interactive teaching methodology to promote advanced cognitive performance.
                     <br /> <br />
-                    In line with KEF's policy, new intake is limited to class
-                    Prep only. It is non residential day school were children
-                    from underpriviledged areas of Rawalkot and surrounding
-                    Villages (covering an area of 200 square kilometers with a
-                    population of over 100,000 people) are admitted on merit
-                    basis, with girls comprising 50% of the total number.
+                    KEF made a conscious decision to invest in establishing and developing our own College of Teacher Education 
+                    in 2001, in order to take the bes available teachers and support them towords becoming outstanding teachers using the most effective research 
+                    oriented continous professional development techniques 
                   </p>
                 </div>
               </div>

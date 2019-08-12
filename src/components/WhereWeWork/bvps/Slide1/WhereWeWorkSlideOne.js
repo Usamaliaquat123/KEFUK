@@ -82,18 +82,14 @@ const WhereWeWorkSlideOne = () => {
                     Banjosa Valley Public School
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    Pearl Valley Public School and College was the pilot project
-                    of Kashmir Education Foundation. It is located at Rawalkot,
-                    Azad Kashmir for which over 3 acres were donated by the
-                    Trustees. The school started functioning on August 14, 1996
-                    and currently has classes up to 12th grade.
+                    In an effort to develop the potential of children from underpriviledged and 
+                    marginalised sections of the society, Kashmir Education Foundation (KEF) has dedicated
+                    itself to make quality education accessible to children.
                     <br /> <br />
-                    In line with KEF's policy, new intake is limited to class
-                    Prep only. It is non residential day school were children
-                    from underpriviledged areas of Rawalkot and surrounding
-                    Villages (covering an area of 200 square kilometers with a
-                    population of over 100,000 people) are admitted on merit
-                    basis, with girls comprising 50% of the total number.
+                    Banjosa Valley Public School-BVPS. AJ&K commerced its classes on 24th Mmarch 2009.
+                    The BVPS has been constructed to take classes up to tenth grade and is equipped with all the
+                    modern educational and recreational facilities. The teaching faculty for BVPS was trained at our 
+                    College for Teacher Education.
                   </p>
                 </div>
               </div>

@@ -56,7 +56,7 @@
     
 .containerStyle{
     width: 100%;
-    height:539px;
+    height:469px;
     padding: 0 13%;
     /* padding-right: %; */
 }
@@ -64,7 +64,7 @@
 .slideTextLeft {
     /* left: 0; */
     width: 100%; 
-    height: 539px;
+    height: 469px;
     background: #38B4AA;
 }
 .slideDescLeft{
@@ -83,7 +83,7 @@
     /* position: absolute; */
     margin-left: -30px;
     width: 100%;
-    height: 539px;
+    height: 469px;
     /* right: 0;    */
 }
 .textContainer{

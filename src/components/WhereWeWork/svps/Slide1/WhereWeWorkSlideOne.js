@@ -60,12 +60,10 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
                 <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
-                  "When a nation come devoid of arts and learning, it invites
-                  poverty. And when poverty comes it brings in it's wake
-                  thousands of crimes"
+                  "An investment in knowledge pays the best interest"
                   <br />
                   <br />
-                  <br />- Sir Syed Ahmed Khan
+                  <br />- Benjamin Franklin
                 </p>
                 <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
                   <img
@@ -81,21 +79,18 @@ const WhereWeWorkSlideOne = () => {
               <div className={WhereWeWorkSlideOneStyle.slideRightContainer}>
                 <div className={WhereWeWorkSlideOneStyle.textContainer}>
                   <p className={WhereWeWorkSlideOneStyle.headingSlideText}>
-                    Pearl Valley Public School
+                    Soan Valley Public School
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    Pearl Valley Public School and College was the pilot project
-                    of Kashmir Education Foundation. It is located at Rawalkot,
-                    Azad Kashmir for which over 3 acres were donated by the
-                    Trustees. The school started functioning on August 14, 1996
-                    and currently has classes up to 12th grade.
+                    Encouraged by the phenomenal sucess of PVPS, KEF planned to replicate similar
+                    schools in other parts of the country. Thus, Soan Valley Public School was established
+                    in May,2005 at village Pakhowal about 35 km from Rawalpindi. The entire funding for the school 
+                    building serves as an adjuct to College of Teacher Education as a Resource Center of initial Teaching
+                    practices.
                     <br /> <br />
-                    In line with KEF's policy, new intake is limited to class
-                    Prep only. It is non residential day school were children
-                    from underpriviledged areas of Rawalkot and surrounding
-                    Villages (covering an area of 200 square kilometers with a
-                    population of over 100,000 people) are admitted on merit
-                    basis, with girls comprising 50% of the total number.
+                    like PVPS, SVPS has been provided with all the modern educational facilities. Its library, 
+                    named after Miss Anna Finn, a london school teacher has almost 10,000 books, mostly donated by
+                    KEF UK.
                   </p>
                 </div>
               </div>

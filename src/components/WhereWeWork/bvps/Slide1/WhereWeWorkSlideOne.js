@@ -60,12 +60,10 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
                 <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
-                  "When a nation come devoid of arts and learning, it invites
-                  poverty. And when poverty comes it brings in it's wake
-                  thousands of crimes"
+                  "Education is the most powerfull weapon you can use to change the world"
                   <br />
                   <br />
-                  <br />- Sir Syed Ahmed Khan
+                  <br />- Nelson Mandela
                 </p>
                 <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
                   <img
@@ -81,7 +79,7 @@ const WhereWeWorkSlideOne = () => {
               <div className={WhereWeWorkSlideOneStyle.slideRightContainer}>
                 <div className={WhereWeWorkSlideOneStyle.textContainer}>
                   <p className={WhereWeWorkSlideOneStyle.headingSlideText}>
-                    Pearl Valley Public School
+                    Banjosa Valley Public School
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
                     Pearl Valley Public School and College was the pilot project

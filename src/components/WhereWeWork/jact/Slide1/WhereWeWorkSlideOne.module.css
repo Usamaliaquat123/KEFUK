@@ -65,7 +65,7 @@
     /* left: 0; */
     width: 100%; 
     height: 539px;
-    background: #4698D0;
+    background: #38B4AA;
 }
 .slideDescLeft{
    
@@ -79,7 +79,7 @@
 
 
 .slideRightContainer{
-    background: #ECEDF0;
+    background: #EBF7F6;
     /* position: absolute; */
     margin-left: -30px;
     width: 100%;
@@ -102,16 +102,28 @@
 }
 
 .containerDescSl{
-    
     background: #03B9FE;
     width: 100%;
     height: 4%;
-    padding: 10px 15px;
+    padding: 7px 26px;
     color: #fff;
     margin-left: 25%;
+    /* font-weight: bold; */
     margin-bottom: 3%;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "lato Regular";
+}
+.nonSelect{
+    background: transparent;
+    width: 100%;
+    height: 4%;
+    padding: 10px 25px;
+    color: black;
+    /* font-weight: bold; */
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-size: 10px;
+    font-family: "lato Regular";    
 }
 
 

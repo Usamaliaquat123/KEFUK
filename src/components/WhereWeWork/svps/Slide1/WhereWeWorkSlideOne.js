@@ -1,35 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import bachiBachaRun from "./../../../../images/WhereWedo/bachiBachaRun.png"
-import ghar from "./../../../../images/WhereWedo/ghar.png"
+import bachiBachaRun from "./../../../../images/WhereWedo/svpc.png"
+import ghar from "./../../../../images/WhereWedo/svpc2.png"
 import WhereWeWorkSlideOneStyle from "./WhereWeWorkSlideOne.module.css"
 import Typed from "react-typed"
 const WhereWeWorkSlideOne = () => {
-  const { backgroundColorpvpc, setbackgroundColorpvpc } = useState("#03B9FE")
-  const { backgroundColorbvpc, setbackgroundColorbvpc } = useState("#fff")
-  const { backgroundColorsvpc, setbackgroundColorsvpc } = useState("#fff")
-  const { backgroundColorjacte, setbackgroundColorjacte } = useState("false")
-
-  const aboutpvpc = async () => {
-    // setbackgroundColorpvpc('#03B9FE')
-    // setbackgroundColorbvpc('#fff')
-    // setbackgroundColorjacte('#fff')
-    // setbackgroundColorsvpc('#fff')
-  }
-  const aboutbvpc = async () => {
-    // setbackgroundColorbvpc('#03B9FE')
-    // setbackgroundColorpvpc('#fff')
-    // setbackgroundColorsvpc('#fff')
-    // setbackgroundColorjacte('#fff')
-  }
-  const aboutsvpc = async () => {
-    // setbackgroundColorsvpc('#03B9FE')
-    // setbackgroundColorpvpc('#fff')
-    // setbackgroundColorjacte('#fff')
-    // setbackgroundColorbvpc('#fff')
-  }
-  const aboutjacte = async () => {}
   return (
     <>
       <div className={WhereWeWorkSlideOneStyle.containerSlide}>
@@ -42,26 +18,22 @@ const WhereWeWorkSlideOne = () => {
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
                   <div
-                    onClick={() => aboutpvpc()}
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
+                    className={WhereWeWorkSlideOneStyle.nonSelect}
                   >
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
                   <div
-                    onClick={() => aboutbvpc()}
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
+                    className={WhereWeWorkSlideOneStyle.nonSelect}
                   >
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
                   <div
-                    onClick={() => aboutsvpc()}
                     className={WhereWeWorkSlideOneStyle.containerDescSl}
                   >
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
                   <div
-                    onClick={() => aboutjacte()}
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
+                    className={WhereWeWorkSlideOneStyle.nonSelect}
                   >
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>

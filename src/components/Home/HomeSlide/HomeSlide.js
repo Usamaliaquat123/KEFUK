@@ -51,7 +51,6 @@ const HomeSlide = () => {
           <img
             className={HomeSlideStyle.socialIcons}
             src={facebook}
-            class="img-fluid"
             width={25}
             height={25}
           ></img>

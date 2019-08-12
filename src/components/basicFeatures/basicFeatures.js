@@ -69,35 +69,30 @@ const BasicFeatures = () => {
         <img
           className={basicFeature.socialIcons}
           src={facebook}
-          class="img-fluid"
           width={25}
           height={25}
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={youtube}
-          class="img-fluid"
           width={25}
           height={25}
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={instagram}
-          class="img-fluid"
           width={25}
           height={25}
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={wifi}
-          class="img-fluid"
           width={25}
           height={25}
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={twitter}
-          class="img-fluid"
           width={25}
           height={25}
         ></img>

@@ -52,36 +52,36 @@ const HomeSlide = () => {
             className={HomeSlideStyle.socialIcons}
             src={facebook}
             class="img-fluid"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={youtube}
             class="img-fluid"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={instagram}
             class="img-fluid"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={wifi}
             class="img-fluid"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={twitter}
             class="img-fluid"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           ></img>
         </div>
         <div className={HomeSlideStyle.textBottomTab}>

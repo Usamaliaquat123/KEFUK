@@ -17,24 +17,16 @@ const WhereWeWorkSlideOne = () => {
                   WHERE WE WORK
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
@@ -60,7 +52,8 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
                 <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
-                  "Education is the most powerfull weapon you can use to change the world"
+                  "Education is the most powerfull weapon you can use to change
+                  the world"
                   <br />
                   <br />
                   <br />- Nelson Mandela
@@ -82,14 +75,17 @@ const WhereWeWorkSlideOne = () => {
                     Banjosa Valley Public School
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    In an effort to develop the potential of children from underpriviledged and 
-                    marginalised sections of the society, Kashmir Education Foundation (KEF) has dedicated
-                    itself to make quality education accessible to children.
+                    In an effort to develop the potential of children from
+                    underpriviledged and marginalised sections of the society,
+                    Kashmir Education Foundation (KEF) has dedicated itself to
+                    make quality education accessible to children.
                     <br /> <br />
-                    Banjosa Valley Public School-BVPS. AJ&K commerced its classes on 24th Mmarch 2009.
-                    The BVPS has been constructed to take classes up to tenth grade and is equipped with all the
-                    modern educational and recreational facilities. The teaching faculty for BVPS was trained at our 
-                    College for Teacher Education.
+                    Banjosa Valley Public School-BVPS. AJ&K commerced its
+                    classes on 24th Mmarch 2009. The BVPS has been constructed
+                    to take classes up to tenth grade and is equipped with all
+                    the modern educational and recreational facilities. The
+                    teaching faculty for BVPS was trained at our College for
+                    Teacher Education.
                   </p>
                 </div>
               </div>

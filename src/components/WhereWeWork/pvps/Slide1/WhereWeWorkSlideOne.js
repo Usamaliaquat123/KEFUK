@@ -17,24 +17,16 @@ const WhereWeWorkSlideOne = () => {
                   WHERE WE WORK
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>

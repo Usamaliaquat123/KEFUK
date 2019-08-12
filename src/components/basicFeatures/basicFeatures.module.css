@@ -4,13 +4,34 @@
     src: url("./../../fonts/Montserrat/Montserrat-Bold.ttf");}
 
 .containerOverlay{
-    display: flex;
     margin-top: 100;
     background: #ECF4FA;
     align-items: center;
     height: auto
 }
 
+
+.socialIcons{
+    margin-right: 3px;
+    float: left;
+}
+.followUsText{
+    font-size: 10px;
+    float: left;
+    color: aliceblue;
+    margin: 5px;    
+    margin-left: 6%;
+    margin-right: 5%;
+}
+.socialMediaTab{
+    margin-top: -64px;
+    margin-left: -2%;
+    background-color: #404864;
+    padding: 6px 2px;
+    width: 22%;
+    height: 37px;
+    /* float: left; */
+}
 .ke-over{
     padding: 60
 }

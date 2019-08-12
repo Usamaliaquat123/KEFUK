@@ -17,24 +17,16 @@ const WhereWeWorkSlideOne = () => {
                   WHERE WE WORK
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
@@ -60,7 +52,8 @@ const WhereWeWorkSlideOne = () => {
             <div className="col-md-6 col-sm-12">
               <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
                 <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
-                  "No nation can raise to the height of glory unless your women has side by side with you "
+                  "No nation can raise to the height of glory unless your women
+                  has side by side with you "
                   <br />
                   <br />
                   <br />- Muhammad Ali Jinnah
@@ -82,13 +75,19 @@ const WhereWeWorkSlideOne = () => {
                     Joan Atkinson College of Teacher Education
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    Quality education that KEF is committed to cannot be deliverd without teachers who are personally
-                    motivated, who have a wide range of pedagogical skills to develop child centered learning enviroments with a focus 
-                    on interactive teaching methodology to promote advanced cognitive performance.
+                    Quality education that KEF is committed to cannot be
+                    deliverd without teachers who are personally motivated, who
+                    have a wide range of pedagogical skills to develop child
+                    centered learning enviroments with a focus on interactive
+                    teaching methodology to promote advanced cognitive
+                    performance.
                     <br /> <br />
-                    KEF made a conscious decision to invest in establishing and developing our own College of Teacher Education 
-                    in 2001, in order to take the bes available teachers and support them towords becoming outstanding teachers using the most effective research 
-                    oriented continous professional development techniques 
+                    KEF made a conscious decision to invest in establishing and
+                    developing our own College of Teacher Education in 2001, in
+                    order to take the bes available teachers and support them
+                    towords becoming outstanding teachers using the most
+                    effective research oriented continous professional
+                    development techniques
                   </p>
                 </div>
               </div>

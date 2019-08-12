@@ -33,7 +33,7 @@
     padding: 10% 0;
 }
 .socialIcons{
-    margin: 0 3px;
+    margin-right: 3px;
     float: left;
 }
 .followUsText{
@@ -45,11 +45,10 @@
     margin-right: 5%;
 }
 .socialMediaTab{
-    margin-top: 200px;
+    margin-top: 202px;
     margin-left: -2%;
     background-color: #404864;
-    padding: 2px 0px;
-    border-radius: 20px;
+    padding: 6px 2px;
     width: 22%;
     height: 37px;
     float: left;

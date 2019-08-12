@@ -5,6 +5,11 @@ import bachi from "./../../images/features/bachi.png"
 import tharkiMedal from "./../../images/features/tharki_medal.png"
 import tharkiTeacher from "./../../images/features/tharki_teacher.png"
 import basicFeature from "./basicFeatures.module.css"
+import facebook from "./../../images/Home/Icons/facebook.png"
+import twitter from "./../../images/Home/Icons/twitter.png"
+import instagram from "./../../images/Home/Icons/instagram.png"
+import wifi from "./../../images/Home/Icons/wifi.png"
+import youtube from "./../../images/Home/Icons/youtube.png"
 const BasicFeatures = () => {
   return (
     <div className={basicFeature.containerOverlay}>
@@ -58,6 +63,44 @@ const BasicFeatures = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className={basicFeature.socialMediaTab}>
+        <div className={basicFeature.followUsText}>FOLLOW US</div>
+        <img
+          className={basicFeature.socialIcons}
+          src={facebook}
+          class="img-fluid"
+          width={25}
+          height={25}
+        ></img>
+        <img
+          className={basicFeature.socialIcons}
+          src={youtube}
+          class="img-fluid"
+          width={25}
+          height={25}
+        ></img>
+        <img
+          className={basicFeature.socialIcons}
+          src={instagram}
+          class="img-fluid"
+          width={25}
+          height={25}
+        ></img>
+        <img
+          className={basicFeature.socialIcons}
+          src={wifi}
+          class="img-fluid"
+          width={25}
+          height={25}
+        ></img>
+        <img
+          className={basicFeature.socialIcons}
+          src={twitter}
+          class="img-fluid"
+          width={25}
+          height={25}
+        ></img>
       </div>
     </div>
   )

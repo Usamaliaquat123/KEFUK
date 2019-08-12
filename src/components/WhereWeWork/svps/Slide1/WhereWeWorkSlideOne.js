@@ -17,24 +17,16 @@ const WhereWeWorkSlideOne = () => {
                   WHERE WE WORK
                 </div>
                 <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     BANJOSA VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.containerDescSl}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div
-                    className={WhereWeWorkSlideOneStyle.nonSelect}
-                  >
+                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
@@ -82,15 +74,18 @@ const WhereWeWorkSlideOne = () => {
                     Soan Valley Public School
                   </p>
                   <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
-                    Encouraged by the phenomenal sucess of PVPS, KEF planned to replicate similar
-                    schools in other parts of the country. Thus, Soan Valley Public School was established
-                    in May,2005 at village Pakhowal about 35 km from Rawalpindi. The entire funding for the school 
-                    building serves as an adjuct to College of Teacher Education as a Resource Center of initial Teaching
-                    practices.
+                    Encouraged by the phenomenal sucess of PVPS, KEF planned to
+                    replicate similar schools in other parts of the country.
+                    Thus, Soan Valley Public School was established in May,2005
+                    at village Pakhowal about 35 km from Rawalpindi. The entire
+                    funding for the school building serves as an adjuct to
+                    College of Teacher Education as a Resource Center of initial
+                    Teaching practices.
                     <br /> <br />
-                    like PVPS, SVPS has been provided with all the modern educational facilities. Its library, 
-                    named after Miss Anna Finn, a london school teacher has almost 10,000 books, mostly donated by
-                    KEF UK.
+                    like PVPS, SVPS has been provided with all the modern
+                    educational facilities. Its library, named after Miss Anna
+                    Finn, a london school teacher has almost 10,000 books,
+                    mostly donated by KEF UK.
                   </p>
                 </div>
               </div>

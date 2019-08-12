@@ -6,6 +6,7 @@ import NavigatorView from "../components/NavigatorView/NavigatorView"
 import Donation from "../components/donaion/donation"
 import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/bottomNav"
+import BasicFeatures from "../components/basicFeatures/basicFeatures"
 import WhereWeWorkSlideOne from "../components/WhereWeWork/svps/Slide1/WhereWeWorkSlideOne"
 // import WhereWeWorkSlideTwo from "../../c omponents/WhereWeWork/Slide1/WhereWeWorkSlideTwo";
 import WhereWeWorkSlideThree from "../components/WhereWeWork/svps/Slide3/WhereWeWorkSlideThree"
@@ -33,7 +34,7 @@ export class Svps extends Component {
           {/* <WhereWeWorkSlideTwo /> */}
           <WhereWeWorkSlideThree />
           {/* <main>{children}</main> */}
-          <Donation />
+          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

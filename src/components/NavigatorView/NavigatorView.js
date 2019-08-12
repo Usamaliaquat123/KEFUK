@@ -52,9 +52,6 @@ export default class NavigatorView extends React.Component {
             <a href="#">
               <li>CONTACT US</li>
             </a>
-            <a href="#">
-              <li>CONTACT</li>
-            </a>
           </ul>
           <div className={navigationView.handle}>
             <p className={navigationView.menu}>Kefuk</p>

@@ -29,6 +29,12 @@
     font-family: 'lato Regular';
     text-align: center;
 }
+.nonSelect:hover {
+    cursor: pointer;
+}
+.containerDescSl:hover {
+    cursor: pointer;
+}
 .containerTextTiles{
     background: #03B9FE;
     width: 100%;
@@ -102,6 +108,7 @@
 }
 
 .containerDescSl{
+    text-decoration: none;
     background: #03B9FE;
     width: 100%;
     height: 4%;
@@ -114,6 +121,7 @@
     font-family: "lato Regular";
 }
 .nonSelect{
+    text-decoration: none;
     background: transparent;
     width: 100%;
     height: 4%;
@@ -126,7 +134,16 @@
     font-family: "lato Regular";    
 }
 
-
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.nonSelect:hover {
+    cursor: pointer;
+}
+.containerDescSl:hover {
+    cursor: pointer;
+}
 @media screen and (max-width: 768px){
     .workbtn{
         margin: auto;

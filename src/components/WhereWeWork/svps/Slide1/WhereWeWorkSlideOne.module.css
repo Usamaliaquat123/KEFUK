@@ -71,12 +71,17 @@
    
     padding: 0 10%;
     padding-right: 37%;
-    padding-top: 12%;
+    padding-top: 17%;
     color: #ffffff;
     font-size: 15px;
     font-family: 'lato Regular';
 }
-
+.nonSelect:hover {
+    cursor: pointer;
+}
+.containerDescSl:hover {
+    cursor: pointer;
+}
 
 .slideRightContainer{
     background: #EBF7F6;
@@ -102,7 +107,8 @@
 }
 
 .containerDescSl{
-    background: #03B9FE;
+    text-decoration: none;
+    background: rgb(91, 194, 231);
     width: 100%;
     height: 4%;
     padding: 7px 26px;
@@ -114,6 +120,7 @@
     font-family: "lato Regular";
 }
 .nonSelect{
+    text-decoration: none;
     background: transparent;
     width: 100%;
     height: 4%;
@@ -126,6 +133,16 @@
     font-family: "lato Regular";    
 }
 
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.nonSelect:hover {
+    cursor: pointer;
+}
+.containerDescSl:hover {
+    cursor: pointer;
+}
 
 @media screen and (max-width: 768px){
     .workbtn{

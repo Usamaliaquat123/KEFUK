@@ -2,11 +2,20 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Img from "gatsby-image"
+import Logo from './../images/logoUpdate.png'
 import "bootstrap/dist/css/bootstrap.css"
 const BottomNav = () => {
   return (
     <div style={{ display: `flex`, alignItems: `center`, height: 400 }}>
+      <img
+                  class='img-fluid'
+                  width={200}
+                  style={{ marginLeft: '12%', marginRight: '-19%'}}
+                  height={200}
+                  src={Logo}
+                ></img>
       <div style={{ margin: `auto`, width: 600 }}>
+      
         <div className="container-fluid">
           <div className="row">
             <div className="col-4">

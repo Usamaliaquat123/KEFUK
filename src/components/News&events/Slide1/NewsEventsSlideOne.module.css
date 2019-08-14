@@ -20,29 +20,56 @@
 .containerStyle{
     background: #4698D0;
     width: 100%;
-    height: 550px;
+    height: auto;
 }
 .containerContent{
-    padding: 7% 0;
+    padding-bottom: 6%;
+    padding-top: 1%;
+}
+.headingSocialMmediaIcons{
+    /* padding: 7% 0; */
+    padding: 0% 21%;
+    padding-top: 3%;
+    padding-top: 6%;
+}
+.latestPostText{
+    font-size: 15px;
+    color: white;
+
+}
+.containerIcons{
+    
+    padding-left: 4%;
+}
+.socialIcons{
+    margin-right: 3px;
+}
+.followUsText{
+    font-size: 10px;
+    color: white;
+    float: left;
+    padding-right: 13px;
+    font-family: 'lato Medium';
+    padding-top: 4px;
 }
 .containerContentLeft{
     background: #ECF5FA;
-    padding: 50px 50px;
     position: absolute;
+    padding: 4% 6%;
     height: auto;
     right: 0;
     width: 60%;
 }
 .containerHeading{
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'lato Bold'
 }
 .containerDesc{
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'lato Medium'
 }
 .containerLink{
-    font-size: 12px;
+    font-size: 10px;
 }
 .tharkis{
     

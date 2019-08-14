@@ -46,7 +46,7 @@ export default class NavigatorView extends React.Component {
             <a href="#">
               <li>GET INVLOVED</li>
             </a>
-            <a href="#">
+            <a href="/News">
               <li>NEWS & EVENTS</li>
             </a>
             <a href="#">

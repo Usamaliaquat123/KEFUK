@@ -1,11 +1,87 @@
 
 @font-face {
-    font-family: "Harabara Bold";
+    font-family: "lato Heavy";
     src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
     
-
+@font-face {
+    font-family: "lato Bold";
+    src: url("./../../../fonts/Lato2OFL/Lato-Bold.ttf");}
+    
+.containerView{
+    width: 100%;
+    height: 600px;
+    background: #ECF5FA;
+}
   
-
+.oneRowConatiner{
+    padding: 10% 14%;
+}
+/* Post sections */
+.postOne{
+    background: #fff;
+    width:100%;
+    height:auto
+}
+.postTwo{
+    background: #fff;
+    width:100%;
+    height:auto
+}
+.containerCardText{
+    padding: 1% 10%;
+}
+.containerCardTextPostThree{
+    /* padding: 10% 10%; */
+    padding: 8% 10%
+}
+.containerCardTextPostTwo{
+    padding: 1% 10%;
+}
+.btnStyleSlideThree{
+    background: #EB5D5F;
+    width: 27%;
+    padding: 2% 4%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 11px;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: -3%;
+}
+.btnStyle{
+    background: #1C70AA;
+    width: 59%;
+    padding: 4% 7%;
+    TEXT-ALIGN: center;
+    color: aliceblue;
+    font-size: 11px;
+    /* margin-left: 5%; */
+    position: absolute;
+    /* margin-top: 55%; */
+    margin: 0px 15%;
+    margin-top: 54%;
+}
+.postThree{
+    background: #fff;
+    width:100%;
+    height:auto
+}
+.cardLlandImage{
+    height: 174px;
+    margin-bottom: 0%;
+    width: 100%;
+}
+.titleNews{
+    font-size: 22px;
+    font-family: 'lato Bold'
+}
+.linkNews{
+    font-size: 9px;
+}
+.linkNewspostTwo{
+    font-size: 9px;
+    padding-top: 32%;
+}
 @media screen and (max-width: 577px){
     /* mobile code */
   }

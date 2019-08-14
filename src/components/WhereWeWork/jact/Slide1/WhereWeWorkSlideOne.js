@@ -24,7 +24,7 @@ const WhereWeWorkSlideOne = () => {
                   </div>
                   <div className={WhereWeWorkSlideOneStyle.nonSelect}>
                     <a href="/Jact" style={{ textDecoration: "none" }}>
-                    BANJOSA VALLEY PUBLIC SCHOOL
+                      BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
                   <div className={WhereWeWorkSlideOneStyle.nonSelect}>
@@ -33,7 +33,7 @@ const WhereWeWorkSlideOne = () => {
                     </a>
                   </div>
                   <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
-                      JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
+                    JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                   </div>
                 </div>
               </div>

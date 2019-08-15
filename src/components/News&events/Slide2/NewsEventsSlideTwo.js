@@ -12,10 +12,11 @@ const NewsEventsSlideTwo = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-3">
+                {/* /////////////////////////////// */}
                 <div className={NewsEventsSlideTwoStyle.postOne}>
                   {/* todo Image section */}
                   <div className={NewsEventsSlideTwoStyle.btnStyle}>
-                    READ MORE
+                    NEWS POST
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
@@ -31,12 +32,14 @@ const NewsEventsSlideTwo = () => {
                     </p>
                   </div>
                 </div>
+                {/* /////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-3">
+                {/* ///////////////////////// */}
                 <div className={NewsEventsSlideTwoStyle.postTwo}>
                   {/* todo Image section */}
                   <div className={NewsEventsSlideTwoStyle.btnStyle}>
-                    READ MORE
+                    NEWS POST
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
@@ -53,8 +56,10 @@ const NewsEventsSlideTwo = () => {
                     </p>
                   </div>
                 </div>
+                {/* //////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-6">
+                {/* /////////////////////// */}
                 <div className={NewsEventsSlideTwoStyle.postThree}>
                   <div
                     className={
@@ -69,7 +74,7 @@ const NewsEventsSlideTwo = () => {
                     </p>
                   </div>
                   <div className={NewsEventsSlideTwoStyle.btnStyleSlideThree}>
-                    READ MORE
+                    EVENT
                   </div>
                   {/* todo Image section */}
                   <img
@@ -77,36 +82,49 @@ const NewsEventsSlideTwo = () => {
                     src={postImage}
                   ></img>
                 </div>
+                {/* /////////////////////// */}
               </div>
             </div>
+            {/* //////////////////////////////////////////////////////////// */}
+            {/* //////////////////////////////////////////////////////////// */}
+            {/* //////////////////////////////////////////////////////////// */}
+            {/* //////////////////////////////////////////////////////////// */}
+            {/* //////////////////////////////////////////////////////////// */}
 
+            <br />
             <div className="row">
-              <div className="col-sm-12 col-md-3">
-                <div className={NewsEventsSlideTwoStyle.postOne}>
-                  {/* todo Image section */}
-                  <div className={NewsEventsSlideTwoStyle.btnStyle}>
-                    READ MORE
-                  </div>
-                  <img
-                    className={NewsEventsSlideTwoStyle.socialIcons}
-                    src={postImage}
-                  ></img>
-                  <div className={NewsEventsSlideTwoStyle.containerCardText}>
+              <div className="col-sm-12 col-md-6">
+                {/* ///////////////////////////////// */}
+                <div className={NewsEventsSlideTwoStyle.postThree}>
+                  <div
+                    className={
+                      NewsEventsSlideTwoStyle.containerCardTextPostThree
+                    }
+                  >
                     <p className={NewsEventsSlideTwoStyle.titleNews}>
-                      Tree planting initiative in Pearl Valley Public School,
-                      Rawalkot.
+                      Donation by Acklam Grange School
                     </p>
                     <p className={NewsEventsSlideTwoStyle.linkNews}>
-                      Read this post
+                      Find out more about this event
                     </p>
                   </div>
+                  <div className={NewsEventsSlideTwoStyle.btnStyleSlideThree}>
+                    2018
+                  </div>
+                  {/* todo Image section */}
+                  <img
+                    className={NewsEventsSlideTwoStyle.cardLlandImage}
+                    src={postImage}
+                  ></img>
                 </div>
+                {/* ///////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-3">
+                {/* //////////////////////////////// */}
                 <div className={NewsEventsSlideTwoStyle.postTwo}>
                   {/* todo Image section */}
                   <div className={NewsEventsSlideTwoStyle.btnStyle}>
-                    READ MORE
+                    NEWS POST
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
@@ -116,37 +134,38 @@ const NewsEventsSlideTwo = () => {
                     className={NewsEventsSlideTwoStyle.containerCardTextPostTwo}
                   >
                     <p className={NewsEventsSlideTwoStyle.titleNews}>
-                      Banjosa Valley Public School
+                      KEF UK Annual Fund Raising Dinner
                     </p>
-                    <p className={NewsEventsSlideTwoStyle.linkNewspostTwo}>
+                    <p
+                      className={NewsEventsSlideTwoStyle.linkNewspostTwoSlide2}
+                    >
                       Read this post
                     </p>
                   </div>
                 </div>
+                {/* ////////////////////////////////// */}
               </div>
-              <div className="col-sm-12 col-md-6">
-                <div className={NewsEventsSlideTwoStyle.postThree}>
-                  <div
-                    className={
-                      NewsEventsSlideTwoStyle.containerCardTextPostThree
-                    }
-                  >
-                    <p className={NewsEventsSlideTwoStyle.titleNews}>
-                      Tree planting initiative in Green Fields Park
-                    </p>
-                    <p className={NewsEventsSlideTwoStyle.linkNews}>
-                      Find out more about this event
-                    </p>
-                  </div>
-                  <div className={NewsEventsSlideTwoStyle.btnStyleSlideThree}>
-                    READ MORE
-                  </div>
+              <div className="col-sm-12 col-md-3">
+                {/* /////////////////////// */}
+                <div className={NewsEventsSlideTwoStyle.postOne}>
                   {/* todo Image section */}
+                  <div className={NewsEventsSlideTwoStyle.btnStyle}>
+                    NEWS POST
+                  </div>
                   <img
-                    className={NewsEventsSlideTwoStyle.cardLlandImage}
+                    className={NewsEventsSlideTwoStyle.socialIcons}
                     src={postImage}
                   ></img>
+                  <div className={NewsEventsSlideTwoStyle.containerCardText}>
+                    <p className={NewsEventsSlideTwoStyle.titleNews}>
+                      KEF's students visit Aeronotical Complex, Kamra.
+                    </p>
+                    <p className={NewsEventsSlideTwoStyle.linkNews}>
+                      Read this post
+                    </p>
+                  </div>
                 </div>
+                {/* /////////////////////// */}
               </div>
             </div>
           </div>

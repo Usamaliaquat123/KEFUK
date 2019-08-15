@@ -9,7 +9,7 @@
     
 .containerView{
     width: 100%;
-    height: 600px;
+    height: auto;
     background: #ECF5FA;
 }
   
@@ -29,6 +29,9 @@
 }
 .containerCardText{
     padding: 1% 10%;
+}
+.linkNewspostTwoSlide2{
+    font-size: 9px;
 }
 .containerCardTextPostThree{
     /* padding: 10% 10%; */

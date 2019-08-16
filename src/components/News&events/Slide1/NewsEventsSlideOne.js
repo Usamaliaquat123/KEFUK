@@ -88,7 +88,7 @@ const NewsEventsSlideOne = () => {
               <div className="col-sm-12 col-md-6">
                 <img
                   width={341}
-                  height={242}
+                  height={225}
                   className={NewsEventsSlideOneStyle.tharkis}
                   src={bachi}
                 ></img>

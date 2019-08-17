@@ -9,12 +9,12 @@ const TeachersSlideOne = () => {
     <div className={TeachersSlideOneStyle.containerSLideOne}>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-4">
             <div className={TeachersSlideOneStyle.ImageContainer}>
               <img className={TeachersSlideOneStyle.bachiImg} src={bachi}></img>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-8">
             <div className={TeachersSlideOneStyle.containerTextSTyle}>
               <div className={TeachersSlideOneStyle.btnWhatweDO}>
                 WHAT WE DO

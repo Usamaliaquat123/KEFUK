@@ -20,7 +20,7 @@
         /* padding-bottom: 4%; */
     }
     .ImageContainer{
-        margin-left: -3%;
+        margin-left: -4%;
     }
     .ImageContainer{
         width: 100%;
@@ -44,8 +44,9 @@
         padding: 10px 15px;
     }
     .containerTextSTyle{
-         margin-left: 10%;
+        margin-left: 10%;
         padding-top: 3%;
+        padding-right: 11%;
         /* padding-right: 18%; */ 
         
     }

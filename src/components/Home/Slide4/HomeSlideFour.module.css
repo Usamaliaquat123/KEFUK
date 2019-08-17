@@ -12,12 +12,13 @@
 .containerSlide{
     background: #FF7277;
     min-height: 100%;
-    height: auto;
+    /* height: auto; */
     width: 100%;
+    padding-bottom: 11%;
     padding-top: 3%;
 }
 .secondLayerContainer{
-    width: 80%;
+    width: 100%;
     /* position: absolute; */
     background: #FF8E92;
     /* margin-top: 100px; */
@@ -26,9 +27,9 @@
 
 
 .imageLayer{
-    /* position: absolute; */
-    /* margin-left: 55%; */
-    margin-top: -11%;
+    margin-left: 12%;
+    margin-top: -13%;
+    position: absolute;
 }
 .buttonWhatWeDo{
     padding: 10px 10px;
@@ -63,13 +64,14 @@
     padding: 10px 10px;
     font-size: 10px;
     color: #fff;
+    position: absolute;
+    margin-top: 8%;
     width: 113px;
     background: #414865;
     height: 35px;
     border-radius: 90px;
     text-align: center;
     margin-left: 8%;
-    margin-top: 3%;
 
 }
 

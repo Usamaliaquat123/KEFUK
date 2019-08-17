@@ -8,16 +8,16 @@
     position: fixed
 } */
 .containerNav{
-	position: fixed;
+	/* position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1; */
 }
 nav ul{
 	background-color: #fff;
 	color: black;
-	padding: 7px;
 	padding: 0;
 	margin: 0;
+	padding: 9px;
 	text-align: center;
     /* position: fixed; */
 	transition: max-height 0.4s;

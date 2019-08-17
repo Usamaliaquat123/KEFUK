@@ -14,10 +14,10 @@ const HomeSlideThird = () => {
       <div className={HomeSlideThirdStyle.buttonWhatWeDo}>
         <p>WHAT WE DO</p>
       </div>
+      <div className={HomeSlideThirdStyle.secondLayerContainer}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
-            <div className={HomeSlideThirdStyle.secondLayerContainer}>
               <div className={HomeSlideThirdStyle.containerTextInner}>
                 <p className={HomeSlideThirdStyle.headingText}>
                   Promoting 21st Century Quality Education in Kashmir & Pakistan
@@ -38,15 +38,13 @@ const HomeSlideThird = () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div>
           <div className="col-md-6">
             <div className={HomeSlideThirdStyle.circleLayer}>
               <div className={HomeSlideThirdStyle.imageLayer}>
                 <img
                   src={bachiWatching}
-                  class="img-fluid"
-                  width={480}
+                  width={580}
                   height={480}
                 ></img>
               </div>
@@ -54,6 +52,10 @@ const HomeSlideThird = () => {
           </div>
         </div>
       </div>
+      
+      
+      </div>
+    
 
       <div className={HomeSlideThirdStyle.containerSecondImage}></div>
     </div>

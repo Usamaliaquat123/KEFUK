@@ -22,7 +22,7 @@ const HomeSlide = () => {
         backgroundAttachment: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: `500`,
+        minHeight: `auto`,
       }}
       className={HomeSlideStyle.backgroundHeight}
     >

@@ -17,13 +17,14 @@ nav ul{
 	color: black;
 	padding: 0;
 	margin: 0;
-	padding: 5px;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
 	text-align: center;
     /* position: fixed; */
 	transition: max-height 0.4s;
 }
 nav ul li{
-    font-size: 10px;
+    font-size: 0.9vw;
     font-family: 'Harabara Bold';
     display: inline-block;
     padding: 0px 10px;

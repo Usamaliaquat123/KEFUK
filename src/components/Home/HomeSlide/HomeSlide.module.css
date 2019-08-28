@@ -50,11 +50,11 @@
     text-align: center;
 }
 .socialMediaTab{margin-top: 15.8%;
-    margin-left: -2%;
+    margin-left: 14.5%;
     background-color: #404864;
     padding: 6px 2px;
     width: 22%;
-    height: 37px;
+    height: auto;
     float: left;
 }
 .textBottomTab{margin-top: 15%;

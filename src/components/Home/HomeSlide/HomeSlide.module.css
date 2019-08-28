@@ -4,17 +4,23 @@
     src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
     
 
+    @font-face {
+        font-family: "Harabara Black";
+        src: url("./../../../fonts/Lato2OFL/Lato-Black.ttf");}
+        
+    
 .mainContainerHeadingText{
     padding-top: 10%;
     margin-left: 5%;
 }
 .mainContainerHeadingText  > p {
-    font-family: 'Harabara Bold';
+    font-family: 'Harabara Black';
     font-size: 22px;
 }
 .backgroundText{
     background: white;
     padding: 5px;
+    font-size: 1.8vw;
 }
 
 .actNoeBtn {
@@ -22,15 +28,15 @@
     width: 140px;
     /* margin-left: 80%; */
     position: absolute;
+    height: 5%;
     /* right: 0; */
-    height: 7%;
 }
 .actNoeBtn > p {
-    font-family: 'Harabara Bold';
+    font-family: 'Harabara Black';
     color: aliceblue;
-    font-size: 12px;
+    font-size: 0.8vw;
     text-align: center;
-    padding: 10% 0;
+    padding: 9% 0;
 }
 .socialIcons{
     margin-right: 3px;
@@ -41,8 +47,7 @@
     float: left;
     color: aliceblue;
     margin: 5px;    
-    margin-left: 6%;
-    margin-right: 5%;
+    text-align: center;
 }
 .socialMediaTab{margin-top: 15.8%;
     margin-left: -2%;
@@ -61,7 +66,7 @@
     text-align: center;
     padding-bottom: 20px;
     font-size: 1.2vw;
-    font-family: 'Harabara Bold'
+    font-family: 'Harabara Black'
 }
 .yellowIndicator{
     margin: auto;

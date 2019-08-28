@@ -44,8 +44,7 @@
     margin-left: 6%;
     margin-right: 5%;
 }
-.socialMediaTab{
-    margin-top: 202px;
+.socialMediaTab{margin-top: 15.8%;
     margin-left: -2%;
     background-color: #404864;
     padding: 6px 2px;
@@ -53,8 +52,7 @@
     height: 37px;
     float: left;
 }
-.textBottomTab{
-    margin-top: 200px;
+.textBottomTab{margin-top: 15%;
     background-color: #FFFFFF;
     width: 20%;
     margin-left: 40%;
@@ -62,7 +60,7 @@
     /* padding: 20px 0px; */
     text-align: center;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 1.2vw;
     font-family: 'Harabara Bold'
 }
 .yellowIndicator{
@@ -75,7 +73,7 @@
 }
 .backgroundHeight{
     padding: 3% 0%;
-
+    padding-bottom: 0;
 }
 
 

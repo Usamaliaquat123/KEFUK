@@ -16,7 +16,6 @@ const Header = ({ siteTitle, siteSubTitle }) => (
           <p className={headerStyle.headerSubHeading}>{siteSubTitle}</p>
         </div>
         <div className="col-sm-4">
-        
           <div className={headerStyle.donatebtn}>
             <p>DONATE NOW</p>
           </div>

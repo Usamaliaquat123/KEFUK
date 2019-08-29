@@ -11,7 +11,7 @@ const HomeSlideSecond = () => {
   return (
     <div>
       <div className={HomeSlideSecondStyle.logImg}>
-        <img src={logoImg} class="img-fluid" width={320} height={320}></img>
+        <img src={logoImg} class="img-fluid"></img>
       </div>
       <div className={HomeSlideSecondStyle.DescriptionSlide}>
         <p>
@@ -51,12 +51,7 @@ const HomeSlideSecond = () => {
             </div>
             <div className="col-sm-12 col-md-4">
               <div className={HomeSlideSecondStyle.featureAllign}>
-                <img
-                  src={teacherLesson}
-                  class="img-fluid"
-                  width={140}
-                  height={140}
-                ></img>
+                <img src={teacherLesson} class="img-fluid"></img>
               </div>
               <p className={HomeSlideSecondStyle.teachersTrainedText}>
                 1250 teachers trained

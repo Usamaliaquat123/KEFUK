@@ -7,7 +7,7 @@
 .headContainer{
     background: white;
     margin: 0 auto;
-    height: 65px;
+    height: 76px;
     /* position: fixed; */
     border-bottom: 0.9px solid black;
     /* border: 1px solid black; */
@@ -21,7 +21,7 @@
 }
 .headerSubHeading{
     font-size: 12px;
-    padding-top: 5%;
+    padding-top: 5.3%;
     color: #EB5D5F;
     /* padding-bottom:7%; */
     /* margin-left: 20%; */
@@ -30,7 +30,9 @@
     right: 0;
     position: absolute;
 }
-
+.logoStyle > img {
+    margin-top: 10px;
+}
 .donatebtn {
     background : #EB5D5F;
     width: 140px;

@@ -48,10 +48,7 @@ const HomeSlide = () => {
 
         <div className={HomeSlideStyle.socialMediaTab}>
           <div className={HomeSlideStyle.followUsText}>FOLLOW US</div>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={facebook}
-          ></img>
+          <img className={HomeSlideStyle.socialIcons} src={facebook}></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={youtube}

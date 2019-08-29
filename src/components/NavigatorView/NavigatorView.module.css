@@ -27,6 +27,9 @@ nav ul{
     /* position: fixed; */
 	transition: max-height 0.4s;
 }
+.dropdownContent > a {
+	color: aliceblue;
+}
 nav ul li{
     font-size: 0.9vw;
     font-family: 'Harabara Bold';
@@ -39,16 +42,20 @@ nav ul li:hover{
     /* background-color: #ffffff */
     opacity: .5;
     text-decoration: none;
-    color: black;
+    /* color: aliceblue; */
 }
 a{
 	text-decoration: none;
 	color: inherit;
 }
 
-
+.dropdownContentSchools > a:hover {
+	color: aliceblue
+}
 /* After collapse */
-
+.dropdownContent > a:hover {
+	color: aliceblue;
+}
 .handle {
 	width: 100%;
 	background-color: #fff;

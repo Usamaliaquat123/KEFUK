@@ -16,11 +16,11 @@
     .containerSLideOne{
         background: #D1E5F3;
         width: 100%;
-        height: 550px;
+        height: 697px;
     }
     .ImageContainer{
-        width: 35%;
-        height: 550px;
+        width: 36%;
+        height: 697px;
         position: absolute;
         background: #4698D0;
         padding: 2%;
@@ -31,10 +31,11 @@
     }
     .btnWhatweDO{
         text-align: center;
-        font-size: 12px;
+        font-size: 0.6vw;
         font-family: 'lATO LIGHT';
         background: #ffffff;
         width: 150px;
+        font-weight: bold;
         margin-bottom: 3%;
         padding: 10px 15px;
     }
@@ -51,6 +52,7 @@
 
     }
     .descText{
-        font-size: 15px;
+        font-size: 1vw;
         font-family: 'lATO LIGHT';
+        font-weight: bold;
     }

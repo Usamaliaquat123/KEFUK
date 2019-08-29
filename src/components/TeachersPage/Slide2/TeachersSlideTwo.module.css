@@ -5,15 +5,14 @@
     
 
 .containerContent{
-   padding: 5% 15%;
+    padding: 6% 15%;
 }
 .btnOurImpact{
     border-radius: 12px;
     text-align: center;
     font-size: 12px;
-    font-weight: bold;
     padding: 10px 15px;
-    color: #4698D0;
+    color: black;
     background: #ffffff;
     width: 150px;
     margin: auto;

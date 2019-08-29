@@ -28,79 +28,71 @@ const Donation = () => {
       <div className="container-fluid">
         <di className="row">
           <div className="col-sm-6">
-            <div
-              className={donation.cardContainer}
-            >
+            <div className={donation.cardContainer}>
               <div style={{ fontSize: 15, fontWeight: "bold" }}>
                 {" "}
                 Choose a donation amount
               </div>
               <div style={{ marginTop: 15 }}>
-                {/* <div className={donation.paymentCardItem}> */}
-                  {/* <div className='row'> */}
-                  {/* <div style={{ float: "left" }}></div>
-                  <div style={{ float: "left" }}>
-                    <div className={donation.paymentCardItemMoney}>$10</div>
-                  </div>
-                  <div style={{ float: "left" }}>
-                    <div className={donation.paymentCardItemDText}>
-                      Make a difference by subsidizing the education of a child
-                    </div>
-                  </div> */}
-                  {/* </div> */}
-                {/* </div> */}
-                <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div  className={donation.paymentCardItemMoney} >
-                              £60
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
-                        </div>  
-                <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div className={donation.paymentCardItemMoney} >
-                                £25
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
+                <form action="#">
+                  <div className={donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input type="radio" id="test1" name="radio-group" />
+                        <label for="test1">Apple</label>
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£60</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input type="radio" id="test1" name="radio-group" />
+                        <label for="test1">Apple</label>
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£25</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div  className={donation.paymentCardItemMoney} >
-                              £60
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
-                        </div>  
+                  <div className={donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input
+                          type="radio"
+                          id="test1"
+                          name="radio-group"
+                          checked
+                        />
+                        <label for="test1">Apple</label>
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£60</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
               <div className={donation.enterCustomDonationText}>
                 <p>Enter a custom donation amount</p>

@@ -12,16 +12,19 @@
 .slideFiveContainer{
     width: 100%;
     /* height: 100px; */
-    padding: 3% 20%;
+    padding: 4% 20%;
+
 }
 
 .headingSlide > p {
     /* text-align: center; */
-    font-size: 18px;
+    font-size: 1.3vw;
+    font-weight: bold;
     font-family: 'Harabara Bold'
 }
 .slideFiveDescription{
-    font-size: 12px;
+    margin-top: -10%;
+    font-size: 0.9vw;
 }
 
 

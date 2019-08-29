@@ -22,7 +22,7 @@ const Donation = () => {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
-        minHeight: 650,
+        minHeight: 838,
       }}
     >
       <div className="container-fluid">
@@ -30,23 +30,15 @@ const Donation = () => {
           <div className="col-sm-6">
             <div
               className={donation.cardContainer}
-              style={{
-                background: `rgba(235, 93, 95, 0.8)`,
-                height: "auto",
-                width: 400,
-                padding: 40,
-                color: "aliceblue",
-                marginLeft: `12%`,
-              }}
             >
               <div style={{ fontSize: 15, fontWeight: "bold" }}>
                 {" "}
                 Choose a donation amount
               </div>
               <div style={{ marginTop: 15 }}>
-                <div className={donation.paymentCardItem}>
+                {/* <div className={donation.paymentCardItem}> */}
                   {/* <div className='row'> */}
-                  <div style={{ float: "left" }}></div>
+                  {/* <div style={{ float: "left" }}></div>
                   <div style={{ float: "left" }}>
                     <div className={donation.paymentCardItemMoney}>$10</div>
                   </div>
@@ -54,36 +46,17 @@ const Donation = () => {
                     <div className={donation.paymentCardItemDText}>
                       Make a difference by subsidizing the education of a child
                     </div>
-                  </div>
+                  </div> */}
                   {/* </div> */}
-                </div>
-
-                {/* <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div className={donation.paymentCardItemMoney} >
-                                $25
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
-                        </div> */}
-
-                {/* <div className={donation.paymentCardItem}>
+                {/* </div> */}
+                <div className={donation.paymentCardItem}>
                           <div className='row'>
                             <div className='col-sm-2'>
 
                             </div>
                             <div className='col-sm-3'>
                               <div  className={donation.paymentCardItemMoney} >
-                                $60
+                              £60
                               </div>
                             </div>
                             <div className='col-sm-7'>
@@ -92,7 +65,42 @@ const Donation = () => {
                             </div>  
                             </div>
                           </div>
-                        </div>   */}
+                        </div>  
+                <div className={donation.paymentCardItem}>
+                          <div className='row'>
+                            <div className='col-sm-2'>
+
+                            </div>
+                            <div className='col-sm-3'>
+                              <div className={donation.paymentCardItemMoney} >
+                                £25
+                              </div>
+                            </div>
+                            <div className='col-sm-7'>
+                            <div className={donation.paymentCardItemDText}>
+                                Make a difference by subsidizing the education of a child
+                            </div>  
+                            </div>
+                          </div>
+                        </div>
+
+                <div className={donation.paymentCardItem}>
+                          <div className='row'>
+                            <div className='col-sm-2'>
+
+                            </div>
+                            <div className='col-sm-3'>
+                              <div  className={donation.paymentCardItemMoney} >
+                              £60
+                              </div>
+                            </div>
+                            <div className='col-sm-7'>
+                            <div className={donation.paymentCardItemDText}>
+                                Make a difference by subsidizing the education of a child
+                            </div>  
+                            </div>
+                          </div>
+                        </div>  
               </div>
               <div className={donation.enterCustomDonationText}>
                 <p>Enter a custom donation amount</p>

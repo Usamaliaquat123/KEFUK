@@ -75,7 +75,7 @@ const BottomNav = () => {
                   }}
                   to="/"
                 >
-                  The issue
+                  What we do
                 </Link>
                 <br />
                 <Link
@@ -86,7 +86,7 @@ const BottomNav = () => {
                   }}
                   to=""
                 >
-                  How we help
+                  Where we work
                 </Link>
                 <br />
                 <Link
@@ -97,7 +97,7 @@ const BottomNav = () => {
                   }}
                   to=""
                 >
-                  Get involved{" "}
+                  Get Involved 
                 </Link>
                 <br />
                 <Link

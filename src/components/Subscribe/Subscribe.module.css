@@ -27,37 +27,34 @@
   margin-top: 4%;
   /* position: absolute; */
   border: none;
-  width: 70%;
+  width: 100%;
   border-radius: 35px;
   padding: 17px;
   padding-left: 20px;
   letter-spacing: 0.5;
-  font-size: 12px;
+  font-size: 0.9vw;
 }
 
 /* Subscribe btns */
 .subscribeBtn{
   float: right;
   /* margin-left: 20px; */
-  width: 30%;
+  width: 100%;
   text-align: center;
   /* display: flex; */
   align-items: center;
-  padding: 10px;
+  padding: 11px;;
   /* padding-left: 35px; */
   background: #03B9FE;
   border-radius: 30px;
-  font-size: 14px;
-  color: white
+  font-size: 0.8vw;
+  color: white;
+  margin-top: 16%;
 }
   /* Id 
   
   device width is 500 */
   @media screen and (max-width: 768px){
-    /* .socialMedia Tab{
-        display: none;
-        visibility: hidden;
-    } */  
     .textBottomTab{
         width: 50%;
         margin-left: 27%;

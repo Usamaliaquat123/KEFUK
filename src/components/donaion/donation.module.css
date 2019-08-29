@@ -108,6 +108,16 @@ padding-right: 53px;
 
 padding-left: 47px;
 }
+
+/* Selected payment cards */
+.selectedPaymentCardItem{
+    background: #4698D0;
+    padding: 25px 5px;
+    padding-right: 5px;
+    width: 100%;
+    border: 0.1px solid #5C5C5E;
+    padding-right: 18px;
+}
 .paymentCardItem {
     background: #ffffff;
     padding: 25px 5px;

@@ -3,27 +3,33 @@
   font-family: "Harabara Bold";
   src: url("./../../fonts/Lato2OFL/Lato-Heavy.ttf");}
   
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../fonts/Lato2OFL/Lato-Bold.ttf");}
+  
   .containerSTyle{
     background-position: fixed;
-    padding: 10%;
+    padding: 3.1%;
     /* display: flex; */
     /* align-items: center; */
     background: #EB5D5F;
     height: auto
   }
 .containerText{
-  font-size: 18px;
+  font-size: 1.2vw;
   color: white;
+  font-weight: bold;
   text-align: center;
 }
 .containerEmailInput {
   /* margin-right: 40px; */
   float: left;
+  margin-top: 4%;
   /* position: absolute; */
   border: none;
   width: 70%;
   border-radius: 35px;
-  padding: 10px;
+  padding: 17px;
   padding-left: 20px;
   letter-spacing: 0.5;
   font-size: 12px;
@@ -57,7 +63,9 @@
         margin-left: 27%;
     }
     .containerSTyle{
+      
       background-position: fixed;
+
       display: flex;
       align-items: center;
       background: #EB5D5F;

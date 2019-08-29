@@ -11,6 +11,7 @@ import HomeSlide from "../components/Home/HomeSlide/HomeSlide"
 import HomeSlideThird from "../components/Home/Slide3/HomeSlideThird"
 import HomeSlideFour from "../components/Home/Slide4/HomeSlideFour"
 import HomeSlideFive from "../components/Home/Slide5/HomeSlideFive"
+import BasicFeatures from "../components/basicFeatures/basicFeatures";
 
 export class Home extends Component {
   static propTypes = {}
@@ -33,6 +34,7 @@ export class Home extends Component {
           <HomeSlideFive />
           {/* <main>{children}</main> */}
           <Donation />
+          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

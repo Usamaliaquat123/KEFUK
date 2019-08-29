@@ -64,6 +64,8 @@ const BasicFeatures = () => {
           </div>
         </div>
       </div>
+
+      
       <div className={basicFeature.socialMediaTab}>
         <div className={basicFeature.followUsText}>FOLLOW US</div>
         <img

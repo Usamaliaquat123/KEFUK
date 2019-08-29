@@ -29,7 +29,8 @@
     background-color: #404864;
     padding: 6px 2px;
     width: 22%;
-    height: 37px;
+    height: 38px;
+    /* float: left; */
     /* float: left; */
 }
 .ke-over{
@@ -37,7 +38,7 @@
 }
 
 .cardHeading{
-    font-size: 17px;
+    font-size: 21px;
     opacity: .7;
     font-family: 'Harabara Bold';
     font-weight: bold
@@ -46,7 +47,7 @@
     font-family: 'Harabara Bold';
     text-align: center;
     border-radius: 30px;
-    font-size: 11px;
+    font-size: 15px;
     width: 120px;
     color: #fff;
     background-color: #03B9FE;
@@ -59,7 +60,7 @@
 }
 .containerDdesc{
     opacity: .7;
-    font-size: 11px
+    font-size: 16px;
 }
 .cardCcontainer{
     margin: 5%;
@@ -79,9 +80,9 @@
     margin-right: -50
 }
 .containerStyle{
-    padding: 120px;
+    padding: 487px;
      padding-top: 80px;
-     padding-bottom: 80px;
+     padding-bottom: 9.34%;
 }
 
 /* iF WIDTH  */

@@ -16,7 +16,7 @@ import HomeSlideSecond from "./Home/Slide2/HomeSlideSecond"
 import HomeSlideThird from "./Home/Slide3/HomeSlideThird"
 import HomeSlideFour from "./Home/Slide4/HomeSlideFour"
 import HomeSlideFive from "./Home/Slide5/HomeSlideFive"
-
+import Donation from "./donaion/donation";
 const Layout = ({ children }) => {
   return (
     <>
@@ -28,16 +28,16 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        <HomeSlide />
-        <HomeSlideSecond />
-        <HomeSlideThird />
-        <HomeSlideFour />
-        <HomeSlideFive />
-        <BasicFeatures />
-        {/* <main>{children}</main> */}
-        {/* <Donation /> */}
-        <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
-        <BottomNav />
+ <HomeSlide />
+          <HomeSlideSecond />
+          <HomeSlideThird />
+          <HomeSlideFour />
+          <HomeSlideFive />
+          {/* <main>{children}</main> */}
+          <Donation />
+          <BasicFeatures />
+          <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
+          <BottomNav />
 
         <footer>
           <hr />

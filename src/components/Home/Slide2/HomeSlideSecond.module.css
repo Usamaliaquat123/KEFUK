@@ -4,40 +4,54 @@
     src: url("./../../../fonts/Montserrat/Montserrat-Bold.ttf");}
     
 
+    @font-face {
+        font-family: "Lato Light";
+        src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");}
+        
+
 
     .logImg{
         margin-top: 2%;
-        padding: 0 36%;
+        padding: 0 42%;
+    }
+    .logImg > img {
+        width: 100%;
     }
 
     .DescriptionSlide{
-        margin: 0 30%;
+        margin: 0 32%;
     }
     .DescriptionSlide p {
-        font-family: 'Harabara Bold';
-        font-size: 15px;
+        font-family: 'Lato Light';
+        font-size: 1vw;
     }
 
     .featureAllign{
         padding: 0 30%;
     }
+    .featureAllign > img{
+        width: 100%;
+    }   
     .featureText{
         text-align: center;
-        font-family: 'Harabara Bold';
-        font-size: 14px;
+        font-family: 'Lato Light';
+        font-size: 1vw;
+        font-weight: bold;
 
     }
     .donationPolicyText{
         text-align: center;
-        font-family: 'Harabara Bold';
-        font-size: 14px;
+        font-family: 'Lato Light';
+        font-size: 1vw;
         margin-top: -10%;
+        font-weight: bold;
     }
     .teachersTrainedText{
         text-align: center;
-        font-family: 'Harabara Bold';
-        font-size: 14px;
+        font-family: 'Lato Light';
+        font-size: 1vw;
         margin-top: -2%;
+        font-weight: bold;
     }
     .containerFeatures{
         padding: 5% 20%;

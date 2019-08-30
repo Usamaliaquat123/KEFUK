@@ -22,7 +22,7 @@ const HomeSlide = () => {
         backgroundAttachment: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: `500`,
+        minHeight: `auto`,
       }}
       className={HomeSlideStyle.backgroundHeight}
     >
@@ -48,39 +48,26 @@ const HomeSlide = () => {
 
         <div className={HomeSlideStyle.socialMediaTab}>
           <div className={HomeSlideStyle.followUsText}>FOLLOW US</div>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={facebook}
-            width={25}
-            height={25}
-          ></img>
+          <img className={HomeSlideStyle.socialIcons} src={facebook}></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={youtube}
             class="img-fluid"
-            width={25}
-            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={instagram}
             class="img-fluid"
-            width={25}
-            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={wifi}
             class="img-fluid"
-            width={25}
-            height={25}
           ></img>
           <img
             className={HomeSlideStyle.socialIcons}
             src={twitter}
             class="img-fluid"
-            width={25}
-            height={25}
           ></img>
         </div>
         <div className={HomeSlideStyle.textBottomTab}>

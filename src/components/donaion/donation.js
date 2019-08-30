@@ -10,6 +10,26 @@ const Donation = () => {
   const [sponserChild, usesponserChild] = useState()
   const [sponserTeacher, usesponserTeacher] = useState()
 
+
+
+
+  function ChangeMode(val){
+    if(val == '£10'){
+      useeduChildDonate(true)
+      usesponserChild(false)
+      usesponserTeacher(false)
+    }else if(val == '£25'){
+      useeduChildDonate(false)
+      usesponserChild(true)
+      usesponserTeacher(false)
+    }else if(val == '£60'){
+      useeduChildDonate(false)
+      usesponserChild(false)
+      usesponserTeacher(true)
+    }
+  }
+
+
   return (
     <div
       style={{
@@ -22,77 +42,74 @@ const Donation = () => {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
-        minHeight: 650,
+        minHeight: 838,
       }}
     >
       <div className="container-fluid">
-        <di className="row">
+        <div className="row">
           <div className="col-sm-6">
-            <div
-              className={donation.cardContainer}
-              style={{
-                background: `rgba(235, 93, 95, 0.8)`,
-                height: "auto",
-                width: 400,
-                padding: 40,
-                color: "aliceblue",
-                marginLeft: `12%`,
-              }}
-            >
+            <div className={donation.cardContainer}>
               <div style={{ fontSize: 15, fontWeight: "bold" }}>
                 {" "}
                 Choose a donation amount
               </div>
               <div style={{ marginTop: 15 }}>
-                <div className={donation.paymentCardItem}>
-                  {/* <div className='row'> */}
-                  <div style={{ float: "left" }}></div>
-                  <div style={{ float: "left" }}>
-                    <div className={donation.paymentCardItemMoney}>$10</div>
-                  </div>
-                  <div style={{ float: "left" }}>
-                    <div className={donation.paymentCardItemDText}>
-                      Make a difference by subsidizing the education of a child
+                <form action="#">
+                  <div onClick={() => ChangeMode('£10')} className={eduChildDonate ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input type="radio" id="test1" name="radio-group" />
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£10</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  {/* </div> */}
-                </div>
+                  <div onClick={() => ChangeMode('£25')} className={usesponserChild ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input type="radio" id="test1" name="radio-group" />
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£25</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                {/* <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div className={donation.paymentCardItemMoney} >
-                                $25
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
-                        </div> */}
-
-                {/* <div className={donation.paymentCardItem}>
-                          <div className='row'>
-                            <div className='col-sm-2'>
-
-                            </div>
-                            <div className='col-sm-3'>
-                              <div  className={donation.paymentCardItemMoney} >
-                                $60
-                              </div>
-                            </div>
-                            <div className='col-sm-7'>
-                            <div className={donation.paymentCardItemDText}>
-                                Make a difference by subsidizing the education of a child
-                            </div>  
-                            </div>
-                          </div>
-                        </div>   */}
+                  <div onClick={() => ChangeMode('£60')} className={usesponserTeacher ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                    <div className="row">
+                      <div className="col-sm-2">
+                        <input
+                          type="radio"
+                          id="test1"
+                          name="radio-group"
+                          checked
+                        />
+                      </div>
+                      <div className="col-sm-3">
+                        <div className={donation.paymentCardItemMoney}>£60</div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className={donation.paymentCardItemDText}>
+                          Make a difference by subsidizing the education of a
+                          child
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
               <div className={donation.enterCustomDonationText}>
                 <p>Enter a custom donation amount</p>
@@ -121,7 +138,7 @@ const Donation = () => {
           </div>
           <div className="col-sm-4"></div>
           <div className="col-sm-2"></div>
-        </di>
+        </div>
       </div>
     </div>
   )

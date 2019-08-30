@@ -64,39 +64,65 @@ const BasicFeatures = () => {
           </div>
         </div>
       </div>
-      <div className={basicFeature.socialMediaTab}>
+
+      
+      {/* <div className={basicFeature.socialMediaTab}>
         <div className={basicFeature.followUsText}>FOLLOW US</div>
         <img
           className={basicFeature.socialIcons}
+          class='img-fluid'
           src={facebook}
-          width={25}
-          height={25}
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={youtube}
-          width={25}
-          height={25}
+          class='img-fluid'
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={instagram}
-          width={25}
-          height={25}
+          class='img-fluid'
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={wifi}
-          width={25}
-          height={25}
+          class='img-fluid'
         ></img>
         <img
           className={basicFeature.socialIcons}
           src={twitter}
-          width={25}
-          height={25}
+            class='img-fluid'
         ></img>
-      </div>
+      </div> */}
+
+
+
+
+      
+<div className={basicFeature.socialMediaTab}>
+          <div className={basicFeature.followUsText}>FOLLOW US</div>
+          <img className={basicFeature.socialIcons} src={facebook}></img>
+          <img
+            className={basicFeature.socialIcons}
+            src={youtube}
+            class="img-fluid"
+          ></img>
+          <img
+            className={basicFeature.socialIcons}
+            src={instagram}
+            class="img-fluid"
+          ></img>
+          <img
+            className={basicFeature.socialIcons}
+            src={wifi}
+            class="img-fluid"
+          ></img>
+          <img
+            className={basicFeature.socialIcons}
+            src={twitter}
+            class="img-fluid"
+          ></img>
+        </div>
     </div>
   )
 }

@@ -9,6 +9,35 @@
     src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
     
 .containerBody{
+    width: 100%;    
+}
+
+.containerStyle{
     width: 100%;
+}
+.containerLeft{
+    background: #ECF4FA;
+    width: 92%;
+    float: left;
+    height: 425px;
+    padding: 10%;
+    margin-left: -2%;
+}
+.title{
+
+}
+.subHeading{
+
+}
+.desc{
     
 }
+.triangleDiv {
+    width: 0;
+    height: 0;
+    margin-left: 90%;
+    border-top: 212px solid transparent;
+    border-left: 89px solid #ECF4FA;
+    border-bottom: 212px solid transparent;
+    z-index: -1;
+  }

@@ -31,7 +31,7 @@
     padding: 1% 10%;
 }
 .linkNewspostTwoSlide2{
-    font-size: 9px;
+    font-size: 0.9vw;
     text-decoration: underline;
 }
 .containerCardTextPostThree{
@@ -79,13 +79,14 @@
     font-family: 'lato Bold'
 }
 .linkNews{
-    font-size: 9px;
+    font-size: 0.9vw;
     text-decoration: underline;
 }
 .linkNewspostTwo{
-    font-size: 9px;
-    padding-top: 32%;
-    text-decoration: underline; 
+    font-size: 0.9vw;
+    position: absolute;
+    text-decoration: underline;
+    bottom: 0;
 }
 @media screen and (max-width: 577px){
     /* mobile code */

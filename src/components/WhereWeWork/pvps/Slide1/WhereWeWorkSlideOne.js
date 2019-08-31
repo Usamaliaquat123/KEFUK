@@ -21,7 +21,7 @@ const WhereWeWorkSlideOne = () => {
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
                   <div className={WhereWeWorkSlideOneStyle.nonSelect}>
-                    <a href="/Pvps" style={{ textDecoration: "none" }}>
+                    <a href="/Bvps" style={{ textDecoration: "none" }}>
                       BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
@@ -38,6 +38,7 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
+              <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
                 <img
                   // class='img-fluid'
                   // width={500}
@@ -45,6 +46,7 @@ const WhereWeWorkSlideOne = () => {
                   className={WhereWeWorkSlideOneStyle.bachiImg}
                   src={bachiBachaRun}
                 ></img>
+                </div>
               </div>
             </div>
           </div>

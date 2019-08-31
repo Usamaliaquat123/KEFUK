@@ -23,7 +23,7 @@ const WhereWeWorkSlideOne = () => {
                     </a>
                   </div>
                   <div className={WhereWeWorkSlideOneStyle.nonSelect}>
-                    <a href="/Jact" style={{ textDecoration: "none" }}>
+                    <a href="/Bvps" style={{ textDecoration: "none" }}>
                       BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
@@ -38,13 +38,14 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
+              <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
                 <img
                   // class='img-fluid'
                   // width={500}
-                  height={300}
                   className={WhereWeWorkSlideOneStyle.bachiImg}
                   src={bachiBachaRun}
                 ></img>
+                </div>
               </div>
             </div>
           </div>
@@ -68,8 +69,6 @@ const WhereWeWorkSlideOne = () => {
                   <img
                     src={ghar}
                     class="img-fluid"
-                    width={500}
-                    height={140}
                   ></img>
                 </div>
               </div>

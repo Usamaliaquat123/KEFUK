@@ -12,7 +12,7 @@ const WhereWeWorkSlideThree = () => {
             GET INVOLVED
           </p>
           <p className={WhereWeWorkSlideThreeStyle.Description}>
-            Sponser a child at any KEF's schools.
+            Sponser a child at Banjosa Valley Public School
           </p>
           <div className={WhereWeWorkSlideThreeStyle.btnStyle}>DONATE NOW</div>
         </div>

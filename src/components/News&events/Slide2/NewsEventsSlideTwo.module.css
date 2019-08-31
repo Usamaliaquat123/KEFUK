@@ -19,19 +19,20 @@
 /* Post sections */
 .postOne{
     background: #fff;
-    width:100%;
-    height:auto
+    width: 100%;
+    height: 100%;
 }
 .postTwo{
     background: #fff;
     width:100%;
-    height:auto
+    height: 100%;
 }
 .containerCardText{
     padding: 1% 10%;
 }
 .linkNewspostTwoSlide2{
     font-size: 9px;
+    text-decoration: underline;
 }
 .containerCardTextPostThree{
     /* padding: 10% 10%; */
@@ -62,28 +63,29 @@
     position: absolute;
     /* margin-top: 55%; */
     margin: 0px 15%;
-    margin-top: 54%;
+    margin-top: 66%;
 }
 .postThree{
     background: #fff;
-    width:100%;
-    height:auto
+    width: 100%;
+    height: 100%;
 }
 .cardLlandImage{
-    height: 174px;
     margin-bottom: 0%;
     width: 100%;
 }
 .titleNews{
-    font-size: 22px;
+    font-size: 1.5vw;
     font-family: 'lato Bold'
 }
 .linkNews{
     font-size: 9px;
+    text-decoration: underline;
 }
 .linkNewspostTwo{
     font-size: 9px;
     padding-top: 32%;
+    text-decoration: underline; 
 }
 @media screen and (max-width: 577px){
     /* mobile code */

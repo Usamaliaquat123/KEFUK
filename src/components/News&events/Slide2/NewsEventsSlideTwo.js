@@ -3,6 +3,13 @@ import PropTypes from "prop-types"
 import React, { useState } from "react"
 import NewsEventsSlideTwoStyle from "./NewsEventsSlideTwo.module.css"
 import postImage from "./../../../images/features/tharki_medal.png"
+// importing Posts
+import pstImg1 from "./../../../images/NewsandEvents/01.png";
+import pstImg2 from "./../../../images/NewsandEvents/02.png";
+import evntImg1 from "./../../../images/NewsandEvents/03.png";
+import evntImg2 from "./../../../images/NewsandEvents/04.png";
+import pstImg3 from "./../../../images/NewsandEvents/05.png";
+import pstImg4 from "./../../../images/NewsandEvents/06.png";
 import Typed from "react-typed"
 const NewsEventsSlideTwo = () => {
   return (
@@ -20,7 +27,7 @@ const NewsEventsSlideTwo = () => {
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
-                    src={postImage}
+                    src={pstImg1}
                   ></img>
                   <div className={NewsEventsSlideTwoStyle.containerCardText}>
                     <p className={NewsEventsSlideTwoStyle.titleNews}>
@@ -43,7 +50,7 @@ const NewsEventsSlideTwo = () => {
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
-                    src={postImage}
+                    src={pstImg2}
                   ></img>
                   <div
                     className={NewsEventsSlideTwoStyle.containerCardTextPostTwo}
@@ -79,7 +86,7 @@ const NewsEventsSlideTwo = () => {
                   {/* todo Image section */}
                   <img
                     className={NewsEventsSlideTwoStyle.cardLlandImage}
-                    src={postImage}
+                    src={evntImg1}
                   ></img>
                 </div>
                 {/* /////////////////////// */}
@@ -114,7 +121,7 @@ const NewsEventsSlideTwo = () => {
                   {/* todo Image section */}
                   <img
                     className={NewsEventsSlideTwoStyle.cardLlandImage}
-                    src={postImage}
+                    src={evntImg2}
                   ></img>
                 </div>
                 {/* ///////////////////////////////// */}
@@ -128,7 +135,7 @@ const NewsEventsSlideTwo = () => {
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
-                    src={postImage}
+                    src={pstImg3}
                   ></img>
                   <div
                     className={NewsEventsSlideTwoStyle.containerCardTextPostTwo}
@@ -154,7 +161,7 @@ const NewsEventsSlideTwo = () => {
                   </div>
                   <img
                     className={NewsEventsSlideTwoStyle.socialIcons}
-                    src={postImage}
+                    src={pstImg4}
                   ></img>
                   <div className={NewsEventsSlideTwoStyle.containerCardText}>
                     <p className={NewsEventsSlideTwoStyle.titleNews}>

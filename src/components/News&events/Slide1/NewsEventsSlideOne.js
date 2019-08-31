@@ -6,22 +6,17 @@ import twitter from "./../../../images/Home/Icons/twitter.png"
 import instagram from "./../../../images/Home/Icons/instagram.png"
 import wifi from "./../../../images/Home/Icons/wifi.png"
 import youtube from "./../../../images/Home/Icons/youtube.png"
-import bachi from "./../../../images/WhereWedo/jact2.png"
+import bachi from "./../../../images/NewsandEvents/1.png"
 const NewsEventsSlideOne = () => {
   return (
     <>
       <div className={NewsEventsSlideOneStyle.containerStyle}>
         <div className={NewsEventsSlideOneStyle.headingSocialMmediaIcons}>
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-4 col-md-4">
+        <div className={NewsEventsSlideOneStyle.allignSocialAndHeading}>
                 {/* Heading container  */}
                 <p className={NewsEventsSlideOneStyle.latestPostText}>
                   LATEST POST
                 </p>
-              </div>
-              <div className="col-sm-4 col-md-4"></div>
-              <div className="col-sm-4 col-md-4">
                 {/* Heading Icons */}
                 <div className={NewsEventsSlideOneStyle.containerIcons}>
                   <p className={NewsEventsSlideOneStyle.followUsText}>
@@ -30,44 +25,38 @@ const NewsEventsSlideOne = () => {
                   <img
                     className={NewsEventsSlideOneStyle.socialIcons}
                     src={facebook}
-                    width={25}
-                    height={25}
+                    class="img-fluid"
                   ></img>
                   <img
                     className={NewsEventsSlideOneStyle.socialIcons}
                     src={youtube}
                     class="img-fluid"
-                    width={25}
-                    height={25}
+              
                   ></img>
                   <img
                     className={NewsEventsSlideOneStyle.socialIcons}
                     src={instagram}
                     class="img-fluid"
-                    width={25}
-                    height={25}
+                  
                   ></img>
                   <img
                     className={NewsEventsSlideOneStyle.socialIcons}
                     src={wifi}
                     class="img-fluid"
-                    width={25}
-                    height={25}
+                  
                   ></img>
                   <img
                     className={NewsEventsSlideOneStyle.socialIcons}
                     src={twitter}
                     class="img-fluid"
-                    width={25}
-                    height={25}
+                  
                   ></img>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
+        </div>
+       
         <div className={NewsEventsSlideOneStyle.containerContent}>
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-6">
                 <div className={NewsEventsSlideOneStyle.containerContentLeft}>
@@ -86,12 +75,14 @@ const NewsEventsSlideOne = () => {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6">
+                <div className={NewsEventsSlideOneStyle.imageContainer}>
                 <img
-                  width={341}
-                  height={225}
+              
                   className={NewsEventsSlideOneStyle.tharkis}
                   src={bachi}
                 ></img>
+
+                </div>
               </div>
             </div>
           </div>

@@ -9,14 +9,14 @@
 
 .containerSlide{
     width: 100%;
-    height: 286px;
+    height: auto;
 }
 .containerText{
     padding: 5% 10%;
 }
 .conbtainer{
 
-    padding:0 16%; 
+    padding: 0 14.5%;
     padding-left: 3%;
 }
 .workbtn{
@@ -43,7 +43,12 @@
 }
 
 
-
+.firstSlideImage > img{
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    height: auto;
+}
 
 @font-face {
     font-family: "lato Regular";
@@ -56,53 +61,52 @@
     
 .containerStyle{
     width: 100%;
-    height:469px;
     padding: 0 13%;
+    height: auto;
     /* padding-right: %; */
 }
-
+.slideRightImage > img {
+    width: 100%;
+    margin-bottom: auto;
+}
 .slideTextLeft {
     /* left: 0; */
     width: 100%; 
-    height: 469px;
-    background: #38B4AA;
+    height: 100%;
+    background: #EB5E60;
 }
 .slideDescLeft{
-   
+    margin-bottom: 18%;
     padding: 0 10%;
     padding-right: 37%;
     padding-top: 12%;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 1.3vw;
     font-family: 'lato Regular';
 }
-.nonSelect:hover {
-    cursor: pointer;
-}
-.containerDescSl:hover {
-    cursor: pointer;
-}
+
 
 .slideRightContainer{
-    background: #EBF7F6;
+    background: #FDEFEF;
     /* position: absolute; */
     margin-left: -30px;
+    height: auto;
     width: 100%;
-    height: 469px;
     /* right: 0;    */
 }
 .textContainer{
-    padding: 15% 10%;
+    padding: 15% 11%;
+    padding-bottom: 53.5%;
 
 }
 .headingSlideText{
-    font-size: 24px;
+    font-size: 2vw;
     text-align: center;
     font-family: 'lato High';
     opacity: .5;
 }
 .DescStyleRight{
-    font-size: 14px;
+    font-size: 1vw;
     font-family: 'lato Regular'
 }
 
@@ -116,7 +120,7 @@
     margin-left: 25%;
     /* font-weight: bold; */
     margin-bottom: 3%;
-    font-size: 10px;
+    font-size: 18px;
     font-family: "lato Regular";
 }
 .nonSelect{
@@ -129,10 +133,9 @@
     /* font-weight: bold; */
     margin-left: 25%;
     margin-bottom: 3%;
-    font-size: 10px;
+    font-size: 19px;
     font-family: "lato Regular";    
 }
-
 a:hover{
     text-decoration: none;
     color: black;
@@ -143,6 +146,8 @@ a:hover{
 .containerDescSl:hover {
     cursor: pointer;
 }
+
+
 @media screen and (max-width: 768px){
     .workbtn{
         margin: auto;
@@ -168,6 +173,7 @@ a:hover{
         /* margin: 10% 10%; */
     }
     .slideDescLeft{
+        
            
     padding: 10% 10%;
     text-align: center;

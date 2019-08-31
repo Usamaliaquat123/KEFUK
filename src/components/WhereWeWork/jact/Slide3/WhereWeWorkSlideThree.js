@@ -12,7 +12,7 @@ const WhereWeWorkSlideThree = () => {
             GET INVOLVED
           </p>
           <p className={WhereWeWorkSlideThreeStyle.Description}>
-            Sponser a child at any KEF's schools.
+          Support a teacher at Joan Atkinson College of Teacher Education
           </p>
           <div className={WhereWeWorkSlideThreeStyle.btnStyle}>DONATE NOW</div>
         </div>

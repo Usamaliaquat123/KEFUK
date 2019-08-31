@@ -73,14 +73,14 @@
     /* left: 0; */
     width: 100%; 
     height: 100%;
-    background: #EB5E60;
+    background: #4698D0;
 }
 .slideDescLeft{
     margin-bottom: 18%;
     padding: 0 10%;
     padding-right: 37%;
     padding-top: 12%;
-    color: #ffffff;
+    color: #ECF4FA;
     font-size: 1.3vw;
     font-family: 'lato Regular';
 }

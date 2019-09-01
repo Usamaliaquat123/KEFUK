@@ -12,49 +12,43 @@ const NewsEventsSlideOne = () => {
     <>
       <div className={NewsEventsSlideOneStyle.containerStyle}>
         <div className={NewsEventsSlideOneStyle.headingSocialMmediaIcons}>
-        <div className={NewsEventsSlideOneStyle.allignSocialAndHeading}>
-                {/* Heading container  */}
-                <p className={NewsEventsSlideOneStyle.latestPostText}>
-                  LATEST POST
-                </p>
-                {/* Heading Icons */}
-                <div className={NewsEventsSlideOneStyle.containerIcons}>
-                  <p className={NewsEventsSlideOneStyle.followUsText}>
-                    FOLLOW US
-                  </p>
-                  <img
-                    className={NewsEventsSlideOneStyle.socialIcons}
-                    src={facebook}
-                    class="img-fluid"
-                  ></img>
-                  <img
-                    className={NewsEventsSlideOneStyle.socialIcons}
-                    src={youtube}
-                    class="img-fluid"
-              
-                  ></img>
-                  <img
-                    className={NewsEventsSlideOneStyle.socialIcons}
-                    src={instagram}
-                    class="img-fluid"
-                  
-                  ></img>
-                  <img
-                    className={NewsEventsSlideOneStyle.socialIcons}
-                    src={wifi}
-                    class="img-fluid"
-                  
-                  ></img>
-                  <img
-                    className={NewsEventsSlideOneStyle.socialIcons}
-                    src={twitter}
-                    class="img-fluid"
-                  
-                  ></img>
+          <div className={NewsEventsSlideOneStyle.allignSocialAndHeading}>
+            {/* Heading container  */}
+            <p className={NewsEventsSlideOneStyle.latestPostText}>
+              LATEST POST
+            </p>
+            {/* Heading Icons */}
+            <div className={NewsEventsSlideOneStyle.containerIcons}>
+              <p className={NewsEventsSlideOneStyle.followUsText}>FOLLOW US</p>
+              <img
+                className={NewsEventsSlideOneStyle.socialIcons}
+                src={facebook}
+                class="img-fluid"
+              ></img>
+              <img
+                className={NewsEventsSlideOneStyle.socialIcons}
+                src={youtube}
+                class="img-fluid"
+              ></img>
+              <img
+                className={NewsEventsSlideOneStyle.socialIcons}
+                src={instagram}
+                class="img-fluid"
+              ></img>
+              <img
+                className={NewsEventsSlideOneStyle.socialIcons}
+                src={wifi}
+                class="img-fluid"
+              ></img>
+              <img
+                className={NewsEventsSlideOneStyle.socialIcons}
+                src={twitter}
+                class="img-fluid"
+              ></img>
+            </div>
           </div>
         </div>
-        </div>
-       
+
         <div className={NewsEventsSlideOneStyle.containerContent}>
           <div className="container-fluid">
             <div className="row">
@@ -76,12 +70,10 @@ const NewsEventsSlideOne = () => {
               </div>
               <div className="col-sm-12 col-md-6">
                 <div className={NewsEventsSlideOneStyle.imageContainer}>
-                <img
-              
-                  className={NewsEventsSlideOneStyle.tharkis}
-                  src={bachi}
-                ></img>
-
+                  <img
+                    className={NewsEventsSlideOneStyle.tharkis}
+                    src={bachi}
+                  ></img>
                 </div>
               </div>
             </div>

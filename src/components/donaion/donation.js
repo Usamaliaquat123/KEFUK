@@ -10,25 +10,21 @@ const Donation = () => {
   const [sponserChild, usesponserChild] = useState()
   const [sponserTeacher, usesponserTeacher] = useState()
 
-
-
-
-  function ChangeMode(val){
-    if(val == '£10'){
+  function ChangeMode(val) {
+    if (val == "£10") {
       useeduChildDonate(true)
       usesponserChild(false)
       usesponserTeacher(false)
-    }else if(val == '£25'){
+    } else if (val == "£25") {
       useeduChildDonate(false)
       usesponserChild(true)
       usesponserTeacher(false)
-    }else if(val == '£60'){
+    } else if (val == "£60") {
       useeduChildDonate(false)
       usesponserChild(false)
       usesponserTeacher(true)
     }
   }
-
 
   return (
     <div
@@ -55,7 +51,14 @@ const Donation = () => {
               </div>
               <div style={{ marginTop: 15 }}>
                 <form action="#">
-                  <div onClick={() => ChangeMode('£10')} className={eduChildDonate ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                  <div
+                    onClick={() => ChangeMode("£10")}
+                    className={
+                      eduChildDonate
+                        ? donation.selectedPaymentCardItem
+                        : donation.paymentCardItem
+                    }
+                  >
                     <div className="row">
                       <div className="col-sm-2">
                         <input type="radio" id="test1" name="radio-group" />
@@ -71,7 +74,14 @@ const Donation = () => {
                       </div>
                     </div>
                   </div>
-                  <div onClick={() => ChangeMode('£25')} className={usesponserChild ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                  <div
+                    onClick={() => ChangeMode("£25")}
+                    className={
+                      usesponserChild
+                        ? donation.selectedPaymentCardItem
+                        : donation.paymentCardItem
+                    }
+                  >
                     <div className="row">
                       <div className="col-sm-2">
                         <input type="radio" id="test1" name="radio-group" />
@@ -88,7 +98,14 @@ const Donation = () => {
                     </div>
                   </div>
 
-                  <div onClick={() => ChangeMode('£60')} className={usesponserTeacher ? donation.selectedPaymentCardItem : donation.paymentCardItem}>
+                  <div
+                    onClick={() => ChangeMode("£60")}
+                    className={
+                      usesponserTeacher
+                        ? donation.selectedPaymentCardItem
+                        : donation.paymentCardItem
+                    }
+                  >
                     <div className="row">
                       <div className="col-sm-2">
                         <input

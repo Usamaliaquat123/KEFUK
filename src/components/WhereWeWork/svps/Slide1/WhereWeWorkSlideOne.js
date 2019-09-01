@@ -38,14 +38,14 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
-              <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
-                <img
-                  // class='img-fluid'
-                  // width={500}
-                  height={300}
-                  className={WhereWeWorkSlideOneStyle.bachiImg}
-                  src={bachiBachaRun}
-                ></img>
+                <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
+                  <img
+                    // class='img-fluid'
+                    // width={500}
+                    height={300}
+                    className={WhereWeWorkSlideOneStyle.bachiImg}
+                    src={bachiBachaRun}
+                  ></img>
                 </div>
               </div>
             </div>

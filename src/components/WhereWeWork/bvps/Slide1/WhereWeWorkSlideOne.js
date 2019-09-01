@@ -39,10 +39,10 @@ const WhereWeWorkSlideOne = () => {
               </div>
               <div className="col-md-6">
                 <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
-                <img
-                  className={WhereWeWorkSlideOneStyle.bachiImg}
-                  src={bachiBachaRun}
-                ></img>
+                  <img
+                    className={WhereWeWorkSlideOneStyle.bachiImg}
+                    src={bachiBachaRun}
+                  ></img>
                 </div>
                 {/* <div className={WhereWeWorkSlideOneStyle.total}>
                 <img
@@ -70,11 +70,7 @@ const WhereWeWorkSlideOne = () => {
                   <br />- Nelson Mandela
                 </p>
                 <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
-                  <img
-                    src={ghar}
-                    class="img-fluid"
-                   
-                  ></img>
+                  <img src={ghar} class="img-fluid"></img>
                 </div>
               </div>
             </div>

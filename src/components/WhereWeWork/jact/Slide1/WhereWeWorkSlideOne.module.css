@@ -120,7 +120,7 @@
     margin-left: 25%;
     /* font-weight: bold; */
     margin-bottom: 3%;
-    font-size: 18px;
+    font-size: 1vw;
     font-family: "lato Regular";
 }
 .nonSelect{
@@ -133,8 +133,8 @@
     /* font-weight: bold; */
     margin-left: 25%;
     margin-bottom: 3%;
-    font-size: 19px;
-    font-family: "lato Regular";    
+    font-size: 1vw;
+    font-family: "lato Regular";      
 }
 a:hover{
     text-decoration: none;

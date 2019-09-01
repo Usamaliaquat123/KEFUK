@@ -6,8 +6,7 @@ import ghar from "./../../../images/WhereWedo/ghar.png"
 import GetInvolvedStyle from "./GetInvolvedThree.module.css"
 import Typed from "react-typed"
 const GetInvolvedThree = () => {
-  return <>
-  </>
+  return <></>
 }
 
 export default GetInvolvedThree

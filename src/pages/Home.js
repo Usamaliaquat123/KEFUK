@@ -11,7 +11,7 @@ import HomeSlide from "../components/Home/HomeSlide/HomeSlide"
 import HomeSlideThird from "../components/Home/Slide3/HomeSlideThird"
 import HomeSlideFour from "../components/Home/Slide4/HomeSlideFour"
 import HomeSlideFive from "../components/Home/Slide5/HomeSlideFive"
-import BasicFeatures from "../components/basicFeatures/basicFeatures";
+import BasicFeatures from "../components/basicFeatures/basicFeatures"
 
 export class Home extends Component {
   static propTypes = {}

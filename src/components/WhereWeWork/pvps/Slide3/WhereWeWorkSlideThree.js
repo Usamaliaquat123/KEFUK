@@ -12,7 +12,7 @@ const WhereWeWorkSlideThree = () => {
             GET INVOLVED
           </p>
           <p className={WhereWeWorkSlideThreeStyle.Description}>
-          Sponsor a child at Pearl Valley Public School
+            Sponsor a child at Pearl Valley Public School
           </p>
           <div className={WhereWeWorkSlideThreeStyle.btnStyle}>DONATE NOW</div>
         </div>

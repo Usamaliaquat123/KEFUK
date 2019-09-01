@@ -38,13 +38,13 @@ const WhereWeWorkSlideOne = () => {
                 </div>
               </div>
               <div className="col-md-6">
-              <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
-                <img
-                  // class='img-fluid'
-                  // width={500}
-                  className={WhereWeWorkSlideOneStyle.bachiImg}
-                  src={bachiBachaRun}
-                ></img>
+                <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
+                  <img
+                    // class='img-fluid'
+                    // width={500}
+                    className={WhereWeWorkSlideOneStyle.bachiImg}
+                    src={bachiBachaRun}
+                  ></img>
                 </div>
               </div>
             </div>
@@ -66,10 +66,7 @@ const WhereWeWorkSlideOne = () => {
                   <br />- Muhammad Ali Jinnah
                 </p>
                 <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
-                  <img
-                    src={ghar}
-                    class="img-fluid"
-                  ></img>
+                  <img src={ghar} class="img-fluid"></img>
                 </div>
               </div>
             </div>

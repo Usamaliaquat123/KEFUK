@@ -1,28 +1,31 @@
 import React, { Component } from "react"
 import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
+import BasicFeatures from "../components/basicFeatures/basicFeatures"
+
 import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/bottomNav"
-import GetInvolvedOne from "../components/GetInvolved/Slide1/GetInvolvedOne"
-import GetInvolvedTwo from "../components/GetInvolved/Slide2/GetInvolvedTwo"
-import GetInvolvedThree from "../components/GetInvolved/Slide3/GetInvolvedThree"
-
-export class GetInvolved extends Component {
+import PaymentComp from "../components/donaion/payment/Payment"
+export class Payment extends Component {
   static propTypes = {}
+
+  donateWithStripe() {
+    console.log(`test`)
+  }
 
   render() {
     return (
-      <>
+      <div>
         <Header siteSubTitle={`Education since 1996`} />
+        {/* <hr /> */}
         <NavigatorView />
         <div
           style={{
             margin: `0 auto`,
           }}
         >
-          <GetInvolvedOne />
-          <GetInvolvedTwo />
-          <GetInvolvedThree />
+          <PaymentComp />
+          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 
@@ -34,9 +37,9 @@ export class GetInvolved extends Component {
             </p>
           </footer>
         </div>
-      </>
+      </div>
     )
   }
 }
 
-export default GetInvolved
+export default Payment

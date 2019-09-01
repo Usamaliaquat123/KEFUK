@@ -18,10 +18,9 @@ const Subscribe = ({ subscribeText }) => {
                 className={SubscribeStyle.containerEmailInput}
                 placeholder={"Enter your email address"}
               ></input>
-              
             </div>
             <div className="col-sm-12 col-md-2">
-            <div>
+              <div>
                 <div className={SubscribeStyle.subscribeBtn}>Subscribe</div>
               </div>
             </div>

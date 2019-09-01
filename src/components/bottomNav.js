@@ -97,7 +97,7 @@ const BottomNav = () => {
                   }}
                   to=""
                 >
-                  Get Involved 
+                  Get Involved
                 </Link>
                 <br />
                 <Link

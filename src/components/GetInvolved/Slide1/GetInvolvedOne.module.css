@@ -23,7 +23,9 @@ padding: 4%;
 }
 .title{
     color: #DA636A;
-    font-size: 1vw;
+font-size: 1.9vw;
+font-weight: bold;
+font-family: 'Harabara Bold';
 }
 .subHeading{
     color: #2074AE;

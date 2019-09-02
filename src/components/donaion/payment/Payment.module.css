@@ -10,17 +10,24 @@
             font-family: "Lato Light";
             src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");}
 
-
+.containerStyleLeftHead > p{
+    font-family: 'Lato Medium';
+font-size: 2.3vw;
+color: #fff;
+position: absolute;
+right: 7px;
+margin-top: 13%;
+font-weight: bold;
+}
 
 .containerPayment{
     
     background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
     height: auto;
-    width: 39%;
-    padding: 3.6%;
+    width: 80%;
+    padding: 7.6%;
     color: aliceblue;
-margin-left: 12%;
-
+    margin-left: 4%;
 }
 .heading > p{
     font-size: 1.3vw;
@@ -133,10 +140,10 @@ margin-left: 12%;
 
 .headingPayment > p {
     font-size: 1.3vw;
-    font-family: 'Lato Medium';
-    font-weight: bold;
-    margin-top: 12%;
-    letter-spacing: 1px;
+font-family: 'Lato Medium';
+font-weight: bold;
+margin-top: 10%;
+letter-spacing: 1px;
 }
 .paymentMonthHeading > p{
     font-size: 0.9vw;

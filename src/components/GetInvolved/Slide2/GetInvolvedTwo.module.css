@@ -1,51 +1,46 @@
 
 @font-face {
-    font-family: "lato Regular";
-    src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
-
-    
-@font-face {
-    font-family: "lato High";
-    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
+    font-family: "Harabara Bold";
+    src: url("./../../../fonts/Montserrat/Montserrat-Bold.ttf");}
     
 
-.containerText{
+    @font-face {
+        font-family: "Harabara Medium";
+        src: url("./../../../fonts/Montserrat/Montserrat-Medium.ttf");}
+        
 
-}
-.containerSTyle{
+.slideFiveContainer{
     width: 100%;
-    /* height: auto ; */
-    padding: 3%  4%;
+    /* height: 100px; */
+    padding: 4% 20%;
 
-    
 }
-.btnInvolved{
-    margin: auto;
-    padding: 15px 49px;
 
-color: white;
-
-background-color: #EB5D5F;
-
-width: 13%;
-
-border-radius: 13px;
-
-font-weight: bold;
-}
-.heading{
-    color: white;
-
-    text-align: center;
-    
-    font-size: 2vw;
-    
+.headingSlide > p {
+    /* text-align: center; */
+    font-size: 1.3vw;
     font-weight: bold;
+    color: #354463;
+    font-family: 'Harabara Bold'
 }
-.descText{
-    color: white;
+.slideFiveDescription{
+    margin-top: -10%;
+color: #354463;
+font-size: 0.9vw;
+font-family: 'Lato Light';
+}
 
-    text-align: center;
-    
-    font-size: 1.2vw;
-}
+
+@media screen and (max-width: 768px){
+
+    .headingSlide > p{
+        /* margin-top: 11%; */
+        text-align: center;
+    }
+    .slideFiveDescription{
+        text-align: center;
+    }
+    .slideFiveContainer{
+        padding: 7% 19%;
+    }
+ }

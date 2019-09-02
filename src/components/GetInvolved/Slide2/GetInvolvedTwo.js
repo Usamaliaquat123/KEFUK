@@ -8,28 +8,43 @@ import Typed from "react-typed"
 import slide2 from "./../../../images/GetInv/slide2.png";
 const GetInvolvedTwo = () => {
   return <>
-      <div   style={{
-        backgroundImage: `url(${slide2})`,
-        maxWidth: "100%",
-        margin: "auto",
-        height: `100%`,
-        backgroundSize: "cover",
-        backgroundSize: "cover",
-        backgroundAttachment: "fixed",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        minHeight: `400`,
-      }}>
-     <div className={GetInvolvedStyle.containerSTyle}>
-          <p className={GetInvolvedStyle.heading}>MAKE AN IMPACT</p>
-          <p className={GetInvolvedStyle.descText}>
-          You have the opportunity to impact the lives of children and families surrounded 
-          <br /><br />by poverty. It is through your generosity that we can create a powerful change.
-          </p>
-          <div className={GetInvolvedStyle.btnInvolved}>
-              GET INVOLVED
+        <div className={GetInvolvedStyle.slideFiveContainer}>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-12 col-md-3">
+            <div className={GetInvolvedStyle.headingSlide}>
+              <p>Learn</p>
+            </div>
+            <p className={GetInvolvedStyle.slideFiveDescription}>
+              Get the facts and how we're helping.
+            </p>
           </div>
-     </div>
+          <div className="col-sm-12 col-md-3">
+            <div className={GetInvolvedStyle.headingSlide}>
+              <p>Volunteer</p>
+            </div>
+            <p className={GetInvolvedStyle.slideFiveDescription}>
+              Find out about upcomming events that need your help.
+            </p>
+          </div>
+          <div className="col-sm-12 col-md-3">
+            <div className={GetInvolvedStyle.headingSlide}>
+              <p>Share</p>
+            </div>
+            <p className={GetInvolvedStyle.slideFiveDescription}>
+              Let your social media networks know about this important cause.
+            </p>
+          </div>
+          <div className="col-sm-12 col-md-3">
+            <div className={GetInvolvedStyle.headingSlide}>
+              <p>Donate</p>
+            </div>
+            <p className={GetInvolvedStyle.slideFiveDescription}>
+              Help us raise money to make a big difference with this issue.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </>
 }

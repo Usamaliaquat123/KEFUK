@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
+    
+
+    @font-face {
+        font-family: "Lato Black";
+        src: url("./../../../fonts/Lato2OFL/Lato-Black.ttf");}
+        
+    
+
+  
+
+.backgroundHeight{
+
+}
+
+/* Content Container */
+.containerContent {
+  padding-top: 9%;
+}
+
+.contactUsBox{
+  background: #ffffff;
+
+  color: black;
+  
+  width: 18%;
+  
+  height: auto;
+  
+  padding: 1% 1%;
+  
+  margin-left: 5%;
+}
+.getinTouchWithKEF{
+  font-size: 1.3vw;
+}
+.ContactUsText{
+  font-size: 2.3vw;
+  font-weight: bold;
+}
+
+.supportCareTeamRender{
+  background: #ffffff;
+
+  color: black;
+  
+  width: 50%;
+  
+  margin: auto;
+  
+  
+  margin-top: auto;
+  
+  padding: 3% 5%;
+  
+  margin-top: 1%; 
+}
+.headingCareTeam{
+  font-size: 1.7vw;
+
+  font-weight: bold;
+}
+
+.addressCareTeam{
+  font-size: 1.5vw;
+
+  text-align: center;
+}
+.btnEamilNow{
+  padding: 1.7% 3%;
+
+  background: #EB5D5F;
+  
+  color: #ffffff;
+  
+  width: 23%;
+  
+  margin: auto;
+  
+  
+  font-size: 1vw;
+  
+  font-weight: bold;
+  
+  text-align: center;
+  
+  border-radius: 17px;
+  
+  margin-top: 8%;
+}

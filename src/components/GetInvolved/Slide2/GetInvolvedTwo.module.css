@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "lato Regular";
+    src: url("./../../../fonts/Lato2OFL/Lato-Regular.ttf");}
+
+    
+@font-face {
+    font-family: "lato High";
+    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
+    
+
+.containerText{
+
+}
+.containerSTyle{
+    width: 100%;
+    /* height: auto ; */
+    padding: 3%  4%;
+
+    
+}
+.btnInvolved{
+    margin: auto;
+    padding: 15px 49px;
+
+color: white;
+
+background-color: #EB5D5F;
+
+width: 13%;
+
+border-radius: 13px;
+
+font-weight: bold;
+}
+.heading{
+    color: white;
+
+    text-align: center;
+    
+    font-size: 2vw;
+    
+    font-weight: bold;
+}
+.descText{
+    color: white;
+
+    text-align: center;
+    
+    font-size: 1.2vw;
+}

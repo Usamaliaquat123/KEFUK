@@ -17,7 +17,8 @@ const PaymentComp = () => {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
-        minHeight: 838,
+        
+    minHeight: '100%'
       }}
     >
       <div class="container-fluid">
@@ -75,30 +76,52 @@ const PaymentComp = () => {
             <div class='col-sm-6 col-md-6'><div className={paymentStyle.paymentMonthHeading}>
             <p>EXPIRATION</p>
           </div></div>
+          {/* Payment expiration Security code heading */}
             <div class='col-sm-6 col-md-6'>
             <div className={paymentStyle.securityCodeText}>
               <p>SECURITY CODE</p>
             </div>
             </div>
           </div>
-         
-          
           <div class='row'>
+            {/*  Payment Expiration Month */}
             <div class='col-sm-4 col-md-4'>
               <div className={paymentStyle.paymentExpMonth}>
                <input  width="100%" type='number'  placeholder="MM" />
 
               </div>
             </div>
+            {/*  Payment Expiration Year */}
             <div class='col-sm-4 col-md-4'>
               <div className={paymentStyle.paymentExpYear}>
               <input  width="100%" type='number'  placeholder="YYYY" />
               </div>
             </div>
+            {/* Payment Expiration CVC */}
             <div class='col-sm-4 col-md-4'>
               <div className={paymentStyle.paymentExpCVC}>
               <input  width="100%" type='number'  placeholder="CVC" />
               </div>
+            </div>
+          </div>
+          {/*  Payment Description */}
+          <div className={paymentStyle.paymentDesc}>
+            <p>In order to Gift Aid your donation you must tick the box below</p>
+          </div>
+          {/* Payment Gift Aid Checkbox */}
+          <div className={paymentStyle.giftAidPayment}>
+            <p><input type={'checkbox'} /> I want to Gift Aid my donation to KEF</p>
+          </div>
+
+          {/* ///////////////////////////////// */}
+          <div class='row'>
+            <div class='col-sm-6 col-md-6'>
+              <div className={paymentStyle.goBackbtn}>
+                <p>Go back</p>
+              </div>
+            </div>
+            <div class='col-sm-6 col-md-6'>
+              <div className={paymentStyle.paymentProcessBtn}>Process Payment</div>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@
 
 .containerPayment{
     
-    background: rgba(28, 112, 170, 0.9) none repeat scroll 0% 0%;
+    background: rgba(5, 70, 115, 0.9) none repeat scroll 0% 0%;
     height: auto;
     width: 39%;
     padding: 3.6%;
@@ -139,8 +139,9 @@ margin-left: 12%;
     letter-spacing: 1px;
 }
 .paymentMonthHeading > p{
-    font-size: 1.3vw;
+    font-size: 0.9vw;
     font-weight: bold;
+    margin-top: 15%;
     margin-bottom: 0;
     font-family: 'Lato Light';
 
@@ -176,7 +177,7 @@ margin-left: 12%;
     font-size: 0.9vw;
     margin-bottom: 0;
     margin-left: 37%;
-    margin-top: 4%;
+    margin-top: 15%;
 }
 .paymentExpCVC > input{
     text-decoration: none;
@@ -190,4 +191,50 @@ margin-left: 12%;
     padding-bottom: 7px;
     width: 100%;
 
+}
+
+.giftAidPayment > input {
+
+}
+.giftAidPayment > p {
+    font-size: 1.2vw;
+}
+
+.paymentDesc > p {
+    font-size: 0.9vw;
+    color: white;
+    font-family: 'Lato Light';
+    margin-top: 10%;
+    margin-bottom: 4%;  
+}
+
+
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+.goBackbtn > p {
+    text-decoration: underline;
+    color: white;
+    font-size: 0.9vw;
+    margin-top: 6%;
+    margin-bottom: 0;
+    font-family: 'Lato Light';
+    cursor: pointer;
+}
+
+.paymentProcessBtn{
+    font-size: 1vw;
+    border-radius: 20px;
+    font-family: 'Lato Medium';
+    color: white;
+    font-weight: bold;
+    padding: 5% 10%;
+    background-color: #EB5D5F;
+    width: 78%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    letter-spacing: 1px;
 }

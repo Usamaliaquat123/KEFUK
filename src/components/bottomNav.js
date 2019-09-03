@@ -4,6 +4,7 @@ import React from "react"
 import Img from "gatsby-image"
 import Logo from "./../images/logoUpdate.png"
 import "bootstrap/dist/css/bootstrap.css"
+import BottomNavSTyles from "./bottomNav.module.css";
 const BottomNav = () => {
   return (
     <div style={{ display: `flex`, alignItems: `center`, height: 400 }}>
@@ -24,38 +25,23 @@ const BottomNav = () => {
               </div>
               <div style={{ marginTop: -2 }}>
                 <span
-                  style={{
-                    fontSize: 11,
-                    color: "#161821",
-                    textDecoration: "none",
-                  }}
+                  className={BottomNavSTyles.addresssLinks}
                 >
                   123 Anywhere St. <br />
                 </span>
                 <span
-                  style={{
-                    fontSize: 11,
-                    color: "#161821",
-                    textDecoration: "none",
-                  }}
+                 className={BottomNavSTyles.addresssLinks}
+                 
                 >
                   Cityname, NY 11206 <br />
                 </span>
                 <span
-                  style={{
-                    fontSize: 11,
-                    color: "#161821",
-                    textDecoration: "none",
-                  }}
+                 className={BottomNavSTyles.addresssLinks}
                 >
                   (123) 456-7890 <br />
                 </span>
                 <span
-                  style={{
-                    fontSize: 11,
-                    color: "#161821",
-                    textDecoration: "none",
-                  }}
+                 className={BottomNavSTyles.addresssLinks}
                 >
                   contact@npo.org
                 </span>
@@ -68,44 +54,28 @@ const BottomNav = () => {
               </div>
               <div style={{ marginTop: -2 }}>
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                   className={BottomNavSTyles.addresssLinks}
                   to="/Schools"
                 >
                   What we do
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                   className={BottomNavSTyles.addresssLinks}
                   to="/Pvps"
                 >
                   Where we work
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                   className={BottomNavSTyles.addresssLinks}
                   to="/GetInvolved"
                 >
                   Get Involved
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                   className={BottomNavSTyles.addresssLinks}
                   to="/News"
                 >
                   Latest news
@@ -119,44 +89,28 @@ const BottomNav = () => {
               </div>
               <div style={{ marginTop: -2 }}>
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                className={BottomNavSTyles.addresssLinks}
                   to="/"
                 >
                   Facebook
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                className={BottomNavSTyles.addresssLinks}
                   to=""
                 >
                   Twitter
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                className={BottomNavSTyles.addresssLinks}
                   to=""
                 >
                   Instagram
                 </Link>
                 <br />
                 <Link
-                  style={{
-                    textDecoration: "none",
-                    color: "#161821",
-                    fontSize: 11,
-                  }}
+                className={BottomNavSTyles.addresssLinks}
                   to=""
                 >
                   Medium

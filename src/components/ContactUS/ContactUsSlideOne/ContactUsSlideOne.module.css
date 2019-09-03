@@ -24,16 +24,16 @@
 .contactUsBox{
   background: #ffffff;
   color: black;
-  width: 21%;
+  width: 25%;
   height: auto;
   padding: 1% 1%;
   margin-left: 5%;
 }
 .getinTouchWithKEF{
-  font-size: 1.3vw;
+  font-size: 2vw
 }
 .ContactUsText{
-  font-size: 2.3vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 

@@ -88,10 +88,13 @@ padding-left: 12%;
     margin-right: 213px;
 }
 .buttonLastBlack{
+    text-decoration: none;
     padding: 5px 10px;
     font-size: 0.9vw;
     color: #fff;
+    cursor: pointer;
     position: absolute;
+
     margin-top: 8%;
     width: 153px;
     background: #414865;
@@ -101,6 +104,9 @@ padding-left: 12%;
     margin-left: 0%;
     font-weight: bold;
 
+}
+.buttonLastBlack:hover {
+    color: aliceblue;
 }
 
 /* @media screen and (max-width: 1339px){

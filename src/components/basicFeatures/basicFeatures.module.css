@@ -52,7 +52,7 @@
 }
 .containerButton{
     font-family: 'Harabara Bold';
-    text-align: center;
+    text-align: center;text-decoration: none;
     border-radius: 30px;
     font-size: 15px;
     width: 120px;

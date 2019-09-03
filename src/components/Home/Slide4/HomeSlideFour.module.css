@@ -87,7 +87,12 @@ padding-left: 12%;
     
     margin-right: 213px;
 }
+.buttonLastBlack:hover{
+    color: aliceblue;
+}
 .buttonLastBlack{
+    text-decoration: none;
+
     padding: 5px 10px;
 
     font-size: 0.9vw;

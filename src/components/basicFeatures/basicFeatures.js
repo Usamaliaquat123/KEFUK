@@ -28,7 +28,7 @@ const BasicFeatures = () => {
                   families surrounded by poverty. It is through your generosity
                   that we can create a powerfull change.{" "}
                 </p>
-                <div className={basicFeature.containerButton}>Read more</div>
+                <z href="/Schools" className={basicFeature.containerButton}>Read more</z>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
@@ -43,7 +43,7 @@ const BasicFeatures = () => {
                   developing our own College of Teacvher Education to promote
                   advanced cognitive performance
                 </p>
-                <div className={basicFeature.containerButton}>Read more</div>
+                <z href="/Teachers" className={basicFeature.containerButton}>Read more</z>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
@@ -58,7 +58,7 @@ const BasicFeatures = () => {
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <div className={basicFeature.containerButton}>Read more</div>
+                <a href="/Schools" className={basicFeature.containerButton}>Read more</a>
               </div>
             </div>
           </div>

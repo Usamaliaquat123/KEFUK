@@ -8,17 +8,17 @@ const Header = ({ siteTitle, siteSubTitle }) => (
     <div className="container-fluid">
       <div className="row">
         <div className="col-sm-2">
-          <div className={headerStyle.logoStyle}>
+          <a href="/" className={headerStyle.logoStyle}>
             <img src={logoImg} class="img-fluid" width={170} height={130}></img>
-          </div>
+          </a>
         </div>
         <div className="col-sm-6">
           <p className={headerStyle.headerSubHeading}>{siteSubTitle}</p>
         </div>
         <div className="col-sm-4">
-          <div className={headerStyle.donatebtn}>
+          <a href="/Donate" className={headerStyle.donatebtn}>
             <p>DONATE NOW</p>
-          </div>
+          </a>
         </div>
       </div>
     </div>

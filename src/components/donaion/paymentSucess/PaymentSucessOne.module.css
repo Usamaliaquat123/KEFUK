@@ -27,5 +27,16 @@
     color: black;
     width: 70%;
     padding: 3% 3%;
+
+}
+
+.donationDesc{
     
+}
+
+.socialIconCard{
+    background: #C1F7D5;
+    padding: 2% 3%;
+    color: #1C70AA;
+    display: inline-block
 }

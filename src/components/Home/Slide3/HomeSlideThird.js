@@ -33,9 +33,9 @@ const HomeSlideThird = () => {
                     various rural areas where currently 900 students are
                     enrolled.
                   </p>
-                  <div className={HomeSlideThirdStyle.buttonLastBlack}>
+                  <a href="/Schools" className={HomeSlideThirdStyle.buttonLastBlack}>
                     Read more
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

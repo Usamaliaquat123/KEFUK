@@ -73,7 +73,7 @@ const BottomNav = () => {
                     color: "#161821",
                     fontSize: 11,
                   }}
-                  to="/"
+                  to="/Schools"
                 >
                   What we do
                 </Link>
@@ -84,7 +84,7 @@ const BottomNav = () => {
                     color: "#161821",
                     fontSize: 11,
                   }}
-                  to=""
+                  to="/Pvps"
                 >
                   Where we work
                 </Link>
@@ -95,7 +95,7 @@ const BottomNav = () => {
                     color: "#161821",
                     fontSize: 11,
                   }}
-                  to=""
+                  to="/GetInvolved"
                 >
                   Get Involved
                 </Link>
@@ -106,7 +106,7 @@ const BottomNav = () => {
                     color: "#161821",
                     fontSize: 11,
                   }}
-                  to=""
+                  to="/News"
                 >
                   Latest news
                 </Link>

@@ -26,14 +26,29 @@
     /* padding-bottom:7%; */
     /* margin-left: 20%; */
 }
+
+.logoStyle:hover{
+    text-decoration: none;
+}
 .logoStyle{
     right: 0;
+    text-decoration: none;
+
+    cursor: pointer;
     position: absolute;
 }
 .logoStyle > img {
+    cursor: pointer;
     margin-top: 10px;
 }
+.donatebtn:hover{
+    text-decoration: none;
+    cursor: pointer;
+
+}
 .donatebtn {
+    text-decoration: none;
+
     background : #EB5D5F;
     width: 140px;
     /* margin-left: 80%; */

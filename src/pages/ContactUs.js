@@ -28,7 +28,8 @@ export class ContactUs extends Component {
         >
             <ContactUsSlideOne/>
             <ContactUsSlideTwo />
-            <Subscribe />
+            <Subscribe  subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
+            <BottomNav />
           <footer>
             <hr />
             <p style={{ textAlign: "center", fontSize: 13 }}>

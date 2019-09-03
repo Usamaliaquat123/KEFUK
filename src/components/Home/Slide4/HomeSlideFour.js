@@ -27,9 +27,9 @@ const HomeSlideFour = () => {
                     rural areas to enable them to become high quality English
                     medium primary school teachers.
                   </p>
-                  <div className={HomeSlideFourStyle.buttonLastBlack}>
+                  <a href="/Teachers" className={HomeSlideFourStyle.buttonLastBlack}>
                     Read more
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

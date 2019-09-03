@@ -49,7 +49,7 @@ export default class NavigatorView extends React.Component {
             <a href="/News">
               <li>NEWS & EVENTS</li>
             </a>
-            <a href="#">
+            <a href="/ContactUs">
               <li>CONTACT US</li>
             </a>
           </ul>

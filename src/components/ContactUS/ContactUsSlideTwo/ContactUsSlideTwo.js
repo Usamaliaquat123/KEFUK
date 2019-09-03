@@ -56,7 +56,33 @@ const ContactUsSlideTwo = () => {
           </div>
         </div>
       </div>
+      
+      <div className={ContactUsSlideTwoStyle.socialMediaTab}>
+          <div className={ContactUsSlideTwoStyle.followUsText}>FOLLOW US</div>
+          <img className={ContactUsSlideTwoStyle.socialIcons} src={facebook}></img>
+          <img
+            className={ContactUsSlideTwoStyle.socialIcons}
+            src={youtube}
+            class="img-fluid"
+          ></img>
+          <img
+            className={ContactUsSlideTwoStyle.socialIcons}
+            src={instagram}
+            class="img-fluid"
+          ></img>
+          <img
+            className={ContactUsSlideTwoStyle.socialIcons}
+            src={wifi}
+            class="img-fluid"
+          ></img>
+          <img
+            className={ContactUsSlideTwoStyle.socialIcons}
+            src={twitter}
+            class="img-fluid"
+          ></img>
+        </div>
     </div>
+
     </div>
   )
 }

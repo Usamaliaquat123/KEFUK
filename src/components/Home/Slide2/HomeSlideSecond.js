@@ -26,8 +26,6 @@ const HomeSlideSecond = () => {
                 <img
                   src={homeLesson}
                   class="img-fluid"
-                  width={140}
-                  height={140}
                 ></img>
               </div>
               <p className="featureText">900+ students in 3 schools</p>
@@ -37,8 +35,6 @@ const HomeSlideSecond = () => {
                 <img
                   src={eductionLesson}
                   class="img-fluid"
-                  width={140}
-                  height={140}
                 ></img>
               </div>
               <p className="donationPolicyText">100% donation policy</p>

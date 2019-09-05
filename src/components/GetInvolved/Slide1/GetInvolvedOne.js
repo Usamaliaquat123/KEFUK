@@ -4,6 +4,13 @@ import React, { useState } from "react"
 import bachiBachaRun from "./../../../images/WhereWedo/bachiBachaRun.png"
 import ghar from "./../../../images/GetInv/getInv.png"
 import GetInvolvedOneStyle from "./GetInvolvedOne.module.css"
+
+
+import facebook from "./../../../images/Home/Icons/facebook.png"
+import twitter from "./../../../images/Home/Icons/twitter.png"
+import instagram from "./../../../images/Home/Icons/instagram.png"
+import wifi from "./../../../images/Home/Icons/wifi.png"
+import youtube from "./../../../images/Home/Icons/youtube.png"
 import Typed from "react-typed"
 const GetInvolvedOne = () => {
   return <>
@@ -29,6 +36,30 @@ const GetInvolvedOne = () => {
   className='img-fluid'
   />
 </div> 
+<div className={GetInvolvedOneStyle.socialMediaTab}>
+          <div className={GetInvolvedOneStyle.followUsText}>FOLLOW US</div>
+          <img className={GetInvolvedOneStyle.socialIcons} src={facebook}></img>
+          <img
+            className={GetInvolvedOneStyle.socialIcons}
+            src={youtube}
+            class="img-fluid"
+          ></img>
+          <img
+            className={GetInvolvedOneStyle.socialIcons}
+            src={instagram}
+            class="img-fluid"
+          ></img>
+          <img
+            className={GetInvolvedOneStyle.socialIcons}
+            src={wifi}
+            class="img-fluid"
+          ></img>
+          <img
+            className={GetInvolvedOneStyle.socialIcons}
+            src={twitter}
+            class="img-fluid"
+          ></img>
+        </div>
                     </div>
                   </div>
                 </div>

@@ -4,6 +4,17 @@
   src: url("./../fonts/Lato2OFL/Lato-Light.ttf");
 }
 
+
+input[name ="cardnumber"]{
+  color: #fff
+}
+
+.InputContainer .InputElement{
+  position: absolute;
+
+color: #fff;
+}
+
 html {
   font-family: "Harabara Light",sans-serif;
   -ms-text-size-adjust: 100%;

@@ -78,7 +78,7 @@ const BottomNav = () => {
                    className={BottomNavSTyles.addresssLinks}
                   to="/News"
                 >
-                  Latest news
+                Latest news
                 </Link>
               </div>
             </div>

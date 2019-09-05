@@ -8,6 +8,7 @@ import BasicFeatures from "../components/basicFeatures/basicFeatures"
 
 import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/bottomNav"
+import PaymentRec from "../components/donaion/payment/Payment";
 
 export class Donate extends Component {
   static propTypes = {}
@@ -27,7 +28,8 @@ export class Donate extends Component {
             margin: `0 auto`,
           }}
         >
-          <Donation />
+          {/* <Donation /> */}
+          <PaymentRec />
           <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />

@@ -118,12 +118,18 @@ font-weight: bold;
 }
 
 /* Payment Info Form */
-.paymentInfoCardNo > p{
-    font-family: 'Lato Light';
+iframe[name="__privateStripeFrame5"]{
+
+}
+input[name="cardnumber"] {
+    color: white;
     font-weight: bold;
-    font-size: 0.9vw;
-    margin-bottom: 0;
-    margin-top: 4%;
+    font-size: 3vw;
+    height: auto;
+    text-decoration: underline;
+}
+CardNumberElement .StripeElement{
+    color: #fff;
 }
 .paymentInfoCardNo > input{
     text-decoration: none;
@@ -232,6 +238,8 @@ letter-spacing: 1px;
 }
 
 .paymentProcessBtn{
+    border: none;
+    text-decoration: none;
     font-size: 1vw;
     border-radius: 20px;
     font-family: 'Lato Medium';

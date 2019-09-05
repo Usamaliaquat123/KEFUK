@@ -18,7 +18,7 @@ const Donation = () => {
     } else if (val == "£25") {
       useeduChildDonate(false)
       usesponserChild(true)
-      usesponserTeacher(false)
+      usesponserTeacher(false) 
     } else if (val == "£60") {
       useeduChildDonate(false)
       usesponserChild(false)
@@ -41,6 +41,9 @@ const Donation = () => {
         minHeight: 838,
       }}
     >
+
+
+      
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">

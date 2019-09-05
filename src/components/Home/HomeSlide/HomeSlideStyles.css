@@ -179,10 +179,8 @@
 .actNoeBtnSl1 {
   background: #eb5d5f;
   width: 257px;
-  margin-left: 80%;
   position: absolute;
   height: 7%;
-  right: 0;
 }
 }
 @media screen and (max-width: 900px) {

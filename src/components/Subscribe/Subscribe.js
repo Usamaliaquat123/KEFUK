@@ -20,7 +20,7 @@ const Subscribe = ({ subscribeText }) => {
             </div>
             <div className="col-sm-12 col-md-2">
               <div>
-                <div className='subscribeBtn'>Subscribe</div>
+                <div className='subscribeBtnSus'>Subscribe</div>
               </div>
             </div>
           </div>

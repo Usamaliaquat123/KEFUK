@@ -3,38 +3,38 @@ import React, { useState } from "react";
 import "./HomeSlideFiveStyle.css";
 const HomeSlideFive = () => {
   return (
-    <div className="slideFiveContainer">
+    <div className="slideFiveContainerHme">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-3">
-            <div className="headingSlide">
+            <div className="headingSlideHme">
               <p>Learn</p>
             </div>
-            <p className="slideFiveDescription">
+            <p className="slideFiveDescriptionHme">
               Get the facts and how we're helping.
             </p>
           </div>
           <div className="col-sm-12 col-md-3">
-            <div className="headingSlide">
+            <div className="headingSlideHme">
               <p>Volunteer</p>
             </div>
-            <p className="slideFiveDescription">
+            <p className="slideFiveDescriptionHme">
               Find out about upcomming events that need your help.
             </p>
           </div>
           <div className="col-sm-12 col-md-3">
-            <div className="headingSlide">
+            <div className="headingSlideHme">
               <p>Share</p>
             </div>
-            <p className="slideFiveDescription">
+            <p className="slideFiveDescriptionHme">
               Let your social media networks know about this important cause.
             </p>
           </div>
           <div className="col-sm-12 col-md-3">
-            <div className="headingSlide">
+            <div className="headingSlideHme">
               <p>Donate</p>
             </div>
-            <p className="slideFiveDescription">
+            <p className="slideFiveDescriptionHme">
               Help us raise money to make a big difference with this issue.
             </p>
           </div>

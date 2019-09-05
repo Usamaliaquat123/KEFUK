@@ -1,0 +1,26 @@
+
+.imageBottomNav {
+    margin-left: "12%";
+     margin-right: "-19%"
+}
+.bottomNavContainer{
+    display: flex;
+     align-content: center;
+     height: 400px;
+}
+.smallContainerBottomNav{
+    margin: auto;
+     width: 600px;
+}
+.headingBottomNav{
+    font-size: 12px;
+}
+
+.horizontalRuleNav{
+    width: 140px;
+    margin-bottom: 6px;
+    margin-top: 10px
+}
+.containerAdressBNav {
+    margin-top: -2px
+}

@@ -116,6 +116,7 @@
   background: #ffff;
 
 }
+/* sadadas */
 .containerButtonFea {
 
   font-family: "Harabara Bold";
@@ -127,6 +128,27 @@
   color: #fff;
   background-color: #03b9fe;
   padding: 7% 29%;
+
+}
+.socialMediaTabFea {
+
+  padding: 11px 50px;
+  background-color: #404864;
+  height: auto;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 0px;
+  width: 100%;
+
+}
+.followUsTextFea {
+
+  font-size: 3vw;
+  float: left;
+  color: aliceblue;
+  margin: 15px;
+  margin-left: 6%;
+  margin-right: 5%;
 
 }
 }

@@ -7,14 +7,17 @@ import "./BottomNav.css";
 const BottomNav = () => {
   return (
     <div className='bottomNavContainer'>
-      <img
+      <div className='container'>
+        <div className='row'>
+          <div className='col-sm-12 col-md-4'>
+          <img
         class="img-fluid"
-        width={200}
         className='imageBottomNav'
-        height={200}
         src={Logo}
       ></img>
-      <div className='smallContainerBottomNav'>
+          </div>
+          <div className='col-sm-12 col-md-8'>
+          <div className='smallContainerBottomNav'>
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-4">
@@ -84,6 +87,11 @@ const BottomNav = () => {
           </div>
         </div>
       </div>
+          </div>
+        </div>
+      </div>
+     
+   
     </div>
   );
 };

@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![kefuk](https://kefuk.herokuapp.com/?app=kefuk)]
+
 ## Available Scripts
 
 In the project directory, you can run:

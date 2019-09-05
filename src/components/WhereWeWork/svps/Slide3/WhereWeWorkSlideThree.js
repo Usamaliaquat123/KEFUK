@@ -1,24 +1,20 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import WhereWeWorkSlideThreeStyle from "./WhereWeWorkSlideThree.module.css"
-import Typed from "react-typed"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import "./WhereWeWorkSlideThreeStyle.css";
 const WhereWeWorkSlideThree = () => {
   return (
     <>
-      <div className={WhereWeWorkSlideThreeStyle.containerSLideOne}>
-        <div className={WhereWeWorkSlideThreeStyle.textsContainer}>
-          <p className={WhereWeWorkSlideThreeStyle.HeadingSTyle}>
-            GET INVOLVED
-          </p>
-          <p className={WhereWeWorkSlideThreeStyle.Description}>
+      <div className="containerSLideOneSvsl3">
+        <div className="textsContainerSvsl3">
+          <p className="HeadingSTyleSvsl3">GET INVOLVED</p>
+          <p className="DescriptionSvsl3">
             Sponser a child at Soan Valley Public School
           </p>
-          <div className={WhereWeWorkSlideThreeStyle.btnStyle}>DONATE NOW</div>
+          <div className="btnStyleSvsl3">DONATE NOW</div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default WhereWeWorkSlideThree
+export default WhereWeWorkSlideThree;

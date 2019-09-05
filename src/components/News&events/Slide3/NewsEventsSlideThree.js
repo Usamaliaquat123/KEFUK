@@ -1,10 +1,8 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import NewsEventsSlideThreeStyle from "./NewsEventsSlideThree.module.css"
-import Typed from "react-typed"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import NewsEventsSlideThreeStyle from "./NewsEventsSlideThree.module.css";
 const NewsEventsSlideThree = () => {
-  return <></>
-}
+  return <></>;
+};
 
-export default NewsEventsSlideThree
+export default NewsEventsSlideThree;

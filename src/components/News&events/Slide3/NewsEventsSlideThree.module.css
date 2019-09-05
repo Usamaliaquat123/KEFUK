@@ -1,13 +1,8 @@
-
 @font-face {
-    font-family: "Harabara Bold";
-    src: url("./../../../fonts/Lato2OFL/Lato-Heavy.ttf");}
-    
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
 
-  
-
-@media screen and (max-width: 577px){
-    /* mobile code */
-  }
-
-
+@media screen and (max-width: 577px) {
+  /* mobile code */
+}

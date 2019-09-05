@@ -1,14 +1,12 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import HomeSlideStyle from "./HomeSlide.module.css"
-import Typed from "react-typed"
-import facebook from "./../../../images/Home/Icons/facebook.png"
-import twitter from "./../../../images/Home/Icons/twitter.png"
-import backgroundImage from "./../../../images/Home/HomeSlide1.jpg"
-import instagram from "./../../../images/Home/Icons/instagram.png"
-import wifi from "./../../../images/Home/Icons/wifi.png"
-import youtube from "./../../../images/Home/Icons/youtube.png"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import "./HomeSlideStyles.css";
+import facebook from "./../../../assets/images/Home/Icons/facebook.png";
+import twitter from "./../../../assets/images/Home/Icons/twitter.png";
+import backgroundImage from "./../../../assets/images/Home/HomeSlide1.jpg";
+import instagram from "./../../../assets/images/Home/Icons/instagram.png";
+import wifi from "./../../../assets/images/Home/Icons/wifi.png";
+import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 const HomeSlide = () => {
   return (
     <div
@@ -22,61 +20,43 @@ const HomeSlide = () => {
         backgroundAttachment: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: `auto`,
+        minHeight: `auto`
       }}
-      className={HomeSlideStyle.backgroundHeight}
+      className="backgroundHeightSl1"
     >
       <div className="container-fluid">
-        <div className={HomeSlideStyle.mainContainerHeadingText}>
+        <div className="mainContainerHeadingTextSl1">
           {/* <div className={HomeSlideStyle.backgroundText}> */}
 
           <p>
-            <span className={HomeSlideStyle.backgroundText}>
+            <span className="backgroundTextSl1">
               THE SMALLEST ACT OF KINDNESS IS WORTH MORE{" "}
             </span>
             <br />
-            <span className={HomeSlideStyle.backgroundText}>
-              THAN THE GRANDEST INTENTION
-            </span>
+            <span className="backgroundTextSl1">THAN THE GRANDEST INTENTION</span>
             <br />
-            <span className={HomeSlideStyle.backgroundText}>- OSCAR WILDE</span>
+            <span className="backgroundTextSl1">- OSCAR WILDE</span>
           </p>
-          <div className={HomeSlideStyle.actNoeBtn}>
+          <div className="actNoeBtnSl1">
             <p>ACT NOW</p>
           </div>
         </div>
 
-        <div className={HomeSlideStyle.socialMediaTab}>
-          <div className={HomeSlideStyle.followUsText}>FOLLOW US</div>
-          <img className={HomeSlideStyle.socialIcons} src={facebook}></img>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={youtube}
-            class="img-fluid"
-          ></img>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={instagram}
-            class="img-fluid"
-          ></img>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={wifi}
-            class="img-fluid"
-          ></img>
-          <img
-            className={HomeSlideStyle.socialIcons}
-            src={twitter}
-            class="img-fluid"
-          ></img>
+        <div className="socialMediaTabSl1">
+          <div className="followUsTextSl1">FOLLOW US</div>
+          <img className="socialIconsSl1" src={facebook}></img>
+          <img className="socialIconsSl1" src={youtube} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={instagram} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={wifi} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={twitter} class="img-fluid"></img>
         </div>
-        <div className={HomeSlideStyle.textBottomTab}>
-          <div className={HomeSlideStyle.yellowIndicator}></div>
+        <div className="textBottomTab">
+          <div className="yellowIndicator"></div>
           WE ARE THE FUTURE
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeSlide
+export default HomeSlide;

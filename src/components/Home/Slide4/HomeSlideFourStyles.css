@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.containerSlide {
+  background: #ff7277;
+
+  min-height: 100%;
+
+  height: auto;
+
+  width: 100%;
+
+  padding-bottom: 9.7%;
+
+  padding-top: 3%;
+}
+.secondLayerContainer {
+  width: 80%;
+  /* position: absolute; */
+  background: #ff8e92;
+  /* margin-top: 100px; */
+  height: 406px;
+}
+
+.imageLayer {
+  margin-top: -27.55%;
+  position: absolute;
+
+  right: 0;
+}
+.imageLayer > img {
+  width: 900px;
+}
+.buttonWhatWeDo {
+  padding: 10px 10px;
+
+  font-size: 0.7vw;
+
+  color: black;
+
+  width: 149px;
+
+  background: #fff;
+
+  height: 37px;
+
+  margin-left: 7%;
+
+  margin-bottom: 2%;
+}
+.buttonWhatWeDo > p {
+  text-align: center;
+}
+.containerTextInner {
+  padding: 4% 7%;
+
+  padding-bottom: 4%;
+  padding-left: 7%;
+
+  padding-left: 12%;
+}
+.headingText {
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+}
+.slideDescription {
+}
+.descriptionText {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size: 0.9vw;
+
+  margin-right: 213px;
+}
+.buttonLastBlack:hover {
+  color: aliceblue;
+}
+.buttonLastBlack {
+  text-decoration: none;
+
+  padding: 5px 10px;
+
+  font-size: 0.9vw;
+
+  color: #fff;
+
+  position: absolute;
+
+  margin-top: 12%;
+
+  width: 153px;
+
+  background: #414865;
+
+  height: 42px;
+
+  border-radius: 90px;
+
+  text-align: center;
+
+  margin-left: 0%;
+
+  font-weight: bold;
+}
+
+/* @media screen and (max-width: 1339px){
+
+    .buttonLastBlack{
+        margin-top: 11%;
+    }
+ } */

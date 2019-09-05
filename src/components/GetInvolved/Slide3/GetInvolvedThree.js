@@ -1,12 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import bachiBachaRun from "./../../../images/WhereWedo/bachiBachaRun.png"
-import ghar from "./../../../images/WhereWedo/ghar.png"
-import GetInvolvedStyle from "./GetInvolvedThree.module.css"
-import Typed from "react-typed"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
 const GetInvolvedThree = () => {
-  return <></>
-}
+  return <></>;
+};
 
-export default GetInvolvedThree
+export default GetInvolvedThree;

@@ -1,9 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import backgroundImage from "./../../../images/Home/ChildrenTab/backgroud_of_bachi.png"
-import ChildrenSlideTwoStyle from "./ChildrenSlideTwo.module.css"
-import Typed from "react-typed"
+import React, { useState } from "react";
+import backgroundImage from "./../../../assets/images/Home/ChildrenTab/backgroud_of_bachi.png";
+import "./ChildrenSlideTwoStyles.css";
 const ChildrenSlideTwo = () => {
   return (
     <div
@@ -17,37 +14,35 @@ const ChildrenSlideTwo = () => {
         backgroundAttachment: "fixed",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: `500`,
+        minHeight: `500`
       }}
     >
-      <div className={ChildrenSlideTwoStyle.containerContent}>
-        <div className={ChildrenSlideTwoStyle.btnOurImpact}>OUR IMPACT</div>
-        <div className={ChildrenSlideTwoStyle.desc}>
-          We invested in an educated tomorrow.
-        </div>
+      <div className="containerContentChsl2">
+        <div className="btnOurImpactChsl2">OUR IMPACT</div>
+        <div className="descChsl2">We invested in an educated tomorrow.</div>
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-3">
-              <p className={ChildrenSlideTwoStyle.HeadingCount}>500+</p>
-              <p className={ChildrenSlideTwoStyle.descContainer}>
+              <p className="HeadingCountChsl2">500+</p>
+              <p className="descContainerChsl2">
                 Students have graduated from our schools
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className={ChildrenSlideTwoStyle.HeadingCount}>350+</p>
-              <p className={ChildrenSlideTwoStyle.descContainer}>
+              <p className="HeadingCountChsl2">350+</p>
+              <p className="descContainerChsl2">
                 graduates in professions after completing higher education
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className={ChildrenSlideTwoStyle.HeadingCount}>11th</p>
-              <p className={ChildrenSlideTwoStyle.descContainer}>
+              <p className="HeadingCountChsl2">11th</p>
+              <p className="descContainerChsl2">
                 Position secured in GPA among 1135 schools
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className={ChildrenSlideTwoStyle.HeadingCount}>23</p>
-              <p className={ChildrenSlideTwoStyle.descContainer}>
+              <p className="HeadingCountChsl2">23</p>
+              <p className="descContainerChsl2">
                 Years of providing modren education to underprivileged boys and
                 girls{" "}
               </p>
@@ -56,7 +51,7 @@ const ChildrenSlideTwo = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ChildrenSlideTwo
+export default ChildrenSlideTwo;

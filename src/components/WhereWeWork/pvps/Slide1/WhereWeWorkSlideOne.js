@@ -1,49 +1,45 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import bachiBachaRun from "./../../../../images/WhereWedo/bachiBachaRun.png"
-import ghar from "./../../../../images/WhereWedo/ghar.png"
-import WhereWeWorkSlideOneStyle from "./WhereWeWorkSlideOne.module.css"
-import Typed from "react-typed"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import bachiBachaRun from "./../../../../assets/images/WhereWedo/bachiBachaRun.png";
+import ghar from "./../../../../assets/images/WhereWedo/ghar.png";
+import "./WhereWeWorkSlideOneStyle.css";
 const WhereWeWorkSlideOne = () => {
   return (
     <>
-      <div className={WhereWeWorkSlideOneStyle.containerSlide}>
-        <div className={WhereWeWorkSlideOneStyle.conbtainer}>
+      <div className="containerSlidePvSl1">
+        <div className="conbtainerPvSl1">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
-                <div className={WhereWeWorkSlideOneStyle.workbtn}>
-                  WHERE WE WORK
-                </div>
-                <div className={WhereWeWorkSlideOneStyle.containerText}>
-                  <div className={WhereWeWorkSlideOneStyle.containerDescSl}>
+                <div className="workbtnPvSl1">WHERE WE WORK</div>
+                <div className="containerTextPvSl1">
+                  <div className="containerDescSlPvSl1">
                     PEARL VALLEY PUBLIC SCHOOL
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
-                    <a href="/Bvps" style={{ textDecoration: "none" }}>
+                  <div className="nonSelectPvSl1">
+                    <a href="/bvpc" style={{ textDecoration: "none" }}>
                       BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
-                    <a href="/Svps" style={{ textDecoration: "none" }}>
+                  <div className="nonSelectPvSl1">
+                    <a href="/svpc" style={{ textDecoration: "none" }}>
                       SOAN VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className={WhereWeWorkSlideOneStyle.nonSelect}>
-                    <a href="/Jact" style={{ textDecoration: "none" }}>
+                  <div className="nonSelectPvSl1">
+                    <a href="/jacte" style={{ textDecoration: "none" }}>
                       JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className={WhereWeWorkSlideOneStyle.firstSlideImage}>
+                <div className="firstSlideImagePvSl1">
                   <img
                     // class='img-fluid'
                     // width={500}
                     height={300}
-                    className={WhereWeWorkSlideOneStyle.bachiImg}
+                    className="bachiImgPvSl1"
                     src={bachiBachaRun}
                   ></img>
                 </div>
@@ -54,12 +50,12 @@ const WhereWeWorkSlideOne = () => {
       </div>
 
       {/* Slide 2 */}
-      <div className={WhereWeWorkSlideOneStyle.containerStyle}>
+      <div className="containerStylePvSl1">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <div className={WhereWeWorkSlideOneStyle.slideTextLeft}>
-                <p className={WhereWeWorkSlideOneStyle.slideDescLeft}>
+              <div className="slideTextLeftPvSl1">
+                <p className="slideDescLeftPvSl1">
                   "When a nation come devoid of arts and learning, it invites
                   poverty. And when poverty comes it brings in it's wake
                   thousands of crimes"
@@ -67,7 +63,7 @@ const WhereWeWorkSlideOne = () => {
                   <br />
                   <br />- Sir Syed Ahmed Khan
                 </p>
-                <div className={WhereWeWorkSlideOneStyle.slideRightImage}>
+                <div className="slideRightImagePvSl1">
                   <img
                     src={ghar}
                     class="img-fluid"
@@ -78,12 +74,12 @@ const WhereWeWorkSlideOne = () => {
               </div>
             </div>
             <div className="col-md-6 col-sm-12">
-              <div className={WhereWeWorkSlideOneStyle.slideRightContainer}>
-                <div className={WhereWeWorkSlideOneStyle.textContainer}>
-                  <p className={WhereWeWorkSlideOneStyle.headingSlideText}>
+              <div className="slideRightContainerPvSl1">
+                <div className="textContainerPvSl1">
+                  <p className="headingSlideTextPvSl1">
                     Pearl Valley Public School
                   </p>
-                  <p className={WhereWeWorkSlideOneStyle.DescStyleRight}>
+                  <p className="DescStyleRightPvSl1">
                     Pearl Valley Public School and College was the pilot project
                     of Kashmir Education Foundation. It is located at Rawalkot,
                     Azad Kashmir for which over 3 acres were donated by the
@@ -104,7 +100,7 @@ const WhereWeWorkSlideOne = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default WhereWeWorkSlideOne
+export default WhereWeWorkSlideOne;

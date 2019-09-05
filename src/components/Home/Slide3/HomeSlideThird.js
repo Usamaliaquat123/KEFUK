@@ -1,30 +1,28 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
+import PropTypes from "prop-types";
+import React, { useState } from "react";
 // import logoImg from "./../../Images/logo.png"
 // import homeLesson from "./../../Images/Home/homeLesson.png"
 // import teacherLesson from "./../../Images/Home/teacherLesson.png"
 // import eductionLesson from "./../../Images/Home/eductionLesson.png"
-import bachiWatching from "./../../../images/Home/bachiWatching.png"
-import HomeSlideThirdStyle from "./HomeSlideThird.module.css"
-import Typed from "react-typed"
+import bachiWatching from "./../../../assets/images/Home/bachiWatching.png";
+import "./HomeSlideThirdStyles.css";
 const HomeSlideThird = () => {
   return (
-    <div className={HomeSlideThirdStyle.containerSlide}>
-      <div className={HomeSlideThirdStyle.buttonWhatWeDo}>
+    <div className="containerSlideThirdsl1">
+      <div className="buttonWhatWeDo">
         <p>WHAT WE DO</p>
       </div>
-      <div className={HomeSlideThirdStyle.secondLayerContainer}>
+      <div className="secondLayerContainerThird">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">
-              <div className={HomeSlideThirdStyle.containerTextInner}>
-                <p className={HomeSlideThirdStyle.headingText}>
+              <div className="containerTextInnersl1">
+                <p className="headingTextsl1">
                   Promoting 21st Century Quality Education in Kashmir & Pakistan
                   for future generations.
                 </p>
-                <div className={HomeSlideThirdStyle.slideDescription}>
-                  <p className={HomeSlideThirdStyle.descriptionText}>
+                <div className="slideDescriptionsl1">
+                  <p className="descriptionTextsl1">
                     Kasimir Education Foundation UK was established in
                     conjunction with KEF Pakistan in 1996 out of an altruistic
                     response to fight poverty in equality amongest the most
@@ -33,7 +31,7 @@ const HomeSlideThird = () => {
                     various rural areas where currently 900 students are
                     enrolled.
                   </p>
-                  <a href="/Schools" className={HomeSlideThirdStyle.buttonLastBlack}>
+                  <a href="/Schools" className="buttonLastBlacksl1">
                     Read more
                   </a>
                 </div>
@@ -43,15 +41,15 @@ const HomeSlideThird = () => {
           </div>
         </div>
       </div>
-      <div className={HomeSlideThirdStyle.circleLayer}>
-        <div className={HomeSlideThirdStyle.imageLayer}>
+      <div className="circleLayersl1">
+        <div className="imageLayersl1">
           <img src={bachiWatching}></img>
         </div>
       </div>
 
-      <div className={HomeSlideThirdStyle.containerSecondImage}></div>
+      <div className="containerSecondImage"></div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeSlideThird
+export default HomeSlideThird;

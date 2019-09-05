@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.containerSlideThirdsl1 {
+  background: #72c6ff;
+
+  min-height: 100%;
+
+  height: auto;
+
+  width: 100%;
+
+  padding-bottom: 9.7%;
+
+  padding-top: 3%;
+}
+.secondLayerContainerThird {
+  width: 80%;
+  /* position: absolute; */
+  background: #8ed1ff;
+  /* margin-top: 100px; */
+  height: 406px;
+}
+
+.imageLayersl1 {
+  margin-top: -27.55%;
+  position: absolute;
+
+  right: 0;
+}
+.imageLayersl1 > img {
+  width: 100%;
+}
+.buttonWhatWeDo {
+  padding: 10px 10px;
+
+  font-size: 0.7vw;
+
+  color: black;
+
+  width: 149px;
+
+  background: #fff;
+
+  height: 37px;
+
+  margin-left: 7%;
+
+  margin-bottom: 2%;
+}
+.buttonWhatWeDo > p {
+  text-align: center;
+}
+.containerTextInnersl1 {
+  padding: 4% 7%;
+
+  padding-bottom: 4%;
+  padding-left: 7%;
+
+  padding-left: 12%;
+}
+.headingTextsl1 {
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+}
+.slideDescriptionsl1 {
+}
+.descriptionTextsl1 {
+  font-family: "Harabara Medium";
+
+  color: #414865;
+
+  font-size: 0.9vw;
+
+  margin-right: 213px;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+
+  margin-top: 8%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.buttonLastBlacksl1:hover {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1920px){
+
+  .imageLayersl1 > img {
+    width: 883px;
+    height: auto;
+  }
+  .imageLayersl1 {
+    margin-top: -23.95%;
+position: absolute;
+right: 0;
+ }
+}
+
+
+
+/* Desktop tBalets and mobile */
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+}

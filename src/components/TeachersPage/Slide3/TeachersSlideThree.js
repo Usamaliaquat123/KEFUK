@@ -1,20 +1,17 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import TeachersSlideThreeStyle from "./TeachersSlideThree.module.css"
-import Typed from "react-typed"
+import React, { useState } from "react";
+import "./TeachersSlideThreeStyles.css";
 const TeachersSlideThree = () => {
   return (
-    <div className={TeachersSlideThreeStyle.containerSLideOne}>
-      <div className={TeachersSlideThreeStyle.textsContainer}>
-        <p className={TeachersSlideThreeStyle.HeadingSTyle}>GET INVOLVED</p>
-        <p className={TeachersSlideThreeStyle.Description}>
+    <div className="containerSLideOneTecsl3">
+      <div className="textsContainerTecsl3">
+        <p className="HeadingSTyleTecsl3">GET INVOLVED</p>
+        <p className="DescriptionTecsl3">
           Support a teacher at John Atkinson College of Teacher Education
         </p>
-        <div className={TeachersSlideThreeStyle.btnStyle}>DONATE NOW</div>
+        <div className="btnStyleTecsl3">DONATE NOW</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TeachersSlideThree
+export default TeachersSlideThree;

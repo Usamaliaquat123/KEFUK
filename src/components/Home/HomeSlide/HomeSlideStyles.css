@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
+}
+
+.mainContainerHeadingTextSl1 {
+  padding-top: 10%;
+  margin-left: 5%;
+}
+.mainContainerHeadingTextSl1 > p {
+  font-family: "Lato Black";
+  font-size: 22px;
+}
+.backgroundTextSl1 {
+  background: white;
+  padding: 5px;
+  font-size: 1.8vw;
+}
+
+.actNoeBtnSl1 {
+  background: #eb5d5f;
+  width: 140px;
+  /* margin-left: 80%; */
+  position: absolute;
+  height: 5%;
+  /* right: 0; */
+}
+.socialMediaTabSl1 > img {
+  width: 10%;
+
+  
+  margin: 4% 1%;
+}
+.actNoeBtnSl1 > p {
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 0.8vw;
+  text-align: center;
+  padding: 9% 0;
+}
+.socialIconsSl1 {
+  margin-right: 3px;
+  float: left;
+}
+.followUsTextSl1 {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  margin: 6% 3%;
+  margin-left: 8%;
+
+
+}
+.socialMediaTabSl1 {
+  margin-top: 13.6%;
+
+  margin-left: -2%;
+  
+  background-color: #404864;
+  
+  width: 24%;
+  
+  height: auto;
+  
+  padding-left: 1%;
+  
+  float: left;
+}
+.textBottomTab {
+  margin-top: 15%;
+  background-color: #ffffff;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  /* padding: 20px 0px; */
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.2vw;
+  font-family: "Lato Black";
+}
+.yellowIndicator {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 4px;
+  background: #ffdd00;
+}
+.backgroundHeightSl1 {
+  padding: 3% 0%;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 1900px) {
+  .socialMediaTabSl1 {
+    margin-top: 13.6%;
+    margin-left: -2%;
+    background-color: #404864;
+    width: 24%;
+    height: auto;
+    padding-left: 1%;
+    float: left;
+  }
+}
+@media screen and (max-width: 1481px) {
+  .socialMediaTabSl1 {
+    margin-top: 12.8%;
+    margin-left: -2%;
+    background-color: #404864;
+    width: 29%;
+    height: auto;
+    padding-left: 1%;
+    float: left;
+  }
+}
+
+
+@media screen and (max-width: 1231px) {
+  .followUsTextSl1 {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    margin: 6% 3%;
+    margin-left: 2%;
+  }
+}
+
+
+@media screen and (max-width: 1209px) {
+  .socialMediaTabSl1 {
+    width: 29%;
+}
+}
+@media screen and (max-width: 1020px) {
+  .followUsTextSl1 {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    margin: 4% 2%;
+    margin-left: 2%;
+}
+
+.socialMediaTabSl1 {
+  width: 29%;
+  margin-top: 13.6%;
+}
+
+}
+
+/* If device width in 1092px */
+
+/* If device width in 900px */
+@media screen and (max-width: 930px) {
+  .socialMediaTabSl1 {
+    width: 34%;
+    margin-top: 13.25%;
+}
+}
+@media screen and (max-width: 994px) {
+  .socialMediaTabSl1 {
+    width: 34%;
+    margin-top: 12.8%;}
+}
+@media screen and (max-width: 900px) {
+  .socialMediaTabSl1 {
+    margin-top: 13.23%;
+}
+
+
+}
+@media screen and (max-width: 851px) {
+  .socialMediaTabSl1 {
+  display: none;
+}
+
+
+}
+/* If device width in 695px */
+@media screen and (max-width: 695px) {
+  .socialMediaTabSl1 {
+    display: none;
+    visibility: hidden;
+  }
+  .textBottomTab {
+    width: 40%;
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 577px) {
+  .backgroundHeightSl1 {
+    min-height: 200px;
+  }
+  .mainContainerHeadingTextSl1 {
+    padding-top: 20%;
+    margin-left: 5%;
+  }
+  .socialMediaTabSl1 {
+    display: none;
+  }
+}
+
+/* Id device width is 500 */
+@media screen and (max-width: 500px) {
+  /* .socialMediaTab{
+        display: none;
+        visibility: hidden;
+    } */
+  .textBottomTab {
+    width: 50%;
+    margin-left: 27%;
+  }
+}

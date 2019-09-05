@@ -91,3 +91,43 @@
   padding-top: 80px;
   padding-bottom: 9.34%;
 }
+
+
+@media screen and (max-width: 919px) {
+  .containerOverlayFeatures {
+
+    margin-top: 100;
+    background: #ecf4fa;
+    align-items: center;
+    height: auto;
+  
+  }
+  .containerStyleFeatures {
+
+    padding: 18%;
+
+}
+.cardCcontainerFeatures {
+
+  margin: 12%;
+  width: 250px;
+  padding: 23px;
+  height: auto;
+  background: #ffff;
+
+}
+.containerButtonFea {
+
+  font-family: "Harabara Bold";
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  width: 120px;
+  color: #fff;
+  background-color: #03b9fe;
+  padding: 7% 29%;
+
+}
+}
+

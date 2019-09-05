@@ -163,6 +163,27 @@
   .socialMediaTabSl1 {
     width: 34%;
     margin-top: 12.8%;}
+
+    .backgroundTextSl1 {
+      background: white;
+      padding: 5px;
+      font-size: 4.8vw;
+  }
+  .actNoeBtnSl1 > p {
+    font-family: "Lato Black";
+    color: aliceblue;
+    font-size: 2.3vw;
+    text-align: center;
+    padding: 5% 0;
+}
+.actNoeBtnSl1 {
+  background: #eb5d5f;
+  width: 257px;
+  margin-left: 80%;
+  position: absolute;
+  height: 7%;
+  right: 0;
+}
 }
 @media screen and (max-width: 900px) {
   .socialMediaTabSl1 {

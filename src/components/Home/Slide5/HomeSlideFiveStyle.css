@@ -37,3 +37,28 @@
     padding: 7% 19%;
   }
 }
+@media screen and (max-width: 919px) {
+  .slideFiveContainer {
+
+    padding: 11% 19%;
+
+}
+.headingSlide > p {
+
+    margin-top: 11%;
+    text-align: center;
+    font-size: 7vw;
+    margin-top: 16%;
+
+}
+
+.slideFiveDescription {
+
+  margin-top: -10%;
+  color: #354463;
+  font-size: 3.9vw;
+  font-family: "Lato Light";
+
+}
+}
+

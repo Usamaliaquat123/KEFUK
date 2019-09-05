@@ -118,66 +118,92 @@ right: 0;
 
 
 
-/* Desktop tBalets and mobile */
-
-
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  
-}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 919px) {
+  .containerSlideThirdsl1 {
+
+    background: #72c6ff;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20.7%;
+    padding-top: 3%;
+
+}
+.descriptionTextsl1 {
+
+  margin-right: 0;
+
+}
   
-  
+.buttonWhatWeDo {
+
+  padding: 10px 10px;
+  font-size: 2.4vw;
+  color: black;
+  width: 63%;
+  background: #fff;
+  margin: auto;
+  margin-bottom: 4%;
+  margin-top: 1%;
+
+}
+.secondLayerContainerThird {
+
+  width: 100%;
+  background: #8ed1ff;
+  height: auto;
+
+}
+.containerTextInnersl1 {
+
+  padding: 4% 7%;
+  padding-bottom: 4%;
+  padding-left: 12%;
+
+}
+.headingTextsl1 {
+
+  font-family: "Harabara Bold";
+  color: #414865;
+  font-size: 37px;
+  text-align: center;
+
+}
+.descriptionTextsl1 {
+
+  font-family: "Harabara Medium";
+  color: #414865;
+  font-size: 2.9vw;
+  text-align: center;
+
+}
+.buttonLastBlacksl1 {
+
+  text-decoration: none;
+  padding: 14px 10px;
+  font-size: 3vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 30%;
+  background: #414865;
+  height: auto;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 21%;
+  font-weight: bold;
+
+}
+.imageLayersl1 {
+
+  display: none;
+
+}
+
 }

@@ -5,7 +5,6 @@ import HomeSlideThird from "./../components/Home/Slide3/HomeSlideThird";
 import HomeSlideFour from "./../components/Home/Slide4/HomeSlideFour";
 import HomeSlideFive from "./../components/Home/Slide5/HomeSlideFive";
 import Header from "../components/header/Header";
-import BasicFeatures from "../components/BasicFeatures/BasicFeatures";
 import Subscribe from "../components/Subscribe/Subscribe";
 import BottomNav from "../components/BottomNav/BottomNav";
 import NavigatorView from "../components/NavigatorView/NavigatorView";
@@ -32,7 +31,6 @@ class HomeScreen extends Component {
           <HomeSlideFour />
           <HomeSlideFive />
           {/* <Donation /> */}
-          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

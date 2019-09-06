@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Header from "../../components/header/Header";
 import NavigatorView from "../../components/NavigatorView/NavigatorView";
-import BasicFeatures from "../../components/BasicFeatures/BasicFeatures";
 import WhereWeWorkSlideOne from "../../components/WhereWeWork/pvps/Slide1/WhereWeWorkSlideOne";
 import WhereWeWorkSlideTwo from "../../components/WhereWeWork/pvps/Slide2/WhereWeWorkSlideTwo";
 import WhereWeWorkSlideThree from "../../components/WhereWeWork/pvps/Slide3/WhereWeWorkSlideThree";

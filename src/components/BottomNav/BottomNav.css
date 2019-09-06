@@ -1,16 +1,17 @@
 
 .imageBottomNav {
-    margin-left: "12%";
-     margin-right: "-19%"
+    width: 76%;
+    margin-top: 18%;
 }
-.bottomNavContainer{
+.bottomNavContainer {
     display: flex;
-     align-content: center;
-     height: 400px;
+    align-content: center;
+    height: auto;
+    padding-bottom: 4%;
 }
-.smallContainerBottomNav{
+.smallContainerBottomNav {
     margin: auto;
-     width: 600px;
+    margin-top: 15%;
 }
 .headingBottomNav{
     font-size: 12px;

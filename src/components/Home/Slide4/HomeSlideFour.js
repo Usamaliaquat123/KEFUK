@@ -37,7 +37,7 @@ const HomeSlideFour = () => {
       </div>
       <div className="circleLayer">
         <div className="imageLayer">
-          <img src={tafreeTeacher}></img>
+          <img  className='img-fluid'src={tafreeTeacher}></img>
         </div>
       </div>
 

@@ -30,10 +30,11 @@
 }
 
 .imageLayer {
-  margin-top: -27.55%;
-  position: absolute;
 
+  margin-top: -24.1%;
+  position: absolute;
   right: 0;
+
 }
 .imageLayer > img {
   width: 900px;

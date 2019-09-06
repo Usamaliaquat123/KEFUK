@@ -83,11 +83,60 @@
 }
 
 /* Id device width is 500 */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 919px) {
   .DescriptionSlide > p {
     text-align: center;
   }
-  .logImg {
-    padding: 0 17%;
-  }
+  .logImg > img {
+
+    width: 100%;
+    margin-top: 20%;
+
 }
+.containerFeatures {
+
+  padding: 5% 3%;
+
+}
+.DescriptionSlide > p {
+
+  text-align: center;
+  font-size: 5vw;
+
+}
+
+.featureText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 4vw;
+  font-weight: bold;
+
+}
+.donationPolicyText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 4vw;
+  margin-top: -10%;
+  font-weight: bold;
+
+}
+.teachersTrainedText {
+
+  text-align: center;
+  font-family: "Lato Light";
+  font-size: 4vw;
+  margin-top: -2%;
+  font-weight: bold;
+
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+   
+}
+

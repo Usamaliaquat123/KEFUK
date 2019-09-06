@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
-
 import NewsEventsSlideOne from "../components/News&events/Slide1/NewsEventsSlideOne";
 import NewsEventsSlideTwo from "../components/News&events/Slide2/NewsEventsSlideTwo";
 import NewsEventsSlideThree from "../components/News&events/Slide3/NewsEventsSlideThree";
@@ -14,7 +13,7 @@ export class NewsAndEvents extends Component {
 
   donateWithStripe() {
     console.log(`test`)
-  }
+  } 
 
   render() {
     return (

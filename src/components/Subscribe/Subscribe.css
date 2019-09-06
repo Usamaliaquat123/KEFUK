@@ -36,7 +36,7 @@
   }
   
   /* Subscribe btns */
-  .subscribeBtn{
+  .subscribeBtnSus{
     float: right;
     /* margin-left: 20px; */
     width: 100%;
@@ -59,15 +59,19 @@
           width: 50%;
           margin-left: 27%;
       }
-      .containerSTyle{
-        
-        background-position: fixed;
+      .containerSTyle {
+
+        padding: 11% 3%;
+    
+    }
+    .containerText {
+
+      font-size: 5.2vw;
+      color: white;
+      font-weight: bold;
+      text-align: center;
   
-        display: flex;
-        align-items: center;
-        background: #EB5D5F;
-        height: auto
-      }
+  }
     }
     /* If max- width 1093 */
     @media screen and (max-width: 1093px){
@@ -85,28 +89,26 @@
     @media screen and (max-width: 768px  ){
       .containerEmailInput{
         border: none;
-      width: 100%;
-      border-radius: 35px;
-      padding: 10px;
-      padding-left: 20px;
-      font-size: 12px;
-      margin-bottom: 3%;
+        width: 100%;
+        border-radius: 35px;
+        padding: 22px;
+        font-size: 12px;
+        margin-bottom: 3%;
       }
       .containerSTyle{
         padding: 6% 3%;
       }
-      .subscribeBtn{
-        width: 42%;
-        text-align: center;
-        /* display: flex; */
-        align-items: center;
-        padding: 10px;
-        /* padding-left: 35px; */
-        background: #03B9FE;
-        border-radius: 30px;
-        font-size: 14px;
-        color: white;
-        margin: 0% 25%;
+      .subscribeBtnSus{
+        
+  width: 42%;
+  text-align: center;
+  align-items: center;
+  padding: 14px;
+  background: #03B9FE;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+  margin: 0% 25%;
       }
     }
   

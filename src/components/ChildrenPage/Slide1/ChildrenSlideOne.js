@@ -4,10 +4,15 @@ import "./ChildrenSlideOneStyles.css";
 const ChildrenSlideOne = () => {
   return (
     <div className="containerSLideOneCh">
-      <div className="ImageContainerCh">
+      <div className='container-fluid'>
+        <div className="row">
+          <div className='col-sm-12 col-md-4'>
+          <div className="ImageContainerCh">
         <img className="bachiImgCh" src={bachi} class="img-fluid"></img>
       </div>
-      <div className="containerTextSTyleCh">
+          </div>
+          <div className='col-sm-12 col-md-8'>
+          <div className="containerTextSTyleCh">
         <div className="btnWhatweDOCh">WHAT WE DO</div>
         <p className="headingTextCh">
           Providing Modern Quality Education in Kashmir & Pakistan
@@ -30,6 +35,11 @@ const ChildrenSlideOne = () => {
           on female education
         </p>
       </div>
+          </div>
+        </div>
+      </div>
+   
+   
     </div>
   );
 };

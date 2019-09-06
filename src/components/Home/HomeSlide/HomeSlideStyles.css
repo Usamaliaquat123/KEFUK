@@ -36,6 +36,7 @@
   
   margin: 4% 1%;
 }
+
 .actNoeBtnSl1 > p {
   font-family: "Lato Black";
   color: aliceblue;
@@ -198,6 +199,21 @@
 
 }
 /* If device width in 695px */
+@media screen and (max-width: 798px) {
+  .actNoeBtnSl1 {
+    background: #eb5d5f;
+    width: 257px;
+    position: absolute;
+    height: 6%;
+}
+.actNoeBtnSl1 > p {
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2.3vw;
+  text-align: center;
+  padding: 7% 0;
+}
+}
 @media screen and (max-width: 695px) {
   .socialMediaTabSl1 {
     display: none;
@@ -206,7 +222,50 @@
   .textBottomTab {
     width: 40%;
     margin-left: 27%;
+    margin-top: 37%;
   }
+
+
+  .textBottomTab {
+
+    width: 40%;
+    margin-left: 27%;
+    font-size: 2.3vw;
+
+}
+.actNoeBtnSl1 {
+
+  background: #eb5d5f;
+  width: 136px;
+  position: absolute;
+  height: 4%;
+  margin-bottom: 14%;
+
+}
+.actNoeBtnSl1 > p {
+
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2vw;
+  text-align: center;
+  padding: 7% 0;
+
+}
+.mainContainerHeadingTextSl1 {
+
+  padding-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 14%;
+
+}
+.backgroundTextSl1 {
+
+  background: white;
+  padding: 3px;
+  font-size: 4.8vw;
+  margin-top: 1%;
+
+}
 }
 @media screen and (max-width: 577px) {
   .backgroundHeightSl1 {
@@ -220,6 +279,48 @@
     display: none;
   }
 }
+@media screen and (max-width: 510px) {
+  .textBottomTab {
+
+    width: 40%;
+    margin-left: 27%;
+    font-size: 2.3vw;
+
+}
+.actNoeBtnSl1 {
+
+  background: #eb5d5f;
+  width: 136px;
+  position: absolute;
+  height: 4%;
+  margin-bottom: 14%;
+
+}
+.actNoeBtnSl1 > p {
+
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 2vw;
+  text-align: center;
+  padding: 7% 0;
+
+}
+.mainContainerHeadingTextSl1 {
+
+  padding-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 14%;
+
+}
+.backgroundTextSl1 {
+
+  background: white;
+  padding: 3px;
+  font-size: 4.8vw;
+  margin-top: 1%;
+
+}
+}
 
 /* Id device width is 500 */
 @media screen and (max-width: 500px) {
@@ -231,4 +332,6 @@
     width: 50%;
     margin-left: 27%;
   }
+  
 }
+

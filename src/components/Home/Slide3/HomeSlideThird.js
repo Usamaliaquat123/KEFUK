@@ -43,7 +43,7 @@ const HomeSlideThird = () => {
       </div>
       <div className="circleLayersl1">
         <div className="imageLayersl1">
-          <img src={bachiWatching}></img>
+          <img class='img-fluid' src={bachiWatching}></img>
         </div>
       </div>
 

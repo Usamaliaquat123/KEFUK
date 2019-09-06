@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import HomeSlide from "./../components/Home/HomeSlide/HomeSlide";
 import HomeSlideSecond from "./../components/Home/Slide2/HomeSlideSecond";
 import Header from "../components/header/Header";
-import BasicFeatures from "../components/Basicfeatures/Basicfeatures";
 import Subscribe from "../components/Subscribe/Subscribe";
 import BottomNav from "../components/BottomNav/BottomNav";
 import NavigatorView from "../components/NavigatorView/NavigatorView";
@@ -31,7 +30,6 @@ class Teacher extends Component {
           <TeachersSlideTwo />
           <TeachersSlideThree />
           {/* <Donation /> */}
-          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

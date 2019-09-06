@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import PropTypes from "prop-types"
 import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
-import BasicFeatures from "../components/Basicfeatures/Basicfeatures"
 
 import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/BottomNav/BottomNav"
@@ -28,7 +27,6 @@ export class Donate extends Component {
         >
           {/* <Donation /> */}
           <PaymentApp />
-          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

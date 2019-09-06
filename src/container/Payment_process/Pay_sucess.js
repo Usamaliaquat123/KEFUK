@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import BottomNav from "../../components/BottomNav/BottomNav";
 import NavigatorView from "../../components/NavigatorView/NavigatorView";
@@ -23,7 +22,6 @@ class Pay_sucess extends Component {
           }}
         >
           {/* <Donation /> */}
-          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
           <footer>

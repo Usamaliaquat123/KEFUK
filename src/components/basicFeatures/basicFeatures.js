@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 import bachi from "./../../assets/images/features/bachi.png";
 import tharkiMedal from "./../../assets/images/features/tharki_medal.png";
@@ -13,7 +12,7 @@ const BasicFeatures = () => {
   return (
     <div className="containerOverlayFeatures">
       <div className="container-fluid">
-        <div className="containerStyleFeatures">
+        <div className="containerStyleFeatures">  
           <div className="row">
             <div className="col-sm-12 col-md-4">
               <div className="cardCcontainerFeatures">

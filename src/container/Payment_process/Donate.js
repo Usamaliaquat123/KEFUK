@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
+import BasicFeatures from "../../components/BasicFeatures/BasicFeatures";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import BottomNav from "../../components/BottomNav/BottomNav";
 import NavigatorView from "../../components/NavigatorView/NavigatorView";

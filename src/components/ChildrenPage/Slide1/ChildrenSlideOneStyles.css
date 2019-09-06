@@ -58,6 +58,14 @@
 
 
 @media screen and (max-width: 768px) {
+  .ImageContainerCh {
+    width: 100%;
+    height: 100%;
+    background: #4698d0;
+    padding: 2%;  
+    margin-left: 0;
+
+  }
   .containerTextSTyleCh {
 
     padding-top: 4%;

@@ -5,10 +5,15 @@ import "./TeachersSlideOneStyle.css";
 const TeachersSlideOne = () => {
   return (
     <div className="containerSLideOneTec">
-      <div className="ImageContainerTec">
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-sm-12 col-md-4'>
+          <div className="ImageContainerTec">
         <img className="bachiImgTec" src={bachi} class="img-fluid"></img>
       </div>
-      <div className="containerTextSTyleTec">
+          </div>
+          <div className='col-sm-12 col-md-8'>
+          <div className="containerTextSTyleTec">
         <div className="btnWhatweDOTec">WHAT WE DO</div>
         <p className="headingTextTec">
           Joan Atkinson College of Teacher PEducation for women
@@ -35,6 +40,11 @@ const TeachersSlideOne = () => {
           teachers from other schools in the respective areas.
         </p>
       </div>
+          </div>
+        </div>
+      </div>
+      
+      
     </div>
   );
 };

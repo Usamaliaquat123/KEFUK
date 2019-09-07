@@ -105,6 +105,7 @@
     padding-left: 1%;
     float: left;
   }
+ 
 }
 @media screen and (max-width: 1481px) {
   .socialMediaTabSl1 {
@@ -118,6 +119,29 @@
   }
 }
 
+@media screen and (max-width: 1132px) {
+
+}
+@media screen and (max-width: 1366px) {
+  .actNoeBtnSl1 {
+    background: #eb5d5f;
+    width: 13%;
+    /* margin-left: 80%; */
+    position: absolute;
+    height: 7%;
+    /* right: 0; */
+}
+.imageLayersl1 {
+  margin-top: -33.7%;
+  position: absolute;
+  right: 0;
+}
+.imageLayer4 {
+  margin-top: -33.5%;
+  position: absolute;
+  right: 0;
+}
+}
 
 @media screen and (max-width: 1231px) {
   .followUsTextSl1 {

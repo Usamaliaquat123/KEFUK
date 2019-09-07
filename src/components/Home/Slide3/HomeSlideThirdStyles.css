@@ -104,21 +104,99 @@
 
 @media screen and (max-width: 1920px){
 
-  .imageLayersl1 > img {
-    width: 883px;
-    height: auto;
-  }
   .imageLayersl1 {
-    margin-top: -23.95%;
-position: absolute;
-right: 0;
- }
+    margin-top: -33.6%;
+    position: absolute;
+    right: 0;
+}
+.imageLayersl1 > img {
+  width: 737px;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 1341px){
+  
+  .imageLayersl1 {
+    margin-top: -34.3%;
+    position: absolute;
+    right: 0;
+}
+.imageLayer4 {
+  margin-top: -34.4%;
+  position: absolute;
+  right: 0;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding: 1.4% 4%;
+  padding: ;
+  font-size: 1.1vw;
+  color: #fff;
+  position: absolute;
+  margin-top: 12%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding: 12px 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 8%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+.actNoeBtnSl1 > p {
+  font-family: "Lato Black";
+  color: aliceblue;
+  font-size: 0.8vw;
+  text-align: center;
+  padding: 7% 0;
+}
 }
 
 
-
-
-
+@media screen and (max-width: 1273px){
+  .imageLayer4 {
+    margin-top: -36.8%;
+    position: absolute;
+    right: 0;
+}
+.imageLayersl1 {
+  margin-top: -36.7%;
+  position: absolute;
+  right: 0;
+}
+.buttonLastBlacksl1 {
+  text-decoration: none;
+  padding: 12px 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 0%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px

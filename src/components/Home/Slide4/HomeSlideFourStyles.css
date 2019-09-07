@@ -29,14 +29,14 @@
   height: 406px;
 }
 
-.imageLayer {
+.imageLayer4 {
 
   margin-top: -24.1%;
   position: absolute;
   right: 0;
 
 }
-.imageLayer > img {
+.imageLayer4 > img {
   width: 900px;
 }
 .buttonWhatWeDo {
@@ -113,7 +113,18 @@
 
   font-weight: bold;
 }
-
+@media screen and (max-width: 1900px){
+  .imageLayer4 {
+    margin-top: -33.5%;
+    position: absolute;
+    right: 0;
+}
+.imageLayer4 > img {
+  /* width: 900px; */
+  width: 737px;
+  height: auto;
+}
+}
 @media screen and (max-width: 1339px){
 
     
@@ -193,7 +204,7 @@
   font-weight: bold;
 
 }
-.circleLayer {
+.circleLayer4 {
 
   display: none;
 

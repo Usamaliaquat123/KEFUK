@@ -15,9 +15,11 @@
 
 
 }
+
+
 .ImageContainerCh {
 
-    width: 604px;
+    width: 100%;
     height: 100%;
     background: #4698d0;
     padding: 2%;

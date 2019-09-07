@@ -169,6 +169,39 @@
 }
 
 
+@media screen and (max-width: 1347px){
+  .imageLayersl1 {
+    margin-top: -34.2%;
+    position: absolute;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1325px){
+  .imageLayersl1 {
+    margin-top: -34.9%;
+    position: absolute;
+    right: 0;
+
+}
+}
+@media screen and (max-width: 1318px){
+  .imageLayersl1 {
+    margin-top: -33.2%;
+    position: absolute;
+    right: 0;
+}
+}
+@media screen and (max-width: 1275px){
+  .imageLayersl1 {
+    margin-top: -34.6%;
+    position: absolute;
+    right: 0;
+}
+}
+
+
+
+
 @media screen and (max-width: 1273px){
   .imageLayer4 {
     margin-top: -36.8%;
@@ -201,7 +234,56 @@
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+@media screen and (max-width: 1262px){
+  .imageLayersl1 {
+    margin-top: -35.1%;
+    position: absolute;
+    right: 0;
+}
+}
+@media screen and (max-width: 1220px){
+  .imageLayersl1 {
+    margin-top: -34.4%;
+    position: absolute;
+    right: 0;
+}
+.imageLayersl1 > img {
+  width: 672px;
+  height: auto;
+}
+}
 
+@media screen and (max-width: 1186px){
+  .imageLayersl1 {
+    margin-top: -36.4%;
+    position: absolute;
+    right: 0;
+}
+.imageLayersl1 > img {
+  width: 682px;
+  height: auto;
+}
+}
+@media screen and (max-width: 1169px){
+  .imageLayersl1 {
+    margin-top: -37.1%;
+    position: absolute;
+    right: 0;
+}
+}
+@media screen and (max-width: 1131px){
+  .imageLayersl1 {
+    margin-top: -38.6%;
+    position: absolute;
+    right: 0;
+}
+}
+@media screen and (max-width: 1123px){
+  .imageLayersl1 {
+    display: none;
+    visibility: hidden
+  }
+}
 @media (min-width: 320px) and (max-width: 919px) {
   .containerSlideThirdsl1 {
 

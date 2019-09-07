@@ -70,8 +70,8 @@
   color: #414865;
   font-size: 37px;
 }
-.slideDescriptionsl1 {
-}
+/* .slideDescriptionsl1 {
+} */
 .descriptionTextsl1 {
   font-family: "Harabara Medium";
 
@@ -130,7 +130,7 @@
 .buttonLastBlack {
   text-decoration: none;
   padding: 1.4% 4%;
-  padding: ;
+  /* padding: ; */
   font-size: 1.1vw;
   color: #fff;
   position: absolute;
@@ -181,20 +181,20 @@
   right: 0;
 }
 .buttonLastBlacksl1 {
-  text-decoration: none;
-  padding: 12px 10px;
-  font-size: 0.9vw;
-  color: #fff;
-  cursor: pointer;
-  position: absolute;
-  margin-top: 0%;
-  width: 153px;
-  background: #414865;
-  height: 42px;
-  border-radius: 90px;
-  text-align: center;
-  margin-left: 0%;
-  font-weight: bold;
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: 0.9vw;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0%;
+    width: 153px;
+    background: #414865;
+    height: 42px;
+    border-radius: 90px;
+    text-align: center;
+    margin-left: 0%;
+    font-weight: bold;
 }
 }
 /* 

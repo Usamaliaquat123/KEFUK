@@ -8,6 +8,7 @@ import NavigatorView from "../components/NavigatorView/NavigatorView";
 import ChildrenSlideOne from "./../components/ChildrenPage/Slide1/ChildrenSlideOne";
 import ChildrenSlideTwo from "./../components/ChildrenPage/Slide2/ChildrenSlideTwo";
 import ChildrenSlideThree from "./../components/ChildrenPage/Slide3/ChildrenSlideThree";
+import BasicFea from "../components/BasicFeatures/BasicFea";
 
 class Child extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class Child extends Component {
           <ChildrenSlideTwo />
           <ChildrenSlideThree />
           {/* <Donation /> */}
+          <BasicFea />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 

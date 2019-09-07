@@ -9,6 +9,7 @@ import Subscribe from "../components/Subscribe/Subscribe";
 import BottomNav from "../components/BottomNav/BottomNav";
 import NavigatorView from "../components/NavigatorView/NavigatorView";
 import BasicFea from "../components/BasicFeatures/BasicFea";
+import PaymentApp from "../components/payment/Payment";
 class HomeScreen extends Component {
   constructor(props) {
     super(props);
@@ -32,6 +33,7 @@ class HomeScreen extends Component {
           <HomeSlideFour />
           <HomeSlideFive />
           {/* <Donation /> */}
+          <PaymentApp />
           <BasicFea />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />

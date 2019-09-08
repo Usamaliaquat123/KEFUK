@@ -21,6 +21,7 @@
     color: aliceblue;
     margin: auto;
     margin-top: 4%;
+    margin-right: 5%;
   
   }
   .socialMediaTabFea {
@@ -28,8 +29,9 @@
     margin-top: -64px;
     padding: 4px 60px;
     background-color: #404864;
-    width: 30%;
+    width: 26%;
     height: auto;
+    padding-right: 0%;
   
   }
   .socialMediaTabFea > img {
@@ -74,7 +76,7 @@
     margin: 5%;
     width: 250px;
     padding: 23px;
-    height: auto;
+    height: 100%;
     background: #ffff;
   }
   .card-container-kf {
@@ -155,14 +157,12 @@
   }
   .socialMediaTabFea {
   
-    padding: 11px 50px;
-    background-color: #404864;
-    height: auto;
-    margin: auto;
-    padding-top: 4%;
-    padding-bottom: 0px;
-    width: 100%;
-  
+      margin-top: -64px;
+      padding: 4px 60px;
+      background-color: #404864;
+      width: 26%;
+      height: auto;
+      padding-right: 0%;
   }
   .followUsTextFea {
   

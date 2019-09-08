@@ -1,31 +1,25 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 // import sampleImg from "./../../images/don.jpg"
 import backgroundImage from "./../../assets/images/donation.png"
-import donationStyle from "./donationStyle.css"
-const Donation = () => {
+import "./donationStyle.css"
+ export default class Donation extends React.Component {
   // Donation box states
-  const [eduChildDonate, useeduChildDonate] = useState()
-  const [sponserChild, usesponserChild] = useState()
-  const [sponserTeacher, usesponserTeacher] = useState()
 
-  function ChangeMode(val) {
-    if (val == "£10") {
-      useeduChildDonate(true)+
-      usesponserChild(false)
-      usesponserTeacher(false)
-    } else if (val == "£25") {
-      useeduChildDonate(false)
-      usesponserChild(true)
-      usesponserTeacher(false) 
-    } else if (val == "£60") {
-      useeduChildDonate(false)
-      usesponserChild(false)
-      usesponserTeacher(true)
+constructor(props){
+    super(props)
+
+    this.state = {
+      isSelected10 : true,
+      isSelected25 : false,
+      isSelected60 : false,
+      selectedBackgroundColor: '#fff',
+      isSelectedMonthly : true,
+      isSelectedOneTime: false
     }
-  }
-
+}
+ 
+render(){
   return (
     <div
       style={{
@@ -38,7 +32,6 @@ const Donation = () => {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
-        minHeight: 838,
       }}
     >
 
@@ -53,83 +46,103 @@ const Donation = () => {
                 Choose a donation amount
               </div>
               <div style={{ marginTop: 15 }}>
-                <form action="#">
+                <div >
                   <div
-                    onClick={() => ChangeMode("£10")}
-                    className={
-                      eduChildDonate
-                        ? 'selectedPaymentCardItem'
-                        : 'paymentCardItem'
+                    className={ this.state.isSelected10 ? 'selectedPaymentCardItem' :'paymentCardItem'
                     }
                   >
-                    <div className="row">
-                      <div className="col-sm-2">
-                        <input type="radio" id="test1" name="radio-group" />
+                     <div className="containerToggle">
+                      <label className={this.state.isSelected10 ? 'selectedContainerLabel' : "containerLabel"}>
+                    <div className='row'>
+                      <div className='col-md-1'>
+  <input 
+  type="radio" 
+  value="£10" 
+  name="radio"
+  onChange={() => this.setState({
+    isSelected10 : true,
+      isSelected25 : false,
+      isSelected60 : false
+  })}
+  />
+  <span class="checkmark"></span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className='paymentCardItemMoney'>£10</div>
+                      <div className='col-md-4'>
+                        <span className="paymentAmountselector">£10</span>
+                      
                       </div>
-                      <div className="col-sm-7">
-                        <div className='paymentCardItemDText'>
-                          Make a difference by subsidizing the education of a
-                          child
-                        </div>
+                      <div className='col-md-7'>
+                        <span className="descContainerSelectors">    Make a difference by subsidizing the education of a
+                          child</span>
+                     
                       </div>
+                    </div>
+</label>
+            
                     </div>
                   </div>
                   <div
-                    onClick={() => ChangeMode("£25")}
-                    className={
-                      usesponserChild
-                        ? 'selectedPaymentCardItem'
-                        : 'paymentCardItem'
+                    className={this.state.isSelected25 ? 'selectedPaymentCardItem' : 'paymentCardItem'
                     }
                   >
-                    <div className="row">
-                      <div className="col-sm-2">
-                        <input type="radio" id="test1" name="radio-group" />
+                     <div className="containerToggle">
+                      <label className={this.state.isSelected25 ? 'selectedContainerLabel' :  "containerLabel"}>
+                    <div className='row'>
+                      <div className='col-md-1'>
+  <input type="radio" value="£25" name="radio"
+  onChange={() => this.setState({
+    isSelected60 : false,isSelected25 : true,isSelected10 : false
+  })}
+  ></input>
+  <span class="checkmark"></span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className='paymentCardItemMoney'>£25</div>
+                      <div className='col-md-4'>
+                        <span className="paymentAmountselector">£25</span>
+                      
                       </div>
-                      <div className="col-sm-7">
-                        <div className='paymentCardItemDText'>
-                          Make a difference by subsidizing the education of a
-                          child
-                        </div>
+                      <div className='col-md-7'>
+                        <span className="descContainerSelectors">Make a difference by subsidizing the education of a
+                          child</span>
+                     
                       </div>
+                    </div>
+</label>
+            
                     </div>
                   </div>
 
                   <div
-                    onClick={() => ChangeMode("£60")}
-                    className={
-                      usesponserTeacher
-                        ? 'selectedPaymentCardItem'
-                        : 'paymentCardItem'
+                    className={this.state.isSelected60 ? 'selectedPaymentCardItem' : 'paymentCardItem'
                     }
                   >
-                    <div className="row">
-                      <div className="col-sm-2">
-                        <input
-                          type="radio"
-                          id="test1"
-                          name="radio-group"
-                          checked
-                        />
+                    <div className="containerToggle">
+                      <label className={this.state.isSelected60 ? 'selectedContainerLabel' :"containerLabel"}>
+                    <div className='row'>
+                      <div className='col-md-1'>
+  <input type="radio" value="£60" name="radio"
+  onChange={() => {
+    this.setState({
+      isSelected25 : false,isSelected10 : false,isSelected60 : true
+    })
+  }}
+  ></input>
+  <span class="checkmark"></span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className='paymentCardItemMoney'>£60</div>
+                      <div className='col-md-4'>
+                        <span className="paymentAmountselector">£60</span>
+                      
                       </div>
-                      <div className="col-sm-7">
-                        <div className='paymentCardItemDText'>
-                          Make a difference by subsidizing the education of a
-                          child
-                        </div>
+                      <div className='col-md-7'>
+                        <span className="descContainerSelectors">   Make a difference by subsidizing the education of a
+                          child</span>
+                     
                       </div>
                     </div>
+</label>
+            
+                    </div>
                   </div>
-                </form>
+                </div>
               </div>
               <div className='enterCustomDonationText'>
                 <p>Enter a custom donation amount</p>
@@ -138,15 +151,39 @@ const Donation = () => {
                 <p>Choose a donation frequency</p>
 
                 <div className='selectDonationFSelectorContainer'>
-                  <div className='donationFrequencyButtonOneTime'>
+                  <div className={ this.state.isSelectedOneTime ? 'selectedOntime' : 'donationFrequencyButtonOneTime'}>
+                  <label className={this.state.isSelectedOneTime ? 'selectedcontainerLabelDonationFreq' :"containerLabelDonationFreq"}>
+                
+                  <input type="radio" value="£60" name="radio"
+  onChange={() => {
+    this.setState({
+      isSelectedOneTime : true,
+      isSelectedMonthly: false
+    })
+  }}
+  ></input>
+  <span class="checkmarkDonationFreq"></span>
                     <span className='donationOneTimeText'>
                       One time
                     </span>
+                    </label>
                   </div>
-                  <div className='donationFrequencyButtonMonthly'>
-                    <span className='donationMonthlyText'>
+                  <div className={this.state.isSelectedMonthly ? 'selectedMonthly' : 'donationFrequencyButtonMonthly'}>
+                  <label className={ this.state.isSelectedMonthly ? 'selectedcontainerLabelDonationFreq' :  "containerLabelDonationFreq"}>
+                
+                  <input type="radio" value="£60" name="radio"
+  onChange={() => {
+    this.setState({
+      isSelectedMonthly : true,
+      isSelectedOneTime : false
+    })
+  }}
+  ></input>
+  <span class="checkmarkDonationFreq"></span>
+                    <span className='donationOneTimeText'>
                       Monthly
                     </span>
+                    </label>
                   </div>
                 </div>
               </div>
@@ -163,5 +200,6 @@ const Donation = () => {
     </div>
   )
 }
+ 
+}
 
-export default Donation

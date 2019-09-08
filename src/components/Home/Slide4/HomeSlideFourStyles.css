@@ -212,12 +212,42 @@
 }
 @media screen and (max-width: 1123px){
   .imageLayer4 {
-    display: none;
-    visibility: hidden
-  }
+    margin-top: -34.9%;
+    position: absolute;
+    right: 0;
+}
+.imageLayer4 > img {
+  width: 602px;
+  height: auto;
+}
+.buttonLastBlack {
+  text-decoration: none;
+  padding: 14px 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  position: absolute;
+  margin-top: 12%;
+  width: 153px;
+  background: #414865;
+  height: 42px;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: 0%;
+  font-weight: bold;
+}
 }
 
-
+@media screen and (max-width: 956px){
+  .imageLayer4 {
+    margin-top: -36.22%;
+    position: absolute;
+    right: 0;
+}
+imageLayer4 > img {
+  width: 551px;
+  height: auto;
+}
+}
 
 @media (min-width: 320px) and (max-width: 919px) {
   .containerSlide {
@@ -228,15 +258,24 @@
     padding-bottom: 20.7%;
     padding-top: 3%;
 
+  }
+  .imageLayer4 {
+    margin-top: -36.22%;
+    position: absolute;
+    right: 0;
+}
+.imageLayer4 > img {
+  width: 551px;
+  height: auto;
 }
 .descriptionText {
-
-  margin-right: 0;
-
-}
   
-.buttonWhatWeDo {
+  margin-right: 0;
+  
+}
 
+.buttonWhatWeDo {
+  
   padding: 10px 10px;
   font-size: 2.4vw;
   color: black;
@@ -248,26 +287,26 @@
 
 }
 .secondLayerContainer {
-
+  
   width: 100%;
   background: #FF8E92;
   height: auto;
-
+  
 }
 .containerTextInnersl1 {
 
   padding: 4% 7%;
   padding-bottom: 4%;
   padding-left: 12%;
-
+  
 }
 .headingText {
-
+  
   font-family: "Harabara Bold";
   color: #414865;
   font-size: 37px;
   text-align: center;
-
+  
 }
 .descriptionText {
 
@@ -275,10 +314,10 @@
   color: #414865;
   font-size: 2.9vw;
   text-align: center;
-
+  
 }
 .buttonLastBlack {
-
+  
   text-decoration: none;
   padding: 14px 10px;
   font-size: 3vw;
@@ -293,12 +332,7 @@
   text-align: center;
   margin-left: 21%;
   font-weight: bold;
-
-}
-.circleLayer4 {
-
-  display: none;
-
+  
 }
 
 }

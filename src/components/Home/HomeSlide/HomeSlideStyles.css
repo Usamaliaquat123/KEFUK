@@ -105,8 +105,32 @@
     padding-left: 1%;
     float: left;
   }
- 
+  
 }
+@media screen and (max-width: 1688px) {
+  .imageLayersl1 {
+    margin-top: -21.3%;
+    position: absolute;
+    right: 0;
+  }
+  .imageLayer4 {
+    margin-top: -21.3%;
+    position: absolute;
+    right: 0;
+  }
+}
+                          @media screen and (max-width: 1578px) {
+                              .imageLayer4 {
+                                margin-top: -23.3%;
+                                position: absolute;
+                                right: 0;
+                            }
+                            .imageLayersl1 {
+                              margin-top: -23.3%;
+                              position: absolute;
+                              right: 0;
+                          }
+                            }
 @media screen and (max-width: 1481px) {
   .socialMediaTabSl1 {
     margin-top: 12.8%;
@@ -118,7 +142,18 @@
     float: left;
   }
 }
-
+                        @media screen and (max-width: 1410px) {
+                          .imageLayersl1 {
+                            margin-top: -27.3%;
+                            position: absolute;
+                            right: 0;
+                        }
+                        .imageLayer4 {
+                          margin-top: -27.3%;
+                          position: absolute;
+                          right: 0;
+                      }
+                        }
 @media screen and (max-width: 1132px) {
 
 }
@@ -143,6 +178,18 @@
 }
 }
 
+@media screen and (max-width: 1338px) {
+  .imageLayersl1 {
+    margin-top: -29.3%;
+    position: absolute;
+    right: 0;
+}
+.imageLayer4 {
+  margin-top: -29.3%;
+  position: absolute;
+  right: 0;
+}
+}
 @media screen and (max-width: 1231px) {
   .followUsTextSl1 {
     float: left;
@@ -157,8 +204,20 @@
 @media screen and (max-width: 1209px) {
   .socialMediaTabSl1 {
     width: 29%;
+  }
 }
-}
+        @media screen and (max-width: 1130px) {
+          .imageLayer4 {
+            margin-top: -36.5%;
+            position: absolute;
+            right: 0;
+        }
+        .imageLayersl1 {
+          margin-top: -36.5%;
+          position: absolute;
+          right: 0;
+      }
+        }
 @media screen and (max-width: 1020px) {
   .followUsTextSl1 {
     float: left;

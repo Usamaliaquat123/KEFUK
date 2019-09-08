@@ -58,6 +58,7 @@ render(){
   <input 
   type="radio" 
   value="£10" 
+  checked={true}
   name="radio"
   onChange={() => this.setState({
     isSelected10 : true,
